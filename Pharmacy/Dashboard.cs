@@ -590,6 +590,7 @@ namespace Pharmacy
             this.settingspanel.Visible = false;
             this.aboutuspanel.Visible = false;
             fill_Creditor_Load();
+            Wdt = bunifuCustomDataGrid3.DataSource as DataTable;
         }
 
         private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
@@ -3148,6 +3149,7 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
             RetailSkuText.Clear();
         }
 
+
         #region POS
         public void print()
         {
@@ -3470,5 +3472,11 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
         }
 
 
+        private void CreditorSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Agent Name] LIKE '%{0}%'", CreditorSearch.Text);
+            bunifuCustomDataGrid3.DataSource = dv;
+        }
     }
 }

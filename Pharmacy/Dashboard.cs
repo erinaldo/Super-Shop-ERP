@@ -558,6 +558,12 @@ namespace Pharmacy
             this.userzonepanel.Visible = false;
             this.settingspanel.Visible = false;
             this.aboutuspanel.Visible = false;
+            SQLCommands sql = new SQLCommands();
+            DebtorGrid.DataSource = sql.FillDebtor();
+            Wdt = DebtorGrid.DataSource as DataTable;
+            DebtorGrid.Update();
+            DebtorGrid.ClearSelection();
+
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
@@ -585,6 +591,7 @@ namespace Pharmacy
             this.settingspanel.Visible = false;
             this.aboutuspanel.Visible = false;
             fill_Creditor_Load();
+            Wdt = bunifuCustomDataGrid3.DataSource as DataTable;
         }
 
         private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
@@ -3140,11 +3147,11 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
             RproductAdd.Update();
         }
 
-
         private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
             RetailSkuText.Clear();
         }
+
 
         #region POS
         public void print()
@@ -3459,5 +3466,20 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
             AgentListDataGridView.DataSource = dv;
         }
 
+
+        private void DebtorSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Customer Name] LIKE '%{0}%'", DebtorSearch.Text);
+            DebtorGrid.DataSource = dv;
+        }
+
+
+        private void CreditorSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Agent Name] LIKE '%{0}%'", CreditorSearch.Text);
+            bunifuCustomDataGrid3.DataSource = dv;
+        }
     }
 }

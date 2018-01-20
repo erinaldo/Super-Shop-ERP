@@ -150,7 +150,7 @@ namespace Pharmacy.Inventory
                     if (saReader.Read())
                     {
                         productRate.Text = saReader["BuyingRate"].ToString();//column name should be that you want to show on textbox
-
+                        UnitTextBox.Text = saReader["Unit"].ToString();
                     }
                     // saReader.Close();
 

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddInventory));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
@@ -61,6 +61,8 @@
             this.bunifuCustomLabel13 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.UnitTextBox = new System.Windows.Forms.Label();
             this.inventoryaddcards.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inventoryDetailsDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -84,6 +86,8 @@
             this.inventoryaddcards.BorderRadius = 5;
             this.inventoryaddcards.BottomSahddow = true;
             this.inventoryaddcards.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.inventoryaddcards.Controls.Add(this.UnitTextBox);
+            this.inventoryaddcards.Controls.Add(this.bunifuCustomLabel3);
             this.inventoryaddcards.Controls.Add(this.Reload);
             this.inventoryaddcards.Controls.Add(this.totalBill);
             this.inventoryaddcards.Controls.Add(this.bunifuCustomLabel2);
@@ -159,7 +163,7 @@
             // 
             this.totalBill.AutoSize = true;
             this.totalBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalBill.Location = new System.Drawing.Point(195, 294);
+            this.totalBill.Location = new System.Drawing.Point(195, 305);
             this.totalBill.Name = "totalBill";
             this.totalBill.Size = new System.Drawing.Size(19, 20);
             this.totalBill.TabIndex = 40;
@@ -169,7 +173,7 @@
             // 
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(54, 294);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(54, 299);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(63, 17);
             this.bunifuCustomLabel2.TabIndex = 39;
@@ -178,7 +182,7 @@
             // agentName
             // 
             this.agentName.FormattingEnabled = true;
-            this.agentName.Location = new System.Drawing.Point(195, 149);
+            this.agentName.Location = new System.Drawing.Point(195, 141);
             this.agentName.Name = "agentName";
             this.agentName.Size = new System.Drawing.Size(121, 28);
             this.agentName.TabIndex = 38;
@@ -187,7 +191,7 @@
             // productName
             // 
             this.productName.FormattingEnabled = true;
-            this.productName.Location = new System.Drawing.Point(195, 69);
+            this.productName.Location = new System.Drawing.Point(195, 73);
             this.productName.Name = "productName";
             this.productName.Size = new System.Drawing.Size(121, 28);
             this.productName.TabIndex = 37;
@@ -197,7 +201,7 @@
             // 
             this.cost.AutoSize = true;
             this.cost.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cost.Location = new System.Drawing.Point(195, 264);
+            this.cost.Location = new System.Drawing.Point(195, 275);
             this.cost.Name = "cost";
             this.cost.Size = new System.Drawing.Size(19, 20);
             this.cost.TabIndex = 36;
@@ -207,7 +211,7 @@
             // 
             this.companyName.AutoSize = true;
             this.companyName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.companyName.Location = new System.Drawing.Point(194, 189);
+            this.companyName.Location = new System.Drawing.Point(194, 179);
             this.companyName.Name = "companyName";
             this.companyName.Size = new System.Drawing.Size(0, 20);
             this.companyName.TabIndex = 35;
@@ -288,7 +292,7 @@
             // 
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(56, 189);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(56, 171);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(106, 17);
             this.bunifuCustomLabel1.TabIndex = 31;
@@ -298,19 +302,19 @@
             // 
             this.inventoryDetailsDataGridView.AllowUserToAddRows = false;
             this.inventoryDetailsDataGridView.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.inventoryDetailsDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.inventoryDetailsDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.inventoryDetailsDataGridView.BackgroundColor = System.Drawing.Color.Gray;
             this.inventoryDetailsDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.inventoryDetailsDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.inventoryDetailsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.inventoryDetailsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.inventoryDetailsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.inventoryDetailsDataGridView.DoubleBuffered = true;
             this.inventoryDetailsDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
@@ -381,7 +385,7 @@
             // 
             this.due.AutoSize = true;
             this.due.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.due.Location = new System.Drawing.Point(194, 369);
+            this.due.Location = new System.Drawing.Point(194, 371);
             this.due.Name = "due";
             this.due.Size = new System.Drawing.Size(19, 20);
             this.due.TabIndex = 23;
@@ -391,7 +395,7 @@
             // 
             this.productRate.AutoSize = true;
             this.productRate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.productRate.Location = new System.Drawing.Point(195, 117);
+            this.productRate.Location = new System.Drawing.Point(195, 111);
             this.productRate.Name = "productRate";
             this.productRate.Size = new System.Drawing.Size(19, 20);
             this.productRate.TabIndex = 22;
@@ -410,7 +414,7 @@
             // cashPaid
             // 
             this.cashPaid.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.cashPaid.Location = new System.Drawing.Point(195, 326);
+            this.cashPaid.Location = new System.Drawing.Point(195, 335);
             this.cashPaid.Name = "cashPaid";
             this.cashPaid.Size = new System.Drawing.Size(217, 26);
             this.cashPaid.TabIndex = 19;
@@ -419,7 +423,7 @@
             // quantity
             // 
             this.quantity.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.quantity.Location = new System.Drawing.Point(195, 224);
+            this.quantity.Location = new System.Drawing.Point(195, 239);
             this.quantity.Name = "quantity";
             this.quantity.Size = new System.Drawing.Size(217, 26);
             this.quantity.TabIndex = 16;
@@ -429,7 +433,7 @@
             // 
             this.bunifuCustomLabel20.AutoSize = true;
             this.bunifuCustomLabel20.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel20.Location = new System.Drawing.Point(56, 366);
+            this.bunifuCustomLabel20.Location = new System.Drawing.Point(56, 363);
             this.bunifuCustomLabel20.Name = "bunifuCustomLabel20";
             this.bunifuCustomLabel20.Size = new System.Drawing.Size(33, 17);
             this.bunifuCustomLabel20.TabIndex = 11;
@@ -439,7 +443,7 @@
             // 
             this.bunifuCustomLabel19.AutoSize = true;
             this.bunifuCustomLabel19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel19.Location = new System.Drawing.Point(56, 329);
+            this.bunifuCustomLabel19.Location = new System.Drawing.Point(56, 331);
             this.bunifuCustomLabel19.Name = "bunifuCustomLabel19";
             this.bunifuCustomLabel19.Size = new System.Drawing.Size(68, 17);
             this.bunifuCustomLabel19.TabIndex = 10;
@@ -449,7 +453,7 @@
             // 
             this.bunifuCustomLabel18.AutoSize = true;
             this.bunifuCustomLabel18.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel18.Location = new System.Drawing.Point(56, 264);
+            this.bunifuCustomLabel18.Location = new System.Drawing.Point(56, 267);
             this.bunifuCustomLabel18.Name = "bunifuCustomLabel18";
             this.bunifuCustomLabel18.Size = new System.Drawing.Size(35, 17);
             this.bunifuCustomLabel18.TabIndex = 9;
@@ -469,7 +473,7 @@
             // 
             this.bunifuCustomLabel16.AutoSize = true;
             this.bunifuCustomLabel16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel16.Location = new System.Drawing.Point(56, 227);
+            this.bunifuCustomLabel16.Location = new System.Drawing.Point(56, 235);
             this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
             this.bunifuCustomLabel16.Size = new System.Drawing.Size(62, 17);
             this.bunifuCustomLabel16.TabIndex = 7;
@@ -479,7 +483,7 @@
             // 
             this.bunifuCustomLabel13.AutoSize = true;
             this.bunifuCustomLabel13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel13.Location = new System.Drawing.Point(56, 154);
+            this.bunifuCustomLabel13.Location = new System.Drawing.Point(56, 139);
             this.bunifuCustomLabel13.Name = "bunifuCustomLabel13";
             this.bunifuCustomLabel13.Size = new System.Drawing.Size(85, 17);
             this.bunifuCustomLabel13.TabIndex = 4;
@@ -489,7 +493,7 @@
             // 
             this.bunifuCustomLabel12.AutoSize = true;
             this.bunifuCustomLabel12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel12.Location = new System.Drawing.Point(56, 117);
+            this.bunifuCustomLabel12.Location = new System.Drawing.Point(56, 107);
             this.bunifuCustomLabel12.Name = "bunifuCustomLabel12";
             this.bunifuCustomLabel12.Size = new System.Drawing.Size(134, 17);
             this.bunifuCustomLabel12.TabIndex = 3;
@@ -499,11 +503,31 @@
             // 
             this.bunifuCustomLabel11.AutoSize = true;
             this.bunifuCustomLabel11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel11.Location = new System.Drawing.Point(56, 80);
+            this.bunifuCustomLabel11.Location = new System.Drawing.Point(56, 75);
             this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
             this.bunifuCustomLabel11.Size = new System.Drawing.Size(96, 17);
             this.bunifuCustomLabel11.TabIndex = 1;
             this.bunifuCustomLabel11.Text = "Product Name";
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(56, 203);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(34, 17);
+            this.bunifuCustomLabel3.TabIndex = 42;
+            this.bunifuCustomLabel3.Text = "Unit";
+            // 
+            // UnitTextBox
+            // 
+            this.UnitTextBox.AutoSize = true;
+            this.UnitTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UnitTextBox.Location = new System.Drawing.Point(195, 209);
+            this.UnitTextBox.Name = "UnitTextBox";
+            this.UnitTextBox.Size = new System.Drawing.Size(19, 20);
+            this.UnitTextBox.TabIndex = 43;
+            this.UnitTextBox.Text = "0";
             // 
             // AddInventory
             // 
@@ -555,5 +579,7 @@
         private System.Windows.Forms.Label totalBill;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private Bunifu.Framework.UI.BunifuFlatButton Reload;
+        private System.Windows.Forms.Label UnitTextBox;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
     }
 }

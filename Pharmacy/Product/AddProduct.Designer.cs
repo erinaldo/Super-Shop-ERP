@@ -96,7 +96,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(437, 309);
+            this.button1.Location = new System.Drawing.Point(438, 303);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 31;
@@ -107,7 +107,7 @@
             // SKUTextbox
             // 
             this.SKUTextbox.BorderColor = System.Drawing.Color.SeaGreen;
-            this.SKUTextbox.Location = new System.Drawing.Point(250, 309);
+            this.SKUTextbox.Location = new System.Drawing.Point(251, 240);
             this.SKUTextbox.Name = "SKUTextbox";
             this.SKUTextbox.Size = new System.Drawing.Size(181, 20);
             this.SKUTextbox.TabIndex = 30;
@@ -116,7 +116,7 @@
             // 
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(39, 306);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(41, 238);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(85, 25);
             this.bunifuCustomLabel1.TabIndex = 29;
@@ -167,7 +167,7 @@
             this.bunifuFlatButton1.IconVisible = true;
             this.bunifuFlatButton1.IconZoom = 50D;
             this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(312, 342);
+            this.bunifuFlatButton1.Location = new System.Drawing.Point(305, 338);
             this.bunifuFlatButton1.Name = "bunifuFlatButton1";
             this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.Gray;
             this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
@@ -184,7 +184,7 @@
             // saleRate
             // 
             this.saleRate.BorderColor = System.Drawing.Color.SeaGreen;
-            this.saleRate.Location = new System.Drawing.Point(250, 275);
+            this.saleRate.Location = new System.Drawing.Point(251, 209);
             this.saleRate.Name = "saleRate";
             this.saleRate.Size = new System.Drawing.Size(181, 20);
             this.saleRate.TabIndex = 22;
@@ -193,7 +193,7 @@
             // 
             this.bunifuCustomLabel9.AutoSize = true;
             this.bunifuCustomLabel9.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel9.Location = new System.Drawing.Point(39, 274);
+            this.bunifuCustomLabel9.Location = new System.Drawing.Point(41, 208);
             this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
             this.bunifuCustomLabel9.Size = new System.Drawing.Size(92, 25);
             this.bunifuCustomLabel9.TabIndex = 21;
@@ -202,7 +202,7 @@
             // buyingRate
             // 
             this.buyingRate.BorderColor = System.Drawing.Color.SeaGreen;
-            this.buyingRate.Location = new System.Drawing.Point(250, 241);
+            this.buyingRate.Location = new System.Drawing.Point(251, 178);
             this.buyingRate.Name = "buyingRate";
             this.buyingRate.Size = new System.Drawing.Size(181, 20);
             this.buyingRate.TabIndex = 20;
@@ -211,7 +211,7 @@
             // 
             this.bunifuCustomLabel8.AutoSize = true;
             this.bunifuCustomLabel8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel8.Location = new System.Drawing.Point(39, 242);
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(41, 178);
             this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
             this.bunifuCustomLabel8.Size = new System.Drawing.Size(119, 25);
             this.bunifuCustomLabel8.TabIndex = 19;
@@ -220,7 +220,7 @@
             // productType
             // 
             this.productType.BorderColor = System.Drawing.Color.SeaGreen;
-            this.productType.Location = new System.Drawing.Point(250, 151);
+            this.productType.Location = new System.Drawing.Point(251, 147);
             this.productType.Name = "productType";
             this.productType.Size = new System.Drawing.Size(181, 20);
             this.productType.TabIndex = 18;
@@ -229,7 +229,7 @@
             // 
             this.bunifuCustomLabel7.AutoSize = true;
             this.bunifuCustomLabel7.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(39, 152);
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(41, 148);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
             this.bunifuCustomLabel7.Size = new System.Drawing.Size(131, 25);
             this.bunifuCustomLabel7.TabIndex = 17;
@@ -238,7 +238,7 @@
             // productName
             // 
             this.productName.BorderColor = System.Drawing.Color.SeaGreen;
-            this.productName.Location = new System.Drawing.Point(250, 116);
+            this.productName.Location = new System.Drawing.Point(251, 116);
             this.productName.Name = "productName";
             this.productName.Size = new System.Drawing.Size(181, 20);
             this.productName.TabIndex = 16;
@@ -247,7 +247,7 @@
             // 
             this.bunifuCustomLabel6.AutoSize = true;
             this.bunifuCustomLabel6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(39, 120);
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(41, 118);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
             this.bunifuCustomLabel6.Size = new System.Drawing.Size(141, 25);
             this.bunifuCustomLabel6.TabIndex = 15;
@@ -257,7 +257,7 @@
             // 
             this.bunifuCustomLabel5.AutoSize = true;
             this.bunifuCustomLabel5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(39, 88);
+            this.bunifuCustomLabel5.Location = new System.Drawing.Point(41, 88);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
             this.bunifuCustomLabel5.Size = new System.Drawing.Size(109, 25);
             this.bunifuCustomLabel5.TabIndex = 13;
@@ -274,7 +274,7 @@
             // 
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(39, 184);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(41, 268);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(50, 25);
             this.bunifuCustomLabel2.TabIndex = 32;
@@ -291,7 +291,7 @@
             "Packets",
             "Pcs",
             "Jar"});
-            this.UnitCombox.Location = new System.Drawing.Point(250, 182);
+            this.UnitCombox.Location = new System.Drawing.Point(251, 271);
             this.UnitCombox.Name = "UnitCombox";
             this.UnitCombox.Size = new System.Drawing.Size(180, 21);
             this.UnitCombox.TabIndex = 33;
@@ -299,7 +299,7 @@
             // MinimumQuantity
             // 
             this.MinimumQuantity.BorderColor = System.Drawing.Color.SeaGreen;
-            this.MinimumQuantity.Location = new System.Drawing.Point(250, 215);
+            this.MinimumQuantity.Location = new System.Drawing.Point(251, 303);
             this.MinimumQuantity.Name = "MinimumQuantity";
             this.MinimumQuantity.Size = new System.Drawing.Size(181, 20);
             this.MinimumQuantity.TabIndex = 35;
@@ -308,7 +308,7 @@
             // 
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuCustomLabel3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(39, 214);
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(41, 298);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
             this.bunifuCustomLabel3.Size = new System.Drawing.Size(180, 25);
             this.bunifuCustomLabel3.TabIndex = 34;

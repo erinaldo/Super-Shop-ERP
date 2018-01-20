@@ -41,14 +41,14 @@ namespace Pharmacy.Product
                 double num;
                // bool isNum = Double.TryParse(buyingRate.Text.Trim(), out num);
 
-                  if (Double.TryParse(buyingRate.Text.Trim(), out num) && Double.TryParse(saleRate.Text.Trim(), out num))
+                  if (Double.TryParse(buyingRate.Text.Trim(), out num) && Double.TryParse(saleRate.Text.Trim(), out num) && Double.TryParse(MinimumQuantity.Text.Trim(), out num))
                 {
                     try
                     {
 
 
 
-                        String query = "INSERT INTO[dbo].[Product] ( [ProductName], [ProductType], [BuyingRate], [SellingRate],[Quantity],[SKU]) VALUES( @productName, @productType, @buyingRate, @saleRate,@quantity,@sku)";
+                        String query = "INSERT INTO[dbo].[Product] ( [ProductName], [ProductType], [BuyingRate], [SellingRate],[Quantity],[SKU],[Unit],[MinimumQuantity]) VALUES( @productName, @productType, @buyingRate, @saleRate,@quantity,@sku,@unit,@minQuantity)";
 
 
                         using (SqlConnection sqlCon = new SqlConnection(conString))
@@ -62,6 +62,8 @@ namespace Pharmacy.Product
                                 cmd.Parameters.AddWithValue("@saleRate", Convert.ToDecimal(this.saleRate.Text.Trim()));
                                 cmd.Parameters.AddWithValue("@quantity", 0.00);
                                 cmd.Parameters.AddWithValue("@sku", SKUTextbox.Text.ToString());
+                                cmd.Parameters.AddWithValue("@Unit", UnitCombox.Text.ToString() );
+                                cmd.Parameters.AddWithValue("@minQuantity", Convert.ToDecimal(this.MinimumQuantity.Text.Trim()));
                                 int k = cmd.ExecuteNonQuery();
                                 if (k > 0)
                                 {
@@ -73,6 +75,8 @@ namespace Pharmacy.Product
                                     buyingRate.Text = "";
                                     saleRate.Text = "";
                                     SKUTextbox.Text = "";
+                                    UnitCombox.SelectedIndex = -1;
+                                    MinimumQuantity.Text = "";
                   
                                     
                                 }
@@ -102,6 +106,7 @@ namespace Pharmacy.Product
                   
                     buyingRate.Text = "";
                     saleRate.Text = "";
+                    MinimumQuantity.Text = "";
                  
 
 

@@ -1090,6 +1090,7 @@ namespace Pharmacy
             UserType.selectedIndex = 0;
 
             usersgrid.DataSource = sql.FillUser();
+            Wdt = usersgrid.DataSource as DataTable;
             usersgrid.Update();
             usersgrid.ClearSelection();
             //usersgrid.Refresh();
@@ -3495,8 +3496,11 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
         private void UserSearch_TextChanged(object sender, EventArgs e)
         {
-
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[User Name] LIKE '%{0}%'", UserSearch.Text);
+            usersgrid.DataSource = dv;
         }
+
 
     }
 }

@@ -627,7 +627,7 @@ namespace Pharmacy
             CustomerName.Clear();
             CustomerCompany.Clear();
             CustomerPhn.Clear();
-
+            Wdt = customersgrid.DataSource as DataTable;
         }
 
         private void mini_Click(object sender, EventArgs e)
@@ -662,7 +662,7 @@ namespace Pharmacy
 
             SQLCommands sql = new SQLCommands();
             extracostgrid.DataSource = sql.FillCost();
-
+            Wdt = extracostgrid.DataSource as DataTable;
             extracostgrid.Update();
             extracostgrid.ClearSelection();
 
@@ -699,7 +699,7 @@ namespace Pharmacy
             usersgrid.DataSource = sql.FillUser();
             usersgrid.Update();
             usersgrid.ClearSelection();
-
+            Wdt = usersgrid.DataSource as DataTable;
             UserName.Clear();
             UserPass.Clear();
             UserID.Clear();
@@ -1271,7 +1271,7 @@ namespace Pharmacy
 
 
             extracostgrid.DataSource = sql.FillCost();
-
+            Wdt = extracostgrid.DataSource as DataTable;
             extracostgrid.Update();
             extracostgrid.ClearSelection();
 
@@ -3297,7 +3297,6 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
 
 
-
         private void dashboardCharts ()
         {
             var today = DateTime.Now.ToString("MM/dd/yyyy");
@@ -3478,5 +3477,26 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
             dv.RowFilter = string.Format(@"[Agent Name] LIKE '%{0}%'", CreditorSearch.Text);
             bunifuCustomDataGrid3.DataSource = dv;
         }
+
+
+        private void CustomerSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Customer Name] LIKE '%{0}%'", CustomerSearch.Text);
+            customersgrid.DataSource = dv;
+        }
+
+        private void ExtracostSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Cost Type] LIKE '%{0}%'", ExtracostSearch.Text);
+            extracostgrid.DataSource = dv;
+        }
+
+        private void UserSearch_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -3002,7 +3002,7 @@ namespace Pharmacy
         {
             SkuTextBox.Clear();
         }
-
+       
         private void WholesaleAdd_CellClick(object sender, DataGridViewCellEventArgs e)
         {
          

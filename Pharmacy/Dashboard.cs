@@ -3404,7 +3404,7 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
         private void SearchProduct_TextChanged(object sender, EventArgs e)
         {
-
+            DataTable dt = new DataTable();
 
 
 

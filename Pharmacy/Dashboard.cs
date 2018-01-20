@@ -1634,6 +1634,7 @@ namespace Pharmacy
         private void RetailAdd_Click(object sender, EventArgs e)
         {
             SQLCommands sql = new SQLCommands();
+            //if()
             if (sql.InsertRetail(RID.Text, WholesaleProductID, Rquantity.Text, Rtotal.Text))
             {
                 //MessageBox.Show("");

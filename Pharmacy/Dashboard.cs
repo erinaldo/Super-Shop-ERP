@@ -25,7 +25,7 @@ namespace Pharmacy
         string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\DB.mdf;Integrated Security=True";
         string imageLoc = "";
         string WholesaleProductID, WholesaleDetailsId, RetailDetailsId;
-        DataTable Wdt,Rdt;
+        DataTable Wdt,Rdt,Productdata;
         int ID;
         UpdateProduct updateProduct = new UpdateProduct();
         AddProduct addpro = new AddProduct();
@@ -358,7 +358,7 @@ namespace Pharmacy
             fill_product_datagrifview();
             productsgridview.Update();
             productsgridview.ClearSelection();
-
+            Productdata = productsgridview.DataSource as DataTable;
         }
 
         private void productsviewbutton_Click(object sender, EventArgs e)
@@ -3403,12 +3403,10 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
 
         private void SearchProduct_TextChanged(object sender, EventArgs e)
-        {
-            DataTable dt = new DataTable();
-
-
-
-
+        {           
+            DataView dv = new DataView(Productdata);
+            dv.RowFilter = string.Format(@"[Product Name] LIKE '%{0}%'", SearchProduct.Text);
+            productsgridview.DataSource = dv;
 
         }
 
@@ -3417,13 +3415,9 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
         private void bunifuCustomTextbox1_TextChanged(object sender, EventArgs e)
         {
-
-
-
-
-
-
-
+            DataView dv = new DataView(Productdata);
+            dv.RowFilter = string.Format(@"[Product Type] LIKE '%{0}%'", SearchType.Text);
+            productsgridview.DataSource = dv;
 
 
         }

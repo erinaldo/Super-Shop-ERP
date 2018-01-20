@@ -557,6 +557,12 @@ namespace Pharmacy
             this.userzonepanel.Visible = false;
             this.settingspanel.Visible = false;
             this.aboutuspanel.Visible = false;
+            SQLCommands sql = new SQLCommands();
+            DebtorGrid.DataSource = sql.FillDebtor();
+            Wdt = DebtorGrid.DataSource as DataTable;
+            DebtorGrid.Update();
+            DebtorGrid.ClearSelection();
+
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
@@ -3137,7 +3143,6 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
             RproductAdd.Update();
         }
 
-
         private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
             RetailSkuText.Clear();
@@ -3455,6 +3460,15 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
             dv.RowFilter = string.Format(@"[Agent Name] LIKE '%{0}%'", SearchAgent.Text);
             AgentListDataGridView.DataSource = dv;
         }
+
+
+        private void DebtorSearch_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Customer Name] LIKE '%{0}%'", DebtorSearch.Text);
+            DebtorGrid.DataSource = dv;
+        }
+
 
     }
 }

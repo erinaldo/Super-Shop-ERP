@@ -34,7 +34,7 @@ namespace Pharmacy
         AddInventory inventoryAdd = new AddInventory();
         decimal sum, t, discount, Wquan, Wavailable;
         ReturnGoods GetReturn = new ReturnGoods();
-
+        byte[] image = null;
         ViewInvetory GetViewInvetory = new ViewInvetory();
 
 
@@ -2404,30 +2404,11 @@ namespace Pharmacy
             this.aboutuspanel.Visible = false;
 
             LoadCompanyDetail();
-            companyDatagridView.Update();
-            companyDatagridView.ClearSelection();
+            //companyDatagridView.Update();
+            //companyDatagridView.ClearSelection();
         }
 
-        private void companyDatagridView_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            name.Text = companyDatagridView.CurrentRow.Cells[0].Value.ToString();
-            address.Text = companyDatagridView.CurrentRow.Cells[1].Value.ToString();
-            phone.Text = companyDatagridView.CurrentRow.Cells[2].Value.ToString();
-            website.Text = companyDatagridView.CurrentRow.Cells[3].Value.ToString();
-            email.Text = companyDatagridView.CurrentRow.Cells[4].Value.ToString();
-            byte[] image = ((byte[])companyDatagridView.CurrentRow.Cells[5].Value);
-            if (image == null)
-            {
-                logo.Image = null;
-
-            }
-            else
-            {
-                MemoryStream memoryStream = new MemoryStream(image);
-                logo.Image = Image.FromStream(memoryStream);
-            }
-
-        }
+      
 
         private void userzonebutton_Click(object sender, EventArgs e)
         {
@@ -2638,11 +2619,7 @@ namespace Pharmacy
 
         private void settingssavebutton_Click(object sender, EventArgs e)
         {
-            byte[] image = null;
-            FileStream stream = new FileStream(imageLoc, FileMode.Open, FileAccess.Read);
-            BinaryReader binary = new BinaryReader(stream);
-            image = binary.ReadBytes((int)stream.Length);
-
+   
             if (name.Enabled)
             {
                 if (name.Text != "")
@@ -2664,8 +2641,15 @@ namespace Pharmacy
                                 cmd.Parameters.AddWithValue("@phone", this.phone.Text.Trim());
                                 cmd.Parameters.AddWithValue("@website", this.website.Text.Trim());
                                 cmd.Parameters.AddWithValue("@email", this.email.Text.Trim());
-                                cmd.Parameters.AddWithValue("@logo", image);
-
+                                //cmd.Parameters.AddWithValue("@logo", image);
+                                if (image != null)
+                                    cmd.Parameters.AddWithValue("@logo", SqlDbType.Image).Value = image;
+                                else
+                                {
+                                    SqlParameter imageParameter = new SqlParameter("@logo", SqlDbType.Image);
+                                    imageParameter.Value = DBNull.Value;
+                                    cmd.Parameters.Add(imageParameter);
+                                }
                                 int k = cmd.ExecuteNonQuery();
                                 if (k > 0)
                                 {
@@ -2677,7 +2661,7 @@ namespace Pharmacy
                                 }
 
                                 //LoadCompanyDetail();
-                                logo.Image = null;
+                                //logo.Image = null;
                                 name.Enabled = false;
                                 address.Enabled = false;
                                 phone.Enabled = false;
@@ -2715,7 +2699,9 @@ namespace Pharmacy
             {
                 imageLoc = dialog.FileName.ToString();
                 logo.ImageLocation = imageLoc;
-
+                FileStream stream = new FileStream(imageLoc, FileMode.Open, FileAccess.Read);
+                BinaryReader binary = new BinaryReader(stream);
+                image = binary.ReadBytes((int)stream.Length);
             }
 
         }
@@ -2749,14 +2735,15 @@ namespace Pharmacy
                         website.Text = Reader.GetValue(3).ToString();
                         email.Text = Reader.GetValue(4).ToString();
                         //comboBox4.Text = Reader.GetValue(8).ToString();
-                        byte[] image = (byte[])Reader.GetValue(5);
-                        if (image == null)
+                       
+                        if (Reader.GetValue(5) == DBNull.Value)
                         {
                             logo.Image = null;
-
+                        
                         }
                         else
                         {
+                            byte[] image = (byte[])Reader.GetValue(5);
                             MemoryStream memoryStream = new MemoryStream(image);
                             logo.Image = Image.FromStream(memoryStream);
                         }

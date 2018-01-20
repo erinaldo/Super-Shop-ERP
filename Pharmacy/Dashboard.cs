@@ -3091,7 +3091,6 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
         }
 
-
         private void RproductAdd_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             RetailDetailsId = RproductAdd.CurrentRow.Cells[5].Value.ToString();

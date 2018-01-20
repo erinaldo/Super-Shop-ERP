@@ -221,6 +221,7 @@ namespace Pharmacy
             this.settingspanel.Visible = false;
             this.aboutuspanel.Visible = false;
             fill_agent_datagrifview();
+            Wdt = AgentListDataGridView.DataSource as DataTable;
         }
 
         private void BunifuImageButton3_Click_1(object sender, EventArgs e)
@@ -3448,6 +3449,12 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
         }
 
 
+        private void SearchAgent_TextChanged(object sender, EventArgs e)
+        {
+            DataView dv = new DataView(Wdt);
+            dv.RowFilter = string.Format(@"[Agent Name] LIKE '%{0}%'", SearchAgent.Text);
+            AgentListDataGridView.DataSource = dv;
+        }
 
     }
 }

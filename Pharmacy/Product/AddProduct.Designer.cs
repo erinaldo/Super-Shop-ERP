@@ -118,9 +118,9 @@
             this.bunifuCustomLabel1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(39, 306);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(49, 25);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(85, 25);
             this.bunifuCustomLabel1.TabIndex = 29;
-            this.bunifuCustomLabel1.Text = "SKU";
+            this.bunifuCustomLabel1.Text = "Barcode";
             // 
             // bunifuImageButton2
             // 

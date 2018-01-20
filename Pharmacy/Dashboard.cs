@@ -745,7 +745,7 @@ namespace Pharmacy
 
                 SqlConnection sqlConn = new SqlConnection(conString);
 
-                String query = "SELECT ProductId AS 'Product ID', ProductName AS 'Product Name', ProductType AS 'Product Type', BuyingRate AS 'Buying Rate', SellingRate AS 'Selling Rate' , SKU as 'SKU' FROM dbo.Product; ";
+                String query = "SELECT ProductId AS 'Product ID', ProductName AS 'Product Name', ProductType AS 'Product Type', BuyingRate AS 'Buying Rate', SellingRate AS 'Selling Rate' , SKU as 'SKU', Unit as 'Unit' , MinimumQuantity as  'Minimum Quantity' FROM dbo.Product; ";
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConn);
                 SqlCommandBuilder sqlCommandBuilder = new SqlCommandBuilder(sqlDataAdapter);
 

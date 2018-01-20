@@ -18,7 +18,7 @@ namespace Pharmacy.Product
      
     public partial class AddProduct : Form
     {
-        
+        Decimal minQuantity;
 
         string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\DB.mdf;Integrated Security=True";
 
@@ -35,19 +35,36 @@ namespace Pharmacy.Product
 
         private void saveButton(object sender, EventArgs e)
         {
-           
+            double num;
+         
+
             if (productId.Text !="" && productName.Text != "" && buyingRate.Text != "" && saleRate.Text != "")
             {
-                double num;
-               // bool isNum = Double.TryParse(buyingRate.Text.Trim(), out num);
+               
+                // bool isNum = Double.TryParse(buyingRate.Text.Trim(), out num);
+                
+                    if (String.IsNullOrEmpty(MinimumQuantity.Text))
+                    {
+                        minQuantity = 0.0m;
+                    }
+                    else
+                    {
+                    if (Double.TryParse(MinimumQuantity.Text.Trim(), out num))
+                    {
+                        minQuantity = Convert.ToDecimal(this.MinimumQuantity.Text.Trim());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Enter Number Only");
+                        MinimumQuantity.Text = "";
+                    }
+                     }
+               
 
-                  if (Double.TryParse(buyingRate.Text.Trim(), out num) && Double.TryParse(saleRate.Text.Trim(), out num) && Double.TryParse(MinimumQuantity.Text.Trim(), out num))
+                if (Double.TryParse(buyingRate.Text.Trim(), out num) && Double.TryParse(saleRate.Text.Trim(), out num))
                 {
                     try
                     {
-
-
-
                         String query = "INSERT INTO[dbo].[Product] ( [ProductName], [ProductType], [BuyingRate], [SellingRate],[Quantity],[SKU],[Unit],[MinimumQuantity]) VALUES( @productName, @productType, @buyingRate, @saleRate,@quantity,@sku,@unit,@minQuantity)";
 
 
@@ -63,7 +80,7 @@ namespace Pharmacy.Product
                                 cmd.Parameters.AddWithValue("@quantity", 0.00);
                                 cmd.Parameters.AddWithValue("@sku", SKUTextbox.Text.ToString());
                                 cmd.Parameters.AddWithValue("@Unit", UnitCombox.Text.ToString() );
-                                cmd.Parameters.AddWithValue("@minQuantity", Convert.ToDecimal(this.MinimumQuantity.Text.Trim()));
+                                cmd.Parameters.AddWithValue("@minQuantity", minQuantity);
                                 int k = cmd.ExecuteNonQuery();
                                 if (k > 0)
                                 {
@@ -77,8 +94,7 @@ namespace Pharmacy.Product
                                     SKUTextbox.Text = "";
                                     UnitCombox.SelectedIndex = -1;
                                     MinimumQuantity.Text = "";
-                  
-                                    
+
                                 }
                                 else
                                 {

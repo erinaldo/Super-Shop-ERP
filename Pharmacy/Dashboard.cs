@@ -3400,5 +3400,35 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
 
         }
+
+
+        private void SearchProduct_TextChanged(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+        }
+
+
+
+
+        private void bunifuCustomTextbox1_TextChanged(object sender, EventArgs e)
+        {
+
+
+
+
+
+
+
+
+
+        }
+
+
+
     }
 }

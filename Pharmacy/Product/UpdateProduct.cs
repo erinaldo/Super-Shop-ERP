@@ -16,6 +16,7 @@ namespace Pharmacy.Product
     {
 
         string conString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\DB.mdf;Integrated Security=True";
+        Decimal minQuantity;
 
         public UpdateProduct()
         {
@@ -35,6 +36,26 @@ namespace Pharmacy.Product
             {
                 double num;
                 bool isNum = Double.TryParse(buyingRate.Text.Trim(), out num);
+                if (String.IsNullOrEmpty(MinimumQuantity.Text))
+                {
+                    minQuantity = 0.0m;
+                }
+                else
+                {
+                    if (Double.TryParse(MinimumQuantity.Text.Trim(), out num))
+                    {
+                        minQuantity = Convert.ToDecimal(this.MinimumQuantity.Text.Trim());
+                    }
+                    else
+                    {
+                        MessageBox.Show("Enter Number Only");
+                        MinimumQuantity.Text = "";
+                    }
+                }
+
+
+
+
 
                 if (Double.TryParse(buyingRate.Text.Trim(), out num) && Double.TryParse(saleRate.Text.Trim(), out num))
                 {
@@ -43,7 +64,7 @@ namespace Pharmacy.Product
 
 
 
-                        String query = "UPDATE [dbo].[Product] SET [ProductName] = @productName , [ProductType] = @productType , [BuyingRate] = @buyingRate , [SellingRate]=  @saleRate WHERE [ProductID] =  "+ Convert.ToInt32(productId.Text) +"; ";
+                        String query = "UPDATE [dbo].[Product] SET [ProductName] = @productName , [ProductType] = @productType , [BuyingRate] = @buyingRate , [SellingRate]=  @saleRate , [MinimumQuantity]  = @minQuan WHERE [ProductID] =  " + Convert.ToInt32(productId.Text) +"; ";
 
 
                         using (SqlConnection sqlCon = new SqlConnection(conString))
@@ -55,6 +76,7 @@ namespace Pharmacy.Product
                                 cmd.Parameters.AddWithValue("@productType", this.productType.Text.Trim());
                                 cmd.Parameters.AddWithValue("@buyingRate", Convert.ToDecimal(this.buyingRate.Text.Trim()));
                                 cmd.Parameters.AddWithValue("@saleRate", Convert.ToDecimal(this.saleRate.Text.Trim()));
+                                cmd.Parameters.AddWithValue("@minQuan", minQuantity);
                                 int k = cmd.ExecuteNonQuery();
                                 if (k > 0)
                                 {

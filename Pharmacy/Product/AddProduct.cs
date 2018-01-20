@@ -58,7 +58,7 @@ namespace Pharmacy.Product
                         MessageBox.Show("Enter Number Only");
                         MinimumQuantity.Text = "";
                     }
-                     }
+                   }
                
 
                 if (Double.TryParse(buyingRate.Text.Trim(), out num) && Double.TryParse(saleRate.Text.Trim(), out num))

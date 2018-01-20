@@ -95,7 +95,7 @@ namespace Pharmacy
             DataTable table = new DataTable();
 
             //Con.Open();
-            string sqlQuery = @"SELECT * FROM dbo.[User]";
+            string sqlQuery = @"SELECT UserId as 'ID',Username as 'User Name',UserType as 'User Type',Password,Date FROM dbo.[User]";
             using (SqlCommand cmd = new SqlCommand(sqlQuery, Con))
             {
 
@@ -291,7 +291,7 @@ namespace Pharmacy
             DataTable table = new DataTable();
 
             //Con.Open();
-            string sqlQuery = @"SELECT * FROM dbo.[Customer]";
+            string sqlQuery = @"SELECT CustomerId as 'ID',CustomerName as 'Customer Name',CompanyName as 'Company Name',CustomerType as 'Customer Type',PhoneNumber as 'Phone Number',Date FROM dbo.[Customer]";
             using (SqlCommand cmd = new SqlCommand(sqlQuery, Con))
             {
 
@@ -386,7 +386,7 @@ namespace Pharmacy
             DataTable table = new DataTable();
 
             //Con.Open();
-            string sqlQuery = @"SELECT * FROM dbo.[ExtraCost]";
+            string sqlQuery = @"SELECT CostId as 'ID',CostType as 'Cost Type',Amount,Date FROM dbo.[ExtraCost]";
             using (SqlCommand cmd = new SqlCommand(sqlQuery, Con))
             {
 

@@ -29,33 +29,24 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle57 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle58 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle59 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle60 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle61 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle62 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -71,18 +62,29 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle63 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle64 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle65 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle66 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle67 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle68 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle69 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashboard));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
@@ -122,84 +124,6 @@
             this.productseditpanel = new System.Windows.Forms.Panel();
             this.plpanel = new System.Windows.Forms.Panel();
             this.billretailpanel = new System.Windows.Forms.Panel();
-            this.billwholesalepanel = new System.Windows.Forms.Panel();
-            this.agentlistpanel = new System.Windows.Forms.Panel();
-            this.debtorpanel = new System.Windows.Forms.Panel();
-            this.creditorpanel = new System.Windows.Forms.Panel();
-            this.settingspanel = new System.Windows.Forms.Panel();
-            this.companydetailedit = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.findLogo = new Bunifu.Framework.UI.BunifuImageButton();
-            this.settingssavebutton = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.email = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.website = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.phone = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.address = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.name = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.logo = new System.Windows.Forms.PictureBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.CreditorSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel49 = new System.Windows.Forms.Label();
-            this.bunifuCustomLabel44 = new System.Windows.Forms.Label();
-            this.bunifuThinButton214 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.CreditorCashPaid = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuCustomLabel78 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomDataGrid3 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.bunifuCustomLabel76 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel75 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.DebtorSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
-            this.DebtorUpdate = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.DebtorID = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.DebtorDue = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.DebtorPaid = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuCustomLabel74 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel73 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.DebtorGrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.SearchAgent = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.AgentListDataGridView = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.agentRefreshButton = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.AgentDeleteButton = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.agentUpdateButton = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.agentAddButton = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.WholesaleAdd = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.bunifuCustomLabel13 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Wsearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.wholesaleinstockgrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.wholesalecustomerinfocards = new Bunifu.Framework.UI.BunifuCards();
-            this.WcustomerDD = new System.Windows.Forms.ComboBox();
-            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Wpaid = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.Wdue = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Wdiscount = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuThinButton234 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Wtotal = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.wholesalebillinfocards = new Bunifu.Framework.UI.BunifuCards();
-            this.Wholesaleskurefresh = new Bunifu.Framework.UI.BunifuImageButton();
-            this.SkuTextBox = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.SKU = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.WProductName = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.WtotalLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuThinButton29 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuThinButton233 = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.Wquantity = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
-            this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.WID = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.RproductAdd = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.RetailSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
@@ -312,8 +236,69 @@
             this.WholesalePopulerProdutChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.EveryDaySellChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.RetailPopulerProductsChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.billwholesalepanel = new System.Windows.Forms.Panel();
+            this.WholesaleAdd = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bunifuCustomLabel13 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.Wsearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.wholesaleinstockgrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.wholesalecustomerinfocards = new Bunifu.Framework.UI.BunifuCards();
+            this.WcustomerDD = new System.Windows.Forms.ComboBox();
+            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.Wpaid = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.Wdue = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel16 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel14 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.Wdiscount = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuThinButton234 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.Wtotal = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.wholesalebillinfocards = new Bunifu.Framework.UI.BunifuCards();
+            this.Wholesaleskurefresh = new Bunifu.Framework.UI.BunifuImageButton();
+            this.SkuTextBox = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.SKU = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.WProductName = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.WtotalLabel = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuThinButton29 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuThinButton233 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.Wquantity = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.WID = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.agentlistpanel = new System.Windows.Forms.Panel();
+            this.SearchAgent = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel15 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.AgentListDataGridView = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.agentRefreshButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.AgentDeleteButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.agentUpdateButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.agentAddButton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.debtorpanel = new System.Windows.Forms.Panel();
+            this.DebtorSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCards3 = new Bunifu.Framework.UI.BunifuCards();
+            this.DebtorUpdate = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.DebtorID = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.DebtorDue = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel17 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.DebtorPaid = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel74 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel73 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.DebtorGrid = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.creditorpanel = new System.Windows.Forms.Panel();
+            this.CreditorSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel49 = new System.Windows.Forms.Label();
+            this.bunifuCustomLabel44 = new System.Windows.Forms.Label();
+            this.bunifuThinButton214 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.CreditorCashPaid = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel78 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomDataGrid3 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bunifuCustomLabel76 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel75 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.customerspanel = new System.Windows.Forms.Panel();
-            this.bunifuThinButton220 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuCards4 = new Bunifu.Framework.UI.BunifuCards();
             this.CustomerTypeDD = new System.Windows.Forms.ComboBox();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -367,6 +352,23 @@
             this.userzonepanel = new System.Windows.Forms.Panel();
             this.bunifuCustomDataGrid4 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.label12 = new System.Windows.Forms.Label();
+            this.settingspanel = new System.Windows.Forms.Panel();
+            this.companydetailedit = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.companyDatagridView = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.findLogo = new Bunifu.Framework.UI.BunifuImageButton();
+            this.settingssavebutton = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.email = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.website = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.phone = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.address = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.name = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.logo = new System.Windows.Forms.PictureBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.aboutuspanel = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
@@ -379,6 +381,12 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.sidebarTransition2 = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.bunifuCustomLabel40 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.CustomerSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel46 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.ExtracostSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
+            this.bunifuCustomLabel47 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.UserSearch = new WindowsFormsControlLibrary1.BunifuCustomTextbox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.minimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -395,22 +403,6 @@
             this.productseditpanel.SuspendLayout();
             this.plpanel.SuspendLayout();
             this.billretailpanel.SuspendLayout();
-            this.billwholesalepanel.SuspendLayout();
-            this.agentlistpanel.SuspendLayout();
-            this.debtorpanel.SuspendLayout();
-            this.creditorpanel.SuspendLayout();
-            this.settingspanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.findLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).BeginInit();
-            this.bunifuCards3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DebtorGrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AgentListDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WholesaleAdd)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wholesaleinstockgrid)).BeginInit();
-            this.wholesalecustomerinfocards.SuspendLayout();
-            this.wholesalebillinfocards.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Wholesaleskurefresh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RproductAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RproductList)).BeginInit();
             this.bunifuCards5.SuspendLayout();
@@ -444,6 +436,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.WholesalePopulerProdutChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EveryDaySellChart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RetailPopulerProductsChart)).BeginInit();
+            this.billwholesalepanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.WholesaleAdd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wholesaleinstockgrid)).BeginInit();
+            this.wholesalecustomerinfocards.SuspendLayout();
+            this.wholesalebillinfocards.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Wholesaleskurefresh)).BeginInit();
+            this.agentlistpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AgentListDataGridView)).BeginInit();
+            this.debtorpanel.SuspendLayout();
+            this.bunifuCards3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DebtorGrid)).BeginInit();
+            this.creditorpanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).BeginInit();
             this.customerspanel.SuspendLayout();
             this.bunifuCards4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customersgrid)).BeginInit();
@@ -457,6 +462,10 @@
             this.userscards.SuspendLayout();
             this.userzonepanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).BeginInit();
+            this.settingspanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.companyDatagridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.findLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             this.aboutuspanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
@@ -1334,22 +1343,22 @@
             // 
             this.iconTransition1.AnimationType = BunifuAnimatorNS.AnimationType.Mosaic;
             this.iconTransition1.Cursor = null;
-            animation4.AnimateOnlyDifferences = true;
-            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
-            animation4.LeafCoeff = 0F;
-            animation4.MaxTime = 1F;
-            animation4.MinTime = 0F;
-            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
-            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
-            animation4.MosaicSize = 20;
-            animation4.Padding = new System.Windows.Forms.Padding(30);
-            animation4.RotateCoeff = 0F;
-            animation4.RotateLimit = 0F;
-            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
-            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
-            animation4.TimeCoeff = 0F;
-            animation4.TransparencyCoeff = 0F;
-            this.iconTransition1.DefaultAnimation = animation4;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 20;
+            animation3.Padding = new System.Windows.Forms.Padding(30);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.iconTransition1.DefaultAnimation = animation3;
             // 
             // dashpanel
             // 
@@ -1465,1317 +1474,22 @@
             this.billretailpanel.TabIndex = 9;
             this.billretailpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.billretailpanel_Paint);
             // 
-            // billwholesalepanel
-            // 
-            this.billwholesalepanel.BackColor = System.Drawing.Color.Transparent;
-            this.billwholesalepanel.Controls.Add(this.agentlistpanel);
-            this.billwholesalepanel.Controls.Add(this.WholesaleAdd);
-            this.billwholesalepanel.Controls.Add(this.bunifuCustomLabel13);
-            this.billwholesalepanel.Controls.Add(this.Wsearch);
-            this.billwholesalepanel.Controls.Add(this.wholesaleinstockgrid);
-            this.billwholesalepanel.Controls.Add(this.wholesalecustomerinfocards);
-            this.billwholesalepanel.Controls.Add(this.wholesalebillinfocards);
-            this.sidebarTransition2.SetDecoration(this.billwholesalepanel, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.billwholesalepanel, BunifuAnimatorNS.DecorationType.None);
-            this.billwholesalepanel.Location = new System.Drawing.Point(0, 0);
-            this.billwholesalepanel.Name = "billwholesalepanel";
-            this.billwholesalepanel.Size = new System.Drawing.Size(838, 695);
-            this.billwholesalepanel.TabIndex = 4;
-            // 
-            // agentlistpanel
-            // 
-            this.agentlistpanel.BackColor = System.Drawing.Color.Transparent;
-            this.agentlistpanel.Controls.Add(this.debtorpanel);
-            this.agentlistpanel.Controls.Add(this.SearchAgent);
-            this.agentlistpanel.Controls.Add(this.bunifuCustomLabel15);
-            this.agentlistpanel.Controls.Add(this.AgentListDataGridView);
-            this.agentlistpanel.Controls.Add(this.agentRefreshButton);
-            this.agentlistpanel.Controls.Add(this.AgentDeleteButton);
-            this.agentlistpanel.Controls.Add(this.agentUpdateButton);
-            this.agentlistpanel.Controls.Add(this.agentAddButton);
-            this.sidebarTransition2.SetDecoration(this.agentlistpanel, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.agentlistpanel, BunifuAnimatorNS.DecorationType.None);
-            this.agentlistpanel.Location = new System.Drawing.Point(1, 1);
-            this.agentlistpanel.Name = "agentlistpanel";
-            this.agentlistpanel.Size = new System.Drawing.Size(839, 694);
-            this.agentlistpanel.TabIndex = 4;
-            // 
-            // debtorpanel
-            // 
-            this.debtorpanel.Controls.Add(this.creditorpanel);
-            this.debtorpanel.Controls.Add(this.DebtorSearch);
-            this.debtorpanel.Controls.Add(this.bunifuCustomLabel4);
-            this.debtorpanel.Controls.Add(this.bunifuCards3);
-            this.debtorpanel.Controls.Add(this.DebtorGrid);
-            this.sidebarTransition2.SetDecoration(this.debtorpanel, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.debtorpanel, BunifuAnimatorNS.DecorationType.None);
-            this.debtorpanel.Location = new System.Drawing.Point(-1, -1);
-            this.debtorpanel.Name = "debtorpanel";
-            this.debtorpanel.Size = new System.Drawing.Size(838, 695);
-            this.debtorpanel.TabIndex = 6;
-            // 
-            // creditorpanel
-            // 
-            this.creditorpanel.Controls.Add(this.CreditorSearch);
-            this.creditorpanel.Controls.Add(this.bunifuCustomLabel3);
-            this.creditorpanel.Controls.Add(this.bunifuCustomLabel49);
-            this.creditorpanel.Controls.Add(this.bunifuCustomLabel44);
-            this.creditorpanel.Controls.Add(this.bunifuThinButton214);
-            this.creditorpanel.Controls.Add(this.CreditorCashPaid);
-            this.creditorpanel.Controls.Add(this.bunifuCustomLabel78);
-            this.creditorpanel.Controls.Add(this.bunifuCustomDataGrid3);
-            this.creditorpanel.Controls.Add(this.bunifuCustomLabel76);
-            this.creditorpanel.Controls.Add(this.bunifuCustomLabel75);
-            this.sidebarTransition2.SetDecoration(this.creditorpanel, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.creditorpanel, BunifuAnimatorNS.DecorationType.None);
-            this.creditorpanel.Location = new System.Drawing.Point(0, 0);
-            this.creditorpanel.Name = "creditorpanel";
-            this.creditorpanel.Size = new System.Drawing.Size(837, 694);
-            this.creditorpanel.TabIndex = 9;
-            // 
-            // settingspanel
-            // 
-            this.settingspanel.BackColor = System.Drawing.Color.White;
-            this.settingspanel.Controls.Add(this.companydetailedit);
-            this.settingspanel.Controls.Add(this.findLogo);
-            this.settingspanel.Controls.Add(this.settingssavebutton);
-            this.settingspanel.Controls.Add(this.email);
-            this.settingspanel.Controls.Add(this.website);
-            this.settingspanel.Controls.Add(this.phone);
-            this.settingspanel.Controls.Add(this.address);
-            this.settingspanel.Controls.Add(this.name);
-            this.settingspanel.Controls.Add(this.logo);
-            this.settingspanel.Controls.Add(this.label19);
-            this.settingspanel.Controls.Add(this.label18);
-            this.settingspanel.Controls.Add(this.label17);
-            this.settingspanel.Controls.Add(this.label16);
-            this.settingspanel.Controls.Add(this.label15);
-            this.settingspanel.Controls.Add(this.label13);
-            this.sidebarTransition2.SetDecoration(this.settingspanel, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.settingspanel, BunifuAnimatorNS.DecorationType.None);
-            this.settingspanel.Location = new System.Drawing.Point(1050, 74);
-            this.settingspanel.Name = "settingspanel";
-            this.settingspanel.Size = new System.Drawing.Size(97, 63);
-            this.settingspanel.TabIndex = 52;
-            this.settingspanel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingspanel_Paint);
-            // 
-            // companydetailedit
-            // 
-            this.companydetailedit.ActiveBorderThickness = 3;
-            this.companydetailedit.ActiveCornerRadius = 20;
-            this.companydetailedit.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.companydetailedit.ActiveForecolor = System.Drawing.Color.White;
-            this.companydetailedit.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.companydetailedit.BackColor = System.Drawing.Color.White;
-            this.companydetailedit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("companydetailedit.BackgroundImage")));
-            this.companydetailedit.ButtonText = "Edit";
-            this.companydetailedit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.companydetailedit, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.companydetailedit, BunifuAnimatorNS.DecorationType.None);
-            this.companydetailedit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.companydetailedit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.companydetailedit.IdleBorderThickness = 2;
-            this.companydetailedit.IdleCornerRadius = 20;
-            this.companydetailedit.IdleFillColor = System.Drawing.Color.White;
-            this.companydetailedit.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.companydetailedit.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.companydetailedit.Location = new System.Drawing.Point(419, 536);
-            this.companydetailedit.Margin = new System.Windows.Forms.Padding(5);
-            this.companydetailedit.Name = "companydetailedit";
-            this.companydetailedit.Size = new System.Drawing.Size(166, 47);
-            this.companydetailedit.TabIndex = 17;
-            this.companydetailedit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.companydetailedit.Click += new System.EventHandler(this.companydetailedit_Click);
-            // 
-            // findLogo
-            // 
-            this.findLogo.BackColor = System.Drawing.Color.White;
-            this.sidebarTransition2.SetDecoration(this.findLogo, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.findLogo, BunifuAnimatorNS.DecorationType.None);
-            this.findLogo.Image = global::Pharmacy.Properties.Resources._2000px_Maya_4_svg;
-            this.findLogo.ImageActive = null;
-            this.findLogo.Location = new System.Drawing.Point(641, 322);
-            this.findLogo.Name = "findLogo";
-            this.findLogo.Size = new System.Drawing.Size(116, 21);
-            this.findLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.findLogo.TabIndex = 15;
-            this.findLogo.TabStop = false;
-            this.findLogo.Zoom = 15;
-            this.findLogo.Click += new System.EventHandler(this.findLogo_Click);
-            // 
-            // settingssavebutton
-            // 
-            this.settingssavebutton.ActiveBorderThickness = 3;
-            this.settingssavebutton.ActiveCornerRadius = 20;
-            this.settingssavebutton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.settingssavebutton.ActiveForecolor = System.Drawing.Color.White;
-            this.settingssavebutton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.settingssavebutton.BackColor = System.Drawing.Color.White;
-            this.settingssavebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("settingssavebutton.BackgroundImage")));
-            this.settingssavebutton.ButtonText = "Save";
-            this.settingssavebutton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.settingssavebutton, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.settingssavebutton, BunifuAnimatorNS.DecorationType.None);
-            this.settingssavebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settingssavebutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.settingssavebutton.IdleBorderThickness = 2;
-            this.settingssavebutton.IdleCornerRadius = 20;
-            this.settingssavebutton.IdleFillColor = System.Drawing.Color.White;
-            this.settingssavebutton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.settingssavebutton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.settingssavebutton.Location = new System.Drawing.Point(598, 537);
-            this.settingssavebutton.Margin = new System.Windows.Forms.Padding(5);
-            this.settingssavebutton.Name = "settingssavebutton";
-            this.settingssavebutton.Size = new System.Drawing.Size(166, 47);
-            this.settingssavebutton.TabIndex = 14;
-            this.settingssavebutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.settingssavebutton.Click += new System.EventHandler(this.settingssavebutton_Click);
-            // 
-            // email
-            // 
-            this.email.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.email, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.email, BunifuAnimatorNS.DecorationType.None);
-            this.email.Location = new System.Drawing.Point(330, 366);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(222, 20);
-            this.email.TabIndex = 13;
-            // 
-            // website
-            // 
-            this.website.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.website, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.website, BunifuAnimatorNS.DecorationType.None);
-            this.website.Location = new System.Drawing.Point(330, 318);
-            this.website.Name = "website";
-            this.website.Size = new System.Drawing.Size(222, 20);
-            this.website.TabIndex = 12;
-            // 
-            // phone
-            // 
-            this.phone.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.phone, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.phone, BunifuAnimatorNS.DecorationType.None);
-            this.phone.Location = new System.Drawing.Point(330, 268);
-            this.phone.Name = "phone";
-            this.phone.Size = new System.Drawing.Size(222, 20);
-            this.phone.TabIndex = 11;
-            // 
-            // address
-            // 
-            this.address.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.address, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.address, BunifuAnimatorNS.DecorationType.None);
-            this.address.Location = new System.Drawing.Point(330, 197);
-            this.address.Multiline = true;
-            this.address.Name = "address";
-            this.address.Size = new System.Drawing.Size(222, 50);
-            this.address.TabIndex = 10;
-            // 
-            // name
-            // 
-            this.name.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.name, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.name, BunifuAnimatorNS.DecorationType.None);
-            this.name.Location = new System.Drawing.Point(330, 150);
-            this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(222, 20);
-            this.name.TabIndex = 9;
-            // 
-            // logo
-            // 
-            this.logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.iconTransition1.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
-            this.logo.Location = new System.Drawing.Point(627, 191);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(143, 128);
-            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.logo.TabIndex = 7;
-            this.logo.TabStop = false;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.label19, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.label19, BunifuAnimatorNS.DecorationType.None);
-            this.label19.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
-            this.label19.Location = new System.Drawing.Point(602, 147);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(199, 25);
-            this.label19.TabIndex = 6;
-            this.label19.Text = "Company Logo :";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.label18, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.label18, BunifuAnimatorNS.DecorationType.None);
-            this.label18.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
-            this.label18.Location = new System.Drawing.Point(58, 361);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(207, 25);
-            this.label18.TabIndex = 5;
-            this.label18.Text = "Company Email :";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.label17, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.label17, BunifuAnimatorNS.DecorationType.None);
-            this.label17.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
-            this.label17.Location = new System.Drawing.Point(58, 313);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(239, 25);
-            this.label17.TabIndex = 4;
-            this.label17.Text = "Company Website :";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.label16, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.label16, BunifuAnimatorNS.DecorationType.None);
-            this.label16.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
-            this.label16.Location = new System.Drawing.Point(58, 263);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(255, 25);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Company Phone No :";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.label15, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.label15, BunifuAnimatorNS.DecorationType.None);
-            this.label15.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
-            this.label15.Location = new System.Drawing.Point(58, 193);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(237, 25);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Company Address :";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
-            this.label13.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(58, 145);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(211, 25);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Company Name :";
-            // 
-            // CreditorSearch
-            // 
-            this.CreditorSearch.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.CreditorSearch, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.CreditorSearch, BunifuAnimatorNS.DecorationType.None);
-            this.CreditorSearch.Location = new System.Drawing.Point(652, 48);
-            this.CreditorSearch.Multiline = true;
-            this.CreditorSearch.Name = "CreditorSearch";
-            this.CreditorSearch.Size = new System.Drawing.Size(171, 30);
-            this.CreditorSearch.TabIndex = 26;
-            this.CreditorSearch.TextChanged += new System.EventHandler(this.CreditorSearch_TextChanged);
-            // 
-            // bunifuCustomLabel3
-            // 
-            this.bunifuCustomLabel3.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(587, 56);
-            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(48, 17);
-            this.bunifuCustomLabel3.TabIndex = 25;
-            this.bunifuCustomLabel3.Text = "Search";
-            // 
-            // bunifuCustomLabel49
-            // 
-            this.bunifuCustomLabel49.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel49, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel49, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel49.Location = new System.Drawing.Point(390, 518);
-            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
-            this.bunifuCustomLabel49.Size = new System.Drawing.Size(19, 20);
-            this.bunifuCustomLabel49.TabIndex = 24;
-            this.bunifuCustomLabel49.Text = "0";
-            // 
-            // bunifuCustomLabel44
-            // 
-            this.bunifuCustomLabel44.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel44, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel44, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel44.Location = new System.Drawing.Point(391, 476);
-            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
-            this.bunifuCustomLabel44.Size = new System.Drawing.Size(19, 20);
-            this.bunifuCustomLabel44.TabIndex = 23;
-            this.bunifuCustomLabel44.Text = "0";
-            // 
-            // bunifuThinButton214
-            // 
-            this.bunifuThinButton214.ActiveBorderThickness = 3;
-            this.bunifuThinButton214.ActiveCornerRadius = 20;
-            this.bunifuThinButton214.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton214.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton214.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton214.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuThinButton214.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton214.BackgroundImage")));
-            this.bunifuThinButton214.ButtonText = "Paid";
-            this.bunifuThinButton214.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.bunifuThinButton214, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.bunifuThinButton214, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton214.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton214.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton214.IdleBorderThickness = 2;
-            this.bunifuThinButton214.IdleCornerRadius = 20;
-            this.bunifuThinButton214.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton214.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton214.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton214.Location = new System.Drawing.Point(407, 630);
-            this.bunifuThinButton214.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton214.Name = "bunifuThinButton214";
-            this.bunifuThinButton214.Size = new System.Drawing.Size(130, 59);
-            this.bunifuThinButton214.TabIndex = 22;
-            this.bunifuThinButton214.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton214.Click += new System.EventHandler(this.CreditorPaidButton);
-            // 
-            // CreditorCashPaid
-            // 
-            this.CreditorCashPaid.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.CreditorCashPaid, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.CreditorCashPaid, BunifuAnimatorNS.DecorationType.None);
-            this.CreditorCashPaid.Location = new System.Drawing.Point(378, 570);
-            this.CreditorCashPaid.Multiline = true;
-            this.CreditorCashPaid.Name = "CreditorCashPaid";
-            this.CreditorCashPaid.Size = new System.Drawing.Size(171, 30);
-            this.CreditorCashPaid.TabIndex = 20;
-            // 
-            // bunifuCustomLabel78
-            // 
-            this.bunifuCustomLabel78.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel78, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel78, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel78.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel78.Location = new System.Drawing.Point(249, 575);
-            this.bunifuCustomLabel78.Name = "bunifuCustomLabel78";
-            this.bunifuCustomLabel78.Size = new System.Drawing.Size(37, 17);
-            this.bunifuCustomLabel78.TabIndex = 19;
-            this.bunifuCustomLabel78.Text = "Cash";
-            // 
-            // bunifuCustomDataGrid3
-            // 
-            this.bunifuCustomDataGrid3.AllowUserToAddRows = false;
-            this.bunifuCustomDataGrid3.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle37;
-            this.bunifuCustomDataGrid3.BackgroundColor = System.Drawing.Color.Gray;
-            this.bunifuCustomDataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bunifuCustomDataGrid3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle38;
-            this.bunifuCustomDataGrid3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.iconTransition1.SetDecoration(this.bunifuCustomDataGrid3, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomDataGrid3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomDataGrid3.DoubleBuffered = true;
-            this.bunifuCustomDataGrid3.EnableHeadersVisualStyles = false;
-            this.bunifuCustomDataGrid3.GridColor = System.Drawing.Color.Black;
-            this.bunifuCustomDataGrid3.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuCustomDataGrid3.HeaderForeColor = System.Drawing.Color.White;
-            this.bunifuCustomDataGrid3.Location = new System.Drawing.Point(7, 83);
-            this.bunifuCustomDataGrid3.Name = "bunifuCustomDataGrid3";
-            this.bunifuCustomDataGrid3.ReadOnly = true;
-            this.bunifuCustomDataGrid3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bunifuCustomDataGrid3.RowHeadersVisible = false;
-            this.bunifuCustomDataGrid3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.bunifuCustomDataGrid3.Size = new System.Drawing.Size(817, 374);
-            this.bunifuCustomDataGrid3.TabIndex = 0;
-            this.bunifuCustomDataGrid3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CreditorDataGridViewClick);
-            // 
-            // bunifuCustomLabel76
-            // 
-            this.bunifuCustomLabel76.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel76, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel76, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel76.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel76.Location = new System.Drawing.Point(209, 518);
-            this.bunifuCustomLabel76.Name = "bunifuCustomLabel76";
-            this.bunifuCustomLabel76.Size = new System.Drawing.Size(139, 17);
-            this.bunifuCustomLabel76.TabIndex = 15;
-            this.bunifuCustomLabel76.Text = "Total Amount of Due";
-            // 
-            // bunifuCustomLabel75
-            // 
-            this.bunifuCustomLabel75.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel75, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel75, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel75.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel75.Location = new System.Drawing.Point(209, 470);
-            this.bunifuCustomLabel75.Name = "bunifuCustomLabel75";
-            this.bunifuCustomLabel75.Size = new System.Drawing.Size(116, 17);
-            this.bunifuCustomLabel75.TabIndex = 13;
-            this.bunifuCustomLabel75.Text = "Select Creditor ID";
-            // 
-            // DebtorSearch
-            // 
-            this.DebtorSearch.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.DebtorSearch, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.DebtorSearch, BunifuAnimatorNS.DecorationType.None);
-            this.DebtorSearch.Location = new System.Drawing.Point(657, 28);
-            this.DebtorSearch.Multiline = true;
-            this.DebtorSearch.Name = "DebtorSearch";
-            this.DebtorSearch.Size = new System.Drawing.Size(171, 30);
-            this.DebtorSearch.TabIndex = 22;
-            this.DebtorSearch.TextChanged += new System.EventHandler(this.DebtorSearch_TextChanged);
-            // 
-            // bunifuCustomLabel4
-            // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(590, 34);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(48, 17);
-            this.bunifuCustomLabel4.TabIndex = 21;
-            this.bunifuCustomLabel4.Text = "Search";
-            // 
-            // bunifuCards3
-            // 
-            this.bunifuCards3.BackColor = System.Drawing.Color.White;
-            this.bunifuCards3.BorderRadius = 5;
-            this.bunifuCards3.BottomSahddow = true;
-            this.bunifuCards3.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuCards3.Controls.Add(this.DebtorUpdate);
-            this.bunifuCards3.Controls.Add(this.DebtorID);
-            this.bunifuCards3.Controls.Add(this.DebtorDue);
-            this.bunifuCards3.Controls.Add(this.bunifuCustomLabel17);
-            this.bunifuCards3.Controls.Add(this.DebtorPaid);
-            this.bunifuCards3.Controls.Add(this.bunifuCustomLabel74);
-            this.bunifuCards3.Controls.Add(this.bunifuCustomLabel73);
-            this.sidebarTransition2.SetDecoration(this.bunifuCards3, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.bunifuCards3, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCards3.LeftSahddow = false;
-            this.bunifuCards3.Location = new System.Drawing.Point(0, 425);
-            this.bunifuCards3.Name = "bunifuCards3";
-            this.bunifuCards3.RightSahddow = true;
-            this.bunifuCards3.ShadowDepth = 20;
-            this.bunifuCards3.Size = new System.Drawing.Size(414, 269);
-            this.bunifuCards3.TabIndex = 1;
-            // 
-            // DebtorUpdate
-            // 
-            this.DebtorUpdate.ActiveBorderThickness = 3;
-            this.DebtorUpdate.ActiveCornerRadius = 20;
-            this.DebtorUpdate.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.DebtorUpdate.ActiveForecolor = System.Drawing.Color.White;
-            this.DebtorUpdate.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.DebtorUpdate.BackColor = System.Drawing.Color.White;
-            this.DebtorUpdate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DebtorUpdate.BackgroundImage")));
-            this.DebtorUpdate.ButtonText = "Update";
-            this.DebtorUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.DebtorUpdate, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.DebtorUpdate, BunifuAnimatorNS.DecorationType.None);
-            this.DebtorUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DebtorUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.DebtorUpdate.IdleBorderThickness = 2;
-            this.DebtorUpdate.IdleCornerRadius = 20;
-            this.DebtorUpdate.IdleFillColor = System.Drawing.Color.White;
-            this.DebtorUpdate.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.DebtorUpdate.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.DebtorUpdate.Location = new System.Drawing.Point(257, 197);
-            this.DebtorUpdate.Margin = new System.Windows.Forms.Padding(5);
-            this.DebtorUpdate.Name = "DebtorUpdate";
-            this.DebtorUpdate.Size = new System.Drawing.Size(135, 54);
-            this.DebtorUpdate.TabIndex = 18;
-            this.DebtorUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.DebtorUpdate.Click += new System.EventHandler(this.DebtorUpdate_Click);
-            // 
-            // DebtorID
-            // 
-            this.DebtorID.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.DebtorID, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.DebtorID, BunifuAnimatorNS.DecorationType.None);
-            this.DebtorID.Location = new System.Drawing.Point(221, 61);
-            this.DebtorID.Multiline = true;
-            this.DebtorID.Name = "DebtorID";
-            this.DebtorID.Size = new System.Drawing.Size(171, 30);
-            this.DebtorID.TabIndex = 17;
-            // 
-            // DebtorDue
-            // 
-            this.DebtorDue.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.DebtorDue, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.DebtorDue, BunifuAnimatorNS.DecorationType.None);
-            this.DebtorDue.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DebtorDue.Location = new System.Drawing.Point(229, 109);
-            this.DebtorDue.Name = "DebtorDue";
-            this.DebtorDue.Size = new System.Drawing.Size(26, 17);
-            this.DebtorDue.TabIndex = 16;
-            this.DebtorDue.Text = "0.0";
-            // 
-            // bunifuCustomLabel17
-            // 
-            this.bunifuCustomLabel17.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel17, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel17, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel17.Location = new System.Drawing.Point(139, 160);
-            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
-            this.bunifuCustomLabel17.Size = new System.Drawing.Size(30, 17);
-            this.bunifuCustomLabel17.TabIndex = 15;
-            this.bunifuCustomLabel17.Text = "Pay";
-            // 
-            // DebtorPaid
-            // 
-            this.DebtorPaid.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.DebtorPaid, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.DebtorPaid, BunifuAnimatorNS.DecorationType.None);
-            this.DebtorPaid.Location = new System.Drawing.Point(221, 150);
-            this.DebtorPaid.Multiline = true;
-            this.DebtorPaid.Name = "DebtorPaid";
-            this.DebtorPaid.Size = new System.Drawing.Size(171, 30);
-            this.DebtorPaid.TabIndex = 14;
-            this.DebtorPaid.TextChanged += new System.EventHandler(this.DebtorPaid_TextChanged);
-            // 
-            // bunifuCustomLabel74
-            // 
-            this.bunifuCustomLabel74.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel74, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel74, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel74.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel74.Location = new System.Drawing.Point(139, 113);
-            this.bunifuCustomLabel74.Name = "bunifuCustomLabel74";
-            this.bunifuCustomLabel74.Size = new System.Drawing.Size(33, 17);
-            this.bunifuCustomLabel74.TabIndex = 13;
-            this.bunifuCustomLabel74.Text = "Due";
-            // 
-            // bunifuCustomLabel73
-            // 
-            this.bunifuCustomLabel73.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel73, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel73, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel73.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel73.Location = new System.Drawing.Point(106, 68);
-            this.bunifuCustomLabel73.Name = "bunifuCustomLabel73";
-            this.bunifuCustomLabel73.Size = new System.Drawing.Size(69, 17);
-            this.bunifuCustomLabel73.TabIndex = 11;
-            this.bunifuCustomLabel73.Text = "Debtor ID";
-            // 
-            // DebtorGrid
-            // 
-            this.DebtorGrid.AllowUserToAddRows = false;
-            this.DebtorGrid.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.DebtorGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle39;
-            this.DebtorGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.DebtorGrid.BackgroundColor = System.Drawing.Color.Gray;
-            this.DebtorGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.DebtorGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle40.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DebtorGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle40;
-            this.DebtorGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.iconTransition1.SetDecoration(this.DebtorGrid, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.DebtorGrid, BunifuAnimatorNS.DecorationType.None);
-            this.DebtorGrid.DoubleBuffered = true;
-            this.DebtorGrid.EnableHeadersVisualStyles = false;
-            this.DebtorGrid.GridColor = System.Drawing.Color.Black;
-            this.DebtorGrid.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.DebtorGrid.HeaderForeColor = System.Drawing.Color.White;
-            this.DebtorGrid.Location = new System.Drawing.Point(4, 64);
-            this.DebtorGrid.Name = "DebtorGrid";
-            this.DebtorGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.DebtorGrid.RowHeadersVisible = false;
-            this.DebtorGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DebtorGrid.Size = new System.Drawing.Size(824, 351);
-            this.DebtorGrid.TabIndex = 0;
-            this.DebtorGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DebtorGrid_CellClick);
-            // 
-            // SearchAgent
-            // 
-            this.SearchAgent.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.SearchAgent, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.SearchAgent, BunifuAnimatorNS.DecorationType.None);
-            this.SearchAgent.Location = new System.Drawing.Point(656, 28);
-            this.SearchAgent.Multiline = true;
-            this.SearchAgent.Name = "SearchAgent";
-            this.SearchAgent.Size = new System.Drawing.Size(171, 30);
-            this.SearchAgent.TabIndex = 22;
-            this.SearchAgent.TextChanged += new System.EventHandler(this.SearchAgent_TextChanged);
-            // 
-            // bunifuCustomLabel15
-            // 
-            this.bunifuCustomLabel15.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel15, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel15, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel15.Location = new System.Drawing.Point(595, 34);
-            this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
-            this.bunifuCustomLabel15.Size = new System.Drawing.Size(48, 17);
-            this.bunifuCustomLabel15.TabIndex = 21;
-            this.bunifuCustomLabel15.Text = "Search";
-            // 
-            // AgentListDataGridView
-            // 
-            this.AgentListDataGridView.AllowUserToAddRows = false;
-            this.AgentListDataGridView.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.AgentListDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
-            this.AgentListDataGridView.BackgroundColor = System.Drawing.Color.Gray;
-            this.AgentListDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.AgentListDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.AgentListDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
-            this.AgentListDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.iconTransition1.SetDecoration(this.AgentListDataGridView, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.AgentListDataGridView, BunifuAnimatorNS.DecorationType.None);
-            this.AgentListDataGridView.DoubleBuffered = true;
-            this.AgentListDataGridView.EnableHeadersVisualStyles = false;
-            this.AgentListDataGridView.GridColor = System.Drawing.Color.Black;
-            this.AgentListDataGridView.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.AgentListDataGridView.HeaderForeColor = System.Drawing.Color.White;
-            this.AgentListDataGridView.Location = new System.Drawing.Point(7, 65);
-            this.AgentListDataGridView.Name = "AgentListDataGridView";
-            this.AgentListDataGridView.ReadOnly = true;
-            this.AgentListDataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.AgentListDataGridView.RowHeadersVisible = false;
-            this.AgentListDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.AgentListDataGridView.Size = new System.Drawing.Size(820, 442);
-            this.AgentListDataGridView.TabIndex = 6;
-            this.AgentListDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AgentListDataGridView_CellClick);
-            // 
-            // agentRefreshButton
-            // 
-            this.agentRefreshButton.ActiveBorderThickness = 3;
-            this.agentRefreshButton.ActiveCornerRadius = 20;
-            this.agentRefreshButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentRefreshButton.ActiveForecolor = System.Drawing.Color.White;
-            this.agentRefreshButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentRefreshButton.BackColor = System.Drawing.Color.Transparent;
-            this.agentRefreshButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("agentRefreshButton.BackgroundImage")));
-            this.agentRefreshButton.ButtonText = "Refresh";
-            this.agentRefreshButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.agentRefreshButton, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.agentRefreshButton, BunifuAnimatorNS.DecorationType.None);
-            this.agentRefreshButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agentRefreshButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.agentRefreshButton.IdleBorderThickness = 2;
-            this.agentRefreshButton.IdleCornerRadius = 20;
-            this.agentRefreshButton.IdleFillColor = System.Drawing.Color.White;
-            this.agentRefreshButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.agentRefreshButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentRefreshButton.Location = new System.Drawing.Point(450, 587);
-            this.agentRefreshButton.Margin = new System.Windows.Forms.Padding(5);
-            this.agentRefreshButton.Name = "agentRefreshButton";
-            this.agentRefreshButton.Size = new System.Drawing.Size(135, 54);
-            this.agentRefreshButton.TabIndex = 5;
-            this.agentRefreshButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.agentRefreshButton.Click += new System.EventHandler(this.agentRefreshButtonClick);
-            // 
-            // AgentDeleteButton
-            // 
-            this.AgentDeleteButton.ActiveBorderThickness = 3;
-            this.AgentDeleteButton.ActiveCornerRadius = 20;
-            this.AgentDeleteButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.AgentDeleteButton.ActiveForecolor = System.Drawing.Color.White;
-            this.AgentDeleteButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.AgentDeleteButton.BackColor = System.Drawing.Color.Transparent;
-            this.AgentDeleteButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AgentDeleteButton.BackgroundImage")));
-            this.AgentDeleteButton.ButtonText = "Delete";
-            this.AgentDeleteButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.AgentDeleteButton, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.AgentDeleteButton, BunifuAnimatorNS.DecorationType.None);
-            this.AgentDeleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AgentDeleteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.AgentDeleteButton.IdleBorderThickness = 2;
-            this.AgentDeleteButton.IdleCornerRadius = 20;
-            this.AgentDeleteButton.IdleFillColor = System.Drawing.Color.White;
-            this.AgentDeleteButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.AgentDeleteButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.AgentDeleteButton.Location = new System.Drawing.Point(557, 512);
-            this.AgentDeleteButton.Margin = new System.Windows.Forms.Padding(5);
-            this.AgentDeleteButton.Name = "AgentDeleteButton";
-            this.AgentDeleteButton.Size = new System.Drawing.Size(135, 54);
-            this.AgentDeleteButton.TabIndex = 3;
-            this.AgentDeleteButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.AgentDeleteButton.Click += new System.EventHandler(this.agentDeleteButtonClick);
-            // 
-            // agentUpdateButton
-            // 
-            this.agentUpdateButton.ActiveBorderThickness = 3;
-            this.agentUpdateButton.ActiveCornerRadius = 20;
-            this.agentUpdateButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentUpdateButton.ActiveForecolor = System.Drawing.Color.White;
-            this.agentUpdateButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentUpdateButton.BackColor = System.Drawing.Color.Transparent;
-            this.agentUpdateButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("agentUpdateButton.BackgroundImage")));
-            this.agentUpdateButton.ButtonText = "Update";
-            this.agentUpdateButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.agentUpdateButton, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.agentUpdateButton, BunifuAnimatorNS.DecorationType.None);
-            this.agentUpdateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agentUpdateButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.agentUpdateButton.IdleBorderThickness = 2;
-            this.agentUpdateButton.IdleCornerRadius = 20;
-            this.agentUpdateButton.IdleFillColor = System.Drawing.Color.White;
-            this.agentUpdateButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.agentUpdateButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentUpdateButton.Location = new System.Drawing.Point(348, 510);
-            this.agentUpdateButton.Margin = new System.Windows.Forms.Padding(5);
-            this.agentUpdateButton.Name = "agentUpdateButton";
-            this.agentUpdateButton.Size = new System.Drawing.Size(135, 54);
-            this.agentUpdateButton.TabIndex = 2;
-            this.agentUpdateButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.agentUpdateButton.Click += new System.EventHandler(this.agentUpdateButtonClick);
-            // 
-            // agentAddButton
-            // 
-            this.agentAddButton.ActiveBorderThickness = 3;
-            this.agentAddButton.ActiveCornerRadius = 20;
-            this.agentAddButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentAddButton.ActiveForecolor = System.Drawing.Color.White;
-            this.agentAddButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentAddButton.BackColor = System.Drawing.Color.Transparent;
-            this.agentAddButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("agentAddButton.BackgroundImage")));
-            this.agentAddButton.ButtonText = "Add";
-            this.agentAddButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.agentAddButton, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.agentAddButton, BunifuAnimatorNS.DecorationType.None);
-            this.agentAddButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.agentAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.agentAddButton.IdleBorderThickness = 2;
-            this.agentAddButton.IdleCornerRadius = 20;
-            this.agentAddButton.IdleFillColor = System.Drawing.Color.White;
-            this.agentAddButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.agentAddButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.agentAddButton.Location = new System.Drawing.Point(152, 512);
-            this.agentAddButton.Margin = new System.Windows.Forms.Padding(5);
-            this.agentAddButton.Name = "agentAddButton";
-            this.agentAddButton.Size = new System.Drawing.Size(135, 54);
-            this.agentAddButton.TabIndex = 1;
-            this.agentAddButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.agentAddButton.Click += new System.EventHandler(this.agentAddButtonClick);
-            // 
-            // WholesaleAdd
-            // 
-            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.WholesaleAdd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle43;
-            this.WholesaleAdd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.WholesaleAdd.BackgroundColor = System.Drawing.Color.Gray;
-            this.WholesaleAdd.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.WholesaleAdd.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.WholesaleAdd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
-            this.WholesaleAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.iconTransition1.SetDecoration(this.WholesaleAdd, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.WholesaleAdd, BunifuAnimatorNS.DecorationType.None);
-            this.WholesaleAdd.DoubleBuffered = true;
-            this.WholesaleAdd.EnableHeadersVisualStyles = false;
-            this.WholesaleAdd.GridColor = System.Drawing.Color.Black;
-            this.WholesaleAdd.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.WholesaleAdd.HeaderForeColor = System.Drawing.Color.White;
-            this.WholesaleAdd.Location = new System.Drawing.Point(12, 76);
-            this.WholesaleAdd.Name = "WholesaleAdd";
-            this.WholesaleAdd.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.WholesaleAdd.RowHeadersVisible = false;
-            this.WholesaleAdd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.WholesaleAdd.Size = new System.Drawing.Size(424, 232);
-            this.WholesaleAdd.TabIndex = 37;
-            this.WholesaleAdd.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.WholesaleAdd_CellClick);
-            // 
-            // bunifuCustomLabel13
-            // 
-            this.bunifuCustomLabel13.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel13, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel13, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel13.Location = new System.Drawing.Point(588, 45);
-            this.bunifuCustomLabel13.Name = "bunifuCustomLabel13";
-            this.bunifuCustomLabel13.Size = new System.Drawing.Size(61, 21);
-            this.bunifuCustomLabel13.TabIndex = 36;
-            this.bunifuCustomLabel13.Text = "Search";
-            // 
-            // Wsearch
-            // 
-            this.Wsearch.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.Wsearch, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.Wsearch, BunifuAnimatorNS.DecorationType.None);
-            this.Wsearch.Location = new System.Drawing.Point(659, 43);
-            this.Wsearch.Multiline = true;
-            this.Wsearch.Name = "Wsearch";
-            this.Wsearch.Size = new System.Drawing.Size(173, 27);
-            this.Wsearch.TabIndex = 32;
-            this.Wsearch.TextChanged += new System.EventHandler(this.Wsearch_TextChanged);
-            // 
-            // wholesaleinstockgrid
-            // 
-            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.wholesaleinstockgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle45;
-            this.wholesaleinstockgrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.wholesaleinstockgrid.BackgroundColor = System.Drawing.Color.Gray;
-            this.wholesaleinstockgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.wholesaleinstockgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle46.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.wholesaleinstockgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
-            this.wholesaleinstockgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.iconTransition1.SetDecoration(this.wholesaleinstockgrid, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.wholesaleinstockgrid, BunifuAnimatorNS.DecorationType.None);
-            this.wholesaleinstockgrid.DoubleBuffered = true;
-            this.wholesaleinstockgrid.EnableHeadersVisualStyles = false;
-            this.wholesaleinstockgrid.GridColor = System.Drawing.Color.Black;
-            this.wholesaleinstockgrid.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.wholesaleinstockgrid.HeaderForeColor = System.Drawing.Color.White;
-            this.wholesaleinstockgrid.Location = new System.Drawing.Point(456, 76);
-            this.wholesaleinstockgrid.Name = "wholesaleinstockgrid";
-            this.wholesaleinstockgrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.wholesaleinstockgrid.RowHeadersVisible = false;
-            this.wholesaleinstockgrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.wholesaleinstockgrid.Size = new System.Drawing.Size(379, 232);
-            this.wholesaleinstockgrid.TabIndex = 4;
-            this.wholesaleinstockgrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wholesaleinstockgrid_CellContentClick);
-            // 
-            // wholesalecustomerinfocards
-            // 
-            this.wholesalecustomerinfocards.BackColor = System.Drawing.Color.White;
-            this.wholesalecustomerinfocards.BorderRadius = 5;
-            this.wholesalecustomerinfocards.BottomSahddow = true;
-            this.wholesalecustomerinfocards.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.wholesalecustomerinfocards.Controls.Add(this.WcustomerDD);
-            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel7);
-            this.wholesalecustomerinfocards.Controls.Add(this.Wpaid);
-            this.wholesalecustomerinfocards.Controls.Add(this.Wdue);
-            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel16);
-            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel14);
-            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel6);
-            this.wholesalecustomerinfocards.Controls.Add(this.Wdiscount);
-            this.wholesalecustomerinfocards.Controls.Add(this.bunifuThinButton234);
-            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel5);
-            this.wholesalecustomerinfocards.Controls.Add(this.Wtotal);
-            this.sidebarTransition2.SetDecoration(this.wholesalecustomerinfocards, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.wholesalecustomerinfocards, BunifuAnimatorNS.DecorationType.None);
-            this.wholesalecustomerinfocards.LeftSahddow = false;
-            this.wholesalecustomerinfocards.Location = new System.Drawing.Point(464, 349);
-            this.wholesalecustomerinfocards.Name = "wholesalecustomerinfocards";
-            this.wholesalecustomerinfocards.RightSahddow = true;
-            this.wholesalecustomerinfocards.ShadowDepth = 20;
-            this.wholesalecustomerinfocards.Size = new System.Drawing.Size(371, 324);
-            this.wholesalecustomerinfocards.TabIndex = 3;
-            // 
-            // WcustomerDD
-            // 
-            this.sidebarTransition2.SetDecoration(this.WcustomerDD, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.WcustomerDD, BunifuAnimatorNS.DecorationType.None);
-            this.WcustomerDD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WcustomerDD.FormattingEnabled = true;
-            this.WcustomerDD.Location = new System.Drawing.Point(177, 179);
-            this.WcustomerDD.Name = "WcustomerDD";
-            this.WcustomerDD.Size = new System.Drawing.Size(173, 28);
-            this.WcustomerDD.TabIndex = 42;
-            // 
-            // bunifuCustomLabel7
-            // 
-            this.bunifuCustomLabel7.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(27, 184);
-            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(83, 21);
-            this.bunifuCustomLabel7.TabIndex = 41;
-            this.bunifuCustomLabel7.Text = "Customer";
-            // 
-            // Wpaid
-            // 
-            this.Wpaid.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.Wpaid, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.Wpaid, BunifuAnimatorNS.DecorationType.None);
-            this.Wpaid.Location = new System.Drawing.Point(177, 104);
-            this.Wpaid.Multiline = true;
-            this.Wpaid.Name = "Wpaid";
-            this.Wpaid.Size = new System.Drawing.Size(173, 27);
-            this.Wpaid.TabIndex = 39;
-            this.Wpaid.TextChanged += new System.EventHandler(this.Wpaid_TextChanged);
-            // 
-            // Wdue
-            // 
-            this.Wdue.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.Wdue, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.Wdue, BunifuAnimatorNS.DecorationType.None);
-            this.Wdue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Wdue.Location = new System.Drawing.Point(177, 142);
-            this.Wdue.Name = "Wdue";
-            this.Wdue.Size = new System.Drawing.Size(41, 21);
-            this.Wdue.TabIndex = 38;
-            this.Wdue.Text = "0.00";
-            // 
-            // bunifuCustomLabel16
-            // 
-            this.bunifuCustomLabel16.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel16, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel16, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel16.Location = new System.Drawing.Point(26, 139);
-            this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
-            this.bunifuCustomLabel16.Size = new System.Drawing.Size(41, 21);
-            this.bunifuCustomLabel16.TabIndex = 37;
-            this.bunifuCustomLabel16.Text = "Due";
-            // 
-            // bunifuCustomLabel14
-            // 
-            this.bunifuCustomLabel14.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel14, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel14, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel14.Location = new System.Drawing.Point(26, 101);
-            this.bunifuCustomLabel14.Name = "bunifuCustomLabel14";
-            this.bunifuCustomLabel14.Size = new System.Drawing.Size(44, 21);
-            this.bunifuCustomLabel14.TabIndex = 35;
-            this.bunifuCustomLabel14.Text = "Paid";
-            // 
-            // bunifuCustomLabel6
-            // 
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(26, 25);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(78, 21);
-            this.bunifuCustomLabel6.TabIndex = 34;
-            this.bunifuCustomLabel6.Text = "Discount";
-            // 
-            // Wdiscount
-            // 
-            this.Wdiscount.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.Wdiscount, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.Wdiscount, BunifuAnimatorNS.DecorationType.None);
-            this.Wdiscount.Location = new System.Drawing.Point(177, 22);
-            this.Wdiscount.Multiline = true;
-            this.Wdiscount.Name = "Wdiscount";
-            this.Wdiscount.Size = new System.Drawing.Size(173, 27);
-            this.Wdiscount.TabIndex = 33;
-            this.Wdiscount.TextChanged += new System.EventHandler(this.Wdiscount_TextChanged);
-            // 
-            // bunifuThinButton234
-            // 
-            this.bunifuThinButton234.ActiveBorderThickness = 3;
-            this.bunifuThinButton234.ActiveCornerRadius = 20;
-            this.bunifuThinButton234.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton234.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton234.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton234.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton234.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton234.BackgroundImage")));
-            this.bunifuThinButton234.ButtonText = "Purchase";
-            this.bunifuThinButton234.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.bunifuThinButton234, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.bunifuThinButton234, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton234.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton234.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton234.IdleBorderThickness = 2;
-            this.bunifuThinButton234.IdleCornerRadius = 20;
-            this.bunifuThinButton234.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton234.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton234.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton234.Location = new System.Drawing.Point(226, 261);
-            this.bunifuThinButton234.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton234.Name = "bunifuThinButton234";
-            this.bunifuThinButton234.Size = new System.Drawing.Size(135, 54);
-            this.bunifuThinButton234.TabIndex = 32;
-            this.bunifuThinButton234.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton234.Click += new System.EventHandler(this.bunifuThinButton234_Click);
-            // 
-            // bunifuCustomLabel5
-            // 
-            this.bunifuCustomLabel5.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(26, 63);
-            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(77, 21);
-            this.bunifuCustomLabel5.TabIndex = 31;
-            this.bunifuCustomLabel5.Text = "Total Bill";
-            // 
-            // Wtotal
-            // 
-            this.Wtotal.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.Wtotal, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.Wtotal, BunifuAnimatorNS.DecorationType.None);
-            this.Wtotal.Location = new System.Drawing.Point(177, 64);
-            this.Wtotal.Multiline = true;
-            this.Wtotal.Name = "Wtotal";
-            this.Wtotal.Size = new System.Drawing.Size(173, 27);
-            this.Wtotal.TabIndex = 30;
-            // 
-            // wholesalebillinfocards
-            // 
-            this.wholesalebillinfocards.BackColor = System.Drawing.Color.White;
-            this.wholesalebillinfocards.BorderRadius = 5;
-            this.wholesalebillinfocards.BottomSahddow = true;
-            this.wholesalebillinfocards.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.wholesalebillinfocards.Controls.Add(this.Wholesaleskurefresh);
-            this.wholesalebillinfocards.Controls.Add(this.SkuTextBox);
-            this.wholesalebillinfocards.Controls.Add(this.SKU);
-            this.wholesalebillinfocards.Controls.Add(this.WProductName);
-            this.wholesalebillinfocards.Controls.Add(this.WtotalLabel);
-            this.wholesalebillinfocards.Controls.Add(this.bunifuThinButton29);
-            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel11);
-            this.wholesalebillinfocards.Controls.Add(this.bunifuThinButton233);
-            this.wholesalebillinfocards.Controls.Add(this.Wquantity);
-            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel10);
-            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel9);
-            this.wholesalebillinfocards.Controls.Add(this.WID);
-            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel8);
-            this.sidebarTransition2.SetDecoration(this.wholesalebillinfocards, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.wholesalebillinfocards, BunifuAnimatorNS.DecorationType.None);
-            this.wholesalebillinfocards.LeftSahddow = false;
-            this.wholesalebillinfocards.Location = new System.Drawing.Point(3, 347);
-            this.wholesalebillinfocards.Name = "wholesalebillinfocards";
-            this.wholesalebillinfocards.RightSahddow = true;
-            this.wholesalebillinfocards.ShadowDepth = 20;
-            this.wholesalebillinfocards.Size = new System.Drawing.Size(415, 329);
-            this.wholesalebillinfocards.TabIndex = 2;
-            this.wholesalebillinfocards.Paint += new System.Windows.Forms.PaintEventHandler(this.wholesalebillinfocards_Paint);
-            // 
-            // Wholesaleskurefresh
-            // 
-            this.Wholesaleskurefresh.BackColor = System.Drawing.Color.White;
-            this.sidebarTransition2.SetDecoration(this.Wholesaleskurefresh, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.Wholesaleskurefresh, BunifuAnimatorNS.DecorationType.None);
-            this.Wholesaleskurefresh.Image = global::Pharmacy.Properties.Resources.refresh;
-            this.Wholesaleskurefresh.ImageActive = global::Pharmacy.Properties.Resources.refresh;
-            this.Wholesaleskurefresh.Location = new System.Drawing.Point(348, 74);
-            this.Wholesaleskurefresh.Name = "Wholesaleskurefresh";
-            this.Wholesaleskurefresh.Size = new System.Drawing.Size(29, 27);
-            this.Wholesaleskurefresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Wholesaleskurefresh.TabIndex = 34;
-            this.Wholesaleskurefresh.TabStop = false;
-            this.Wholesaleskurefresh.Zoom = 28;
-            this.Wholesaleskurefresh.Click += new System.EventHandler(this.WholesaleRefresh_Click);
-            // 
-            // SkuTextBox
-            // 
-            this.SkuTextBox.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.SkuTextBox, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.SkuTextBox, BunifuAnimatorNS.DecorationType.None);
-            this.SkuTextBox.Location = new System.Drawing.Point(157, 74);
-            this.SkuTextBox.Multiline = true;
-            this.SkuTextBox.Name = "SkuTextBox";
-            this.SkuTextBox.Size = new System.Drawing.Size(173, 27);
-            this.SkuTextBox.TabIndex = 33;
-            this.SkuTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.SkuTextBox_KeyPress);
-            // 
-            // SKU
-            // 
-            this.SKU.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.SKU, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.SKU, BunifuAnimatorNS.DecorationType.None);
-            this.SKU.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SKU.Location = new System.Drawing.Point(11, 74);
-            this.SKU.Name = "SKU";
-            this.SKU.Size = new System.Drawing.Size(41, 21);
-            this.SKU.TabIndex = 32;
-            this.SKU.Text = "SKU";
-            // 
-            // WProductName
-            // 
-            this.WProductName.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.WProductName, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.WProductName, BunifuAnimatorNS.DecorationType.None);
-            this.WProductName.Location = new System.Drawing.Point(158, 115);
-            this.WProductName.Multiline = true;
-            this.WProductName.Name = "WProductName";
-            this.WProductName.Size = new System.Drawing.Size(173, 27);
-            this.WProductName.TabIndex = 31;
-            // 
-            // WtotalLabel
-            // 
-            this.WtotalLabel.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.WtotalLabel, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.WtotalLabel, BunifuAnimatorNS.DecorationType.None);
-            this.WtotalLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WtotalLabel.Location = new System.Drawing.Point(163, 227);
-            this.WtotalLabel.Name = "WtotalLabel";
-            this.WtotalLabel.Size = new System.Drawing.Size(41, 21);
-            this.WtotalLabel.TabIndex = 30;
-            this.WtotalLabel.Text = "0.00";
-            // 
-            // bunifuThinButton29
-            // 
-            this.bunifuThinButton29.ActiveBorderThickness = 3;
-            this.bunifuThinButton29.ActiveCornerRadius = 20;
-            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton29.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
-            this.bunifuThinButton29.ButtonText = "Delete";
-            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.bunifuThinButton29, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.bunifuThinButton29, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton29.IdleBorderThickness = 2;
-            this.bunifuThinButton29.IdleCornerRadius = 20;
-            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton29.Location = new System.Drawing.Point(221, 256);
-            this.bunifuThinButton29.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton29.Name = "bunifuThinButton29";
-            this.bunifuThinButton29.Size = new System.Drawing.Size(135, 54);
-            this.bunifuThinButton29.TabIndex = 5;
-            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton29.Click += new System.EventHandler(this.bunifuThinButton29_Click);
-            // 
-            // bunifuCustomLabel11
-            // 
-            this.bunifuCustomLabel11.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel11.Location = new System.Drawing.Point(12, 226);
-            this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
-            this.bunifuCustomLabel11.Size = new System.Drawing.Size(48, 21);
-            this.bunifuCustomLabel11.TabIndex = 29;
-            this.bunifuCustomLabel11.Text = "Total";
-            // 
-            // bunifuThinButton233
-            // 
-            this.bunifuThinButton233.ActiveBorderThickness = 3;
-            this.bunifuThinButton233.ActiveCornerRadius = 20;
-            this.bunifuThinButton233.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton233.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton233.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton233.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton233.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton233.BackgroundImage")));
-            this.bunifuThinButton233.ButtonText = "Add";
-            this.bunifuThinButton233.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.bunifuThinButton233, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.bunifuThinButton233, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton233.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton233.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton233.IdleBorderThickness = 2;
-            this.bunifuThinButton233.IdleCornerRadius = 20;
-            this.bunifuThinButton233.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton233.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton233.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton233.Location = new System.Drawing.Point(58, 256);
-            this.bunifuThinButton233.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton233.Name = "bunifuThinButton233";
-            this.bunifuThinButton233.Size = new System.Drawing.Size(135, 54);
-            this.bunifuThinButton233.TabIndex = 4;
-            this.bunifuThinButton233.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.bunifuThinButton233.Click += new System.EventHandler(this.bunifuThinButton233_Click);
-            // 
-            // Wquantity
-            // 
-            this.Wquantity.BorderColor = System.Drawing.Color.SeaGreen;
-            this.iconTransition1.SetDecoration(this.Wquantity, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.Wquantity, BunifuAnimatorNS.DecorationType.None);
-            this.Wquantity.Location = new System.Drawing.Point(159, 168);
-            this.Wquantity.Multiline = true;
-            this.Wquantity.Name = "Wquantity";
-            this.Wquantity.Size = new System.Drawing.Size(173, 27);
-            this.Wquantity.TabIndex = 27;
-            this.Wquantity.TextChanged += new System.EventHandler(this.Wquantity_TextChanged);
-            // 
-            // bunifuCustomLabel10
-            // 
-            this.bunifuCustomLabel10.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel10, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel10, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel10.Location = new System.Drawing.Point(12, 169);
-            this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
-            this.bunifuCustomLabel10.Size = new System.Drawing.Size(77, 21);
-            this.bunifuCustomLabel10.TabIndex = 26;
-            this.bunifuCustomLabel10.Text = "Quantity";
-            // 
-            // bunifuCustomLabel9
-            // 
-            this.bunifuCustomLabel9.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel9, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel9, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel9.Location = new System.Drawing.Point(12, 115);
-            this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
-            this.bunifuCustomLabel9.Size = new System.Drawing.Size(120, 21);
-            this.bunifuCustomLabel9.TabIndex = 24;
-            this.bunifuCustomLabel9.Text = "Product Name";
-            // 
-            // WID
-            // 
-            this.WID.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.WID, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.WID, BunifuAnimatorNS.DecorationType.None);
-            this.WID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WID.Location = new System.Drawing.Point(156, 31);
-            this.WID.Name = "WID";
-            this.WID.Size = new System.Drawing.Size(16, 16);
-            this.WID.TabIndex = 23;
-            this.WID.Text = "0";
-            // 
-            // bunifuCustomLabel8
-            // 
-            this.bunifuCustomLabel8.AutoSize = true;
-            this.iconTransition1.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
-            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel8.Location = new System.Drawing.Point(12, 26);
-            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
-            this.bunifuCustomLabel8.Size = new System.Drawing.Size(111, 21);
-            this.bunifuCustomLabel8.TabIndex = 21;
-            this.bunifuCustomLabel8.Text = "Wholesale ID";
-            // 
             // RproductAdd
             // 
-            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.RproductAdd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle47;
+            dataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RproductAdd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle57;
             this.RproductAdd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RproductAdd.BackgroundColor = System.Drawing.Color.Gray;
             this.RproductAdd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RproductAdd.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RproductAdd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle48;
+            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RproductAdd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
             this.RproductAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.RproductAdd, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.RproductAdd, BunifuAnimatorNS.DecorationType.None);
@@ -2819,20 +1533,20 @@
             // 
             // RproductList
             // 
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.RproductList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RproductList.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle59;
             this.RproductList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.RproductList.BackgroundColor = System.Drawing.Color.Gray;
             this.RproductList.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RproductList.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.RproductList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.RproductList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle60;
             this.RproductList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.RproductList, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.RproductList, BunifuAnimatorNS.DecorationType.None);
@@ -3273,19 +1987,19 @@
             // 
             // plextracostsgrid
             // 
-            dataGridViewCellStyle57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.plextracostsgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle57;
+            dataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.plextracostsgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle67;
             this.plextracostsgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.plextracostsgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.plextracostsgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle58.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle58.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle58.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle58.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle58.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.plextracostsgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle58;
+            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle68.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.plextracostsgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle68;
             this.plextracostsgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.plextracostsgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.plextracostsgrid, BunifuAnimatorNS.DecorationType.None);
@@ -3320,19 +2034,19 @@
             // 
             // plwholesalebillsgrid
             // 
-            dataGridViewCellStyle59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.plwholesalebillsgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle59;
+            dataGridViewCellStyle69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.plwholesalebillsgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle69;
             this.plwholesalebillsgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.plwholesalebillsgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.plwholesalebillsgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle60.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle60.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle60.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle60.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle60.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.plwholesalebillsgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle60;
+            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle70.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.plwholesalebillsgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle70;
             this.plwholesalebillsgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.plwholesalebillsgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.plwholesalebillsgrid, BunifuAnimatorNS.DecorationType.None);
@@ -3391,19 +2105,19 @@
             // 
             this.plretailsbillsgrid.AllowUserToAddRows = false;
             this.plretailsbillsgrid.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.plretailsbillsgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle61;
+            dataGridViewCellStyle71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.plretailsbillsgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle71;
             this.plretailsbillsgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.plretailsbillsgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.plretailsbillsgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.plretailsbillsgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle62;
+            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle72.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.plretailsbillsgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle72;
             this.plretailsbillsgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.plretailsbillsgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.plretailsbillsgrid, BunifuAnimatorNS.DecorationType.None);
@@ -3876,19 +2590,19 @@
             // 
             this.productsgridview.AllowUserToAddRows = false;
             this.productsgridview.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.productsgridview.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.productsgridview.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle61;
             this.productsgridview.BackgroundColor = System.Drawing.Color.Gray;
             this.productsgridview.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.productsgridview.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle52.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.productsgridview.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
+            dataGridViewCellStyle62.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle62.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle62.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle62.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle62.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle62.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.productsgridview.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle62;
             this.productsgridview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.productsgridview.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconTransition1.SetDecoration(this.productsgridview, BunifuAnimatorNS.DecorationType.None);
@@ -4136,19 +2850,19 @@
             // 
             this.bunifuCustomDataGrid2.AllowUserToAddRows = false;
             this.bunifuCustomDataGrid2.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle53;
+            dataGridViewCellStyle63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle63;
             this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.Gray;
             this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle54;
+            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle64;
             this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.bunifuCustomDataGrid2, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomDataGrid2, BunifuAnimatorNS.DecorationType.None);
@@ -4203,19 +2917,19 @@
             // 
             this.bunifuCustomDataGrid1.AllowUserToAddRows = false;
             this.bunifuCustomDataGrid1.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle55;
+            dataGridViewCellStyle65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle65;
             this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gray;
             this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle56;
+            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle66.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle66.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle66.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle66;
             this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.bunifuCustomDataGrid1, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomDataGrid1, BunifuAnimatorNS.DecorationType.None);
@@ -4669,9 +3383,1074 @@
             this.RetailPopulerProductsChart.TabIndex = 1;
             this.RetailPopulerProductsChart.Text = "chart2";
             // 
+            // billwholesalepanel
+            // 
+            this.billwholesalepanel.BackColor = System.Drawing.Color.Transparent;
+            this.billwholesalepanel.Controls.Add(this.agentlistpanel);
+            this.billwholesalepanel.Controls.Add(this.WholesaleAdd);
+            this.billwholesalepanel.Controls.Add(this.bunifuCustomLabel13);
+            this.billwholesalepanel.Controls.Add(this.Wsearch);
+            this.billwholesalepanel.Controls.Add(this.wholesaleinstockgrid);
+            this.billwholesalepanel.Controls.Add(this.wholesalecustomerinfocards);
+            this.billwholesalepanel.Controls.Add(this.wholesalebillinfocards);
+            this.sidebarTransition2.SetDecoration(this.billwholesalepanel, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.billwholesalepanel, BunifuAnimatorNS.DecorationType.None);
+            this.billwholesalepanel.Location = new System.Drawing.Point(0, 0);
+            this.billwholesalepanel.Name = "billwholesalepanel";
+            this.billwholesalepanel.Size = new System.Drawing.Size(838, 695);
+            this.billwholesalepanel.TabIndex = 4;
+            // 
+            // WholesaleAdd
+            // 
+            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.WholesaleAdd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle53;
+            this.WholesaleAdd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.WholesaleAdd.BackgroundColor = System.Drawing.Color.Gray;
+            this.WholesaleAdd.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.WholesaleAdd.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.WholesaleAdd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle54;
+            this.WholesaleAdd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.iconTransition1.SetDecoration(this.WholesaleAdd, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.WholesaleAdd, BunifuAnimatorNS.DecorationType.None);
+            this.WholesaleAdd.DoubleBuffered = true;
+            this.WholesaleAdd.EnableHeadersVisualStyles = false;
+            this.WholesaleAdd.GridColor = System.Drawing.Color.Black;
+            this.WholesaleAdd.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.WholesaleAdd.HeaderForeColor = System.Drawing.Color.White;
+            this.WholesaleAdd.Location = new System.Drawing.Point(12, 76);
+            this.WholesaleAdd.Name = "WholesaleAdd";
+            this.WholesaleAdd.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.WholesaleAdd.RowHeadersVisible = false;
+            this.WholesaleAdd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.WholesaleAdd.Size = new System.Drawing.Size(424, 232);
+            this.WholesaleAdd.TabIndex = 37;
+            this.WholesaleAdd.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.WholesaleAdd_CellClick);
+            // 
+            // bunifuCustomLabel13
+            // 
+            this.bunifuCustomLabel13.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel13, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel13, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel13.Location = new System.Drawing.Point(588, 45);
+            this.bunifuCustomLabel13.Name = "bunifuCustomLabel13";
+            this.bunifuCustomLabel13.Size = new System.Drawing.Size(61, 21);
+            this.bunifuCustomLabel13.TabIndex = 36;
+            this.bunifuCustomLabel13.Text = "Search";
+            // 
+            // Wsearch
+            // 
+            this.Wsearch.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.Wsearch, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.Wsearch, BunifuAnimatorNS.DecorationType.None);
+            this.Wsearch.Location = new System.Drawing.Point(659, 43);
+            this.Wsearch.Multiline = true;
+            this.Wsearch.Name = "Wsearch";
+            this.Wsearch.Size = new System.Drawing.Size(173, 27);
+            this.Wsearch.TabIndex = 32;
+            this.Wsearch.TextChanged += new System.EventHandler(this.Wsearch_TextChanged);
+            // 
+            // wholesaleinstockgrid
+            // 
+            dataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.wholesaleinstockgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle55;
+            this.wholesaleinstockgrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.wholesaleinstockgrid.BackgroundColor = System.Drawing.Color.Gray;
+            this.wholesaleinstockgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.wholesaleinstockgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle56.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle56.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle56.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle56.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.wholesaleinstockgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle56;
+            this.wholesaleinstockgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.iconTransition1.SetDecoration(this.wholesaleinstockgrid, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.wholesaleinstockgrid, BunifuAnimatorNS.DecorationType.None);
+            this.wholesaleinstockgrid.DoubleBuffered = true;
+            this.wholesaleinstockgrid.EnableHeadersVisualStyles = false;
+            this.wholesaleinstockgrid.GridColor = System.Drawing.Color.Black;
+            this.wholesaleinstockgrid.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.wholesaleinstockgrid.HeaderForeColor = System.Drawing.Color.White;
+            this.wholesaleinstockgrid.Location = new System.Drawing.Point(456, 76);
+            this.wholesaleinstockgrid.Name = "wholesaleinstockgrid";
+            this.wholesaleinstockgrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.wholesaleinstockgrid.RowHeadersVisible = false;
+            this.wholesaleinstockgrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.wholesaleinstockgrid.Size = new System.Drawing.Size(379, 232);
+            this.wholesaleinstockgrid.TabIndex = 4;
+            this.wholesaleinstockgrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wholesaleinstockgrid_CellContentClick);
+            // 
+            // wholesalecustomerinfocards
+            // 
+            this.wholesalecustomerinfocards.BackColor = System.Drawing.Color.White;
+            this.wholesalecustomerinfocards.BorderRadius = 5;
+            this.wholesalecustomerinfocards.BottomSahddow = true;
+            this.wholesalecustomerinfocards.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.wholesalecustomerinfocards.Controls.Add(this.WcustomerDD);
+            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel7);
+            this.wholesalecustomerinfocards.Controls.Add(this.Wpaid);
+            this.wholesalecustomerinfocards.Controls.Add(this.Wdue);
+            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel16);
+            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel14);
+            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel6);
+            this.wholesalecustomerinfocards.Controls.Add(this.Wdiscount);
+            this.wholesalecustomerinfocards.Controls.Add(this.bunifuThinButton234);
+            this.wholesalecustomerinfocards.Controls.Add(this.bunifuCustomLabel5);
+            this.wholesalecustomerinfocards.Controls.Add(this.Wtotal);
+            this.sidebarTransition2.SetDecoration(this.wholesalecustomerinfocards, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.wholesalecustomerinfocards, BunifuAnimatorNS.DecorationType.None);
+            this.wholesalecustomerinfocards.LeftSahddow = false;
+            this.wholesalecustomerinfocards.Location = new System.Drawing.Point(464, 349);
+            this.wholesalecustomerinfocards.Name = "wholesalecustomerinfocards";
+            this.wholesalecustomerinfocards.RightSahddow = true;
+            this.wholesalecustomerinfocards.ShadowDepth = 20;
+            this.wholesalecustomerinfocards.Size = new System.Drawing.Size(371, 324);
+            this.wholesalecustomerinfocards.TabIndex = 3;
+            // 
+            // WcustomerDD
+            // 
+            this.sidebarTransition2.SetDecoration(this.WcustomerDD, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.WcustomerDD, BunifuAnimatorNS.DecorationType.None);
+            this.WcustomerDD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WcustomerDD.FormattingEnabled = true;
+            this.WcustomerDD.Location = new System.Drawing.Point(177, 179);
+            this.WcustomerDD.Name = "WcustomerDD";
+            this.WcustomerDD.Size = new System.Drawing.Size(173, 28);
+            this.WcustomerDD.TabIndex = 42;
+            // 
+            // bunifuCustomLabel7
+            // 
+            this.bunifuCustomLabel7.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel7, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(27, 184);
+            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(83, 21);
+            this.bunifuCustomLabel7.TabIndex = 41;
+            this.bunifuCustomLabel7.Text = "Customer";
+            // 
+            // Wpaid
+            // 
+            this.Wpaid.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.Wpaid, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.Wpaid, BunifuAnimatorNS.DecorationType.None);
+            this.Wpaid.Location = new System.Drawing.Point(177, 104);
+            this.Wpaid.Multiline = true;
+            this.Wpaid.Name = "Wpaid";
+            this.Wpaid.Size = new System.Drawing.Size(173, 27);
+            this.Wpaid.TabIndex = 39;
+            this.Wpaid.TextChanged += new System.EventHandler(this.Wpaid_TextChanged);
+            // 
+            // Wdue
+            // 
+            this.Wdue.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.Wdue, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.Wdue, BunifuAnimatorNS.DecorationType.None);
+            this.Wdue.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Wdue.Location = new System.Drawing.Point(177, 142);
+            this.Wdue.Name = "Wdue";
+            this.Wdue.Size = new System.Drawing.Size(41, 21);
+            this.Wdue.TabIndex = 38;
+            this.Wdue.Text = "0.00";
+            // 
+            // bunifuCustomLabel16
+            // 
+            this.bunifuCustomLabel16.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel16, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel16, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel16.Location = new System.Drawing.Point(26, 139);
+            this.bunifuCustomLabel16.Name = "bunifuCustomLabel16";
+            this.bunifuCustomLabel16.Size = new System.Drawing.Size(41, 21);
+            this.bunifuCustomLabel16.TabIndex = 37;
+            this.bunifuCustomLabel16.Text = "Due";
+            // 
+            // bunifuCustomLabel14
+            // 
+            this.bunifuCustomLabel14.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel14, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel14, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel14.Location = new System.Drawing.Point(26, 101);
+            this.bunifuCustomLabel14.Name = "bunifuCustomLabel14";
+            this.bunifuCustomLabel14.Size = new System.Drawing.Size(44, 21);
+            this.bunifuCustomLabel14.TabIndex = 35;
+            this.bunifuCustomLabel14.Text = "Paid";
+            // 
+            // bunifuCustomLabel6
+            // 
+            this.bunifuCustomLabel6.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel6, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(26, 25);
+            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(78, 21);
+            this.bunifuCustomLabel6.TabIndex = 34;
+            this.bunifuCustomLabel6.Text = "Discount";
+            // 
+            // Wdiscount
+            // 
+            this.Wdiscount.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.Wdiscount, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.Wdiscount, BunifuAnimatorNS.DecorationType.None);
+            this.Wdiscount.Location = new System.Drawing.Point(177, 22);
+            this.Wdiscount.Multiline = true;
+            this.Wdiscount.Name = "Wdiscount";
+            this.Wdiscount.Size = new System.Drawing.Size(173, 27);
+            this.Wdiscount.TabIndex = 33;
+            this.Wdiscount.TextChanged += new System.EventHandler(this.Wdiscount_TextChanged);
+            // 
+            // bunifuThinButton234
+            // 
+            this.bunifuThinButton234.ActiveBorderThickness = 3;
+            this.bunifuThinButton234.ActiveCornerRadius = 20;
+            this.bunifuThinButton234.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton234.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton234.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton234.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton234.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton234.BackgroundImage")));
+            this.bunifuThinButton234.ButtonText = "Purchase";
+            this.bunifuThinButton234.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.bunifuThinButton234, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.bunifuThinButton234, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton234.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton234.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton234.IdleBorderThickness = 2;
+            this.bunifuThinButton234.IdleCornerRadius = 20;
+            this.bunifuThinButton234.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton234.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton234.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton234.Location = new System.Drawing.Point(226, 261);
+            this.bunifuThinButton234.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton234.Name = "bunifuThinButton234";
+            this.bunifuThinButton234.Size = new System.Drawing.Size(135, 54);
+            this.bunifuThinButton234.TabIndex = 32;
+            this.bunifuThinButton234.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton234.Click += new System.EventHandler(this.bunifuThinButton234_Click);
+            // 
+            // bunifuCustomLabel5
+            // 
+            this.bunifuCustomLabel5.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel5, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel5.Location = new System.Drawing.Point(26, 63);
+            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(77, 21);
+            this.bunifuCustomLabel5.TabIndex = 31;
+            this.bunifuCustomLabel5.Text = "Total Bill";
+            // 
+            // Wtotal
+            // 
+            this.Wtotal.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.Wtotal, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.Wtotal, BunifuAnimatorNS.DecorationType.None);
+            this.Wtotal.Location = new System.Drawing.Point(177, 64);
+            this.Wtotal.Multiline = true;
+            this.Wtotal.Name = "Wtotal";
+            this.Wtotal.Size = new System.Drawing.Size(173, 27);
+            this.Wtotal.TabIndex = 30;
+            // 
+            // wholesalebillinfocards
+            // 
+            this.wholesalebillinfocards.BackColor = System.Drawing.Color.White;
+            this.wholesalebillinfocards.BorderRadius = 5;
+            this.wholesalebillinfocards.BottomSahddow = true;
+            this.wholesalebillinfocards.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.wholesalebillinfocards.Controls.Add(this.Wholesaleskurefresh);
+            this.wholesalebillinfocards.Controls.Add(this.SkuTextBox);
+            this.wholesalebillinfocards.Controls.Add(this.SKU);
+            this.wholesalebillinfocards.Controls.Add(this.WProductName);
+            this.wholesalebillinfocards.Controls.Add(this.WtotalLabel);
+            this.wholesalebillinfocards.Controls.Add(this.bunifuThinButton29);
+            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel11);
+            this.wholesalebillinfocards.Controls.Add(this.bunifuThinButton233);
+            this.wholesalebillinfocards.Controls.Add(this.Wquantity);
+            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel10);
+            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel9);
+            this.wholesalebillinfocards.Controls.Add(this.WID);
+            this.wholesalebillinfocards.Controls.Add(this.bunifuCustomLabel8);
+            this.sidebarTransition2.SetDecoration(this.wholesalebillinfocards, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.wholesalebillinfocards, BunifuAnimatorNS.DecorationType.None);
+            this.wholesalebillinfocards.LeftSahddow = false;
+            this.wholesalebillinfocards.Location = new System.Drawing.Point(3, 347);
+            this.wholesalebillinfocards.Name = "wholesalebillinfocards";
+            this.wholesalebillinfocards.RightSahddow = true;
+            this.wholesalebillinfocards.ShadowDepth = 20;
+            this.wholesalebillinfocards.Size = new System.Drawing.Size(415, 329);
+            this.wholesalebillinfocards.TabIndex = 2;
+            this.wholesalebillinfocards.Paint += new System.Windows.Forms.PaintEventHandler(this.wholesalebillinfocards_Paint);
+            // 
+            // Wholesaleskurefresh
+            // 
+            this.Wholesaleskurefresh.BackColor = System.Drawing.Color.White;
+            this.sidebarTransition2.SetDecoration(this.Wholesaleskurefresh, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.Wholesaleskurefresh, BunifuAnimatorNS.DecorationType.None);
+            this.Wholesaleskurefresh.Image = global::Pharmacy.Properties.Resources.refresh;
+            this.Wholesaleskurefresh.ImageActive = global::Pharmacy.Properties.Resources.refresh;
+            this.Wholesaleskurefresh.Location = new System.Drawing.Point(348, 74);
+            this.Wholesaleskurefresh.Name = "Wholesaleskurefresh";
+            this.Wholesaleskurefresh.Size = new System.Drawing.Size(29, 27);
+            this.Wholesaleskurefresh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Wholesaleskurefresh.TabIndex = 34;
+            this.Wholesaleskurefresh.TabStop = false;
+            this.Wholesaleskurefresh.Zoom = 28;
+            this.Wholesaleskurefresh.Click += new System.EventHandler(this.WholesaleRefresh_Click);
+            // 
+            // SkuTextBox
+            // 
+            this.SkuTextBox.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.SkuTextBox, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.SkuTextBox, BunifuAnimatorNS.DecorationType.None);
+            this.SkuTextBox.Location = new System.Drawing.Point(157, 74);
+            this.SkuTextBox.Multiline = true;
+            this.SkuTextBox.Name = "SkuTextBox";
+            this.SkuTextBox.Size = new System.Drawing.Size(173, 27);
+            this.SkuTextBox.TabIndex = 33;
+            this.SkuTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.SkuTextBox_KeyPress);
+            // 
+            // SKU
+            // 
+            this.SKU.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.SKU, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.SKU, BunifuAnimatorNS.DecorationType.None);
+            this.SKU.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SKU.Location = new System.Drawing.Point(11, 74);
+            this.SKU.Name = "SKU";
+            this.SKU.Size = new System.Drawing.Size(41, 21);
+            this.SKU.TabIndex = 32;
+            this.SKU.Text = "SKU";
+            // 
+            // WProductName
+            // 
+            this.WProductName.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.WProductName, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.WProductName, BunifuAnimatorNS.DecorationType.None);
+            this.WProductName.Location = new System.Drawing.Point(158, 115);
+            this.WProductName.Multiline = true;
+            this.WProductName.Name = "WProductName";
+            this.WProductName.Size = new System.Drawing.Size(173, 27);
+            this.WProductName.TabIndex = 31;
+            // 
+            // WtotalLabel
+            // 
+            this.WtotalLabel.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.WtotalLabel, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.WtotalLabel, BunifuAnimatorNS.DecorationType.None);
+            this.WtotalLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WtotalLabel.Location = new System.Drawing.Point(163, 227);
+            this.WtotalLabel.Name = "WtotalLabel";
+            this.WtotalLabel.Size = new System.Drawing.Size(41, 21);
+            this.WtotalLabel.TabIndex = 30;
+            this.WtotalLabel.Text = "0.00";
+            // 
+            // bunifuThinButton29
+            // 
+            this.bunifuThinButton29.ActiveBorderThickness = 3;
+            this.bunifuThinButton29.ActiveCornerRadius = 20;
+            this.bunifuThinButton29.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton29.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton29.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton29.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton29.BackgroundImage")));
+            this.bunifuThinButton29.ButtonText = "Delete";
+            this.bunifuThinButton29.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.bunifuThinButton29, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.bunifuThinButton29, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton29.IdleBorderThickness = 2;
+            this.bunifuThinButton29.IdleCornerRadius = 20;
+            this.bunifuThinButton29.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton29.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton29.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton29.Location = new System.Drawing.Point(221, 256);
+            this.bunifuThinButton29.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton29.Name = "bunifuThinButton29";
+            this.bunifuThinButton29.Size = new System.Drawing.Size(135, 54);
+            this.bunifuThinButton29.TabIndex = 5;
+            this.bunifuThinButton29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton29.Click += new System.EventHandler(this.bunifuThinButton29_Click);
+            // 
+            // bunifuCustomLabel11
+            // 
+            this.bunifuCustomLabel11.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel11.Location = new System.Drawing.Point(12, 226);
+            this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
+            this.bunifuCustomLabel11.Size = new System.Drawing.Size(48, 21);
+            this.bunifuCustomLabel11.TabIndex = 29;
+            this.bunifuCustomLabel11.Text = "Total";
+            // 
+            // bunifuThinButton233
+            // 
+            this.bunifuThinButton233.ActiveBorderThickness = 3;
+            this.bunifuThinButton233.ActiveCornerRadius = 20;
+            this.bunifuThinButton233.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton233.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton233.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton233.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton233.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton233.BackgroundImage")));
+            this.bunifuThinButton233.ButtonText = "Add";
+            this.bunifuThinButton233.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.bunifuThinButton233, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.bunifuThinButton233, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton233.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton233.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton233.IdleBorderThickness = 2;
+            this.bunifuThinButton233.IdleCornerRadius = 20;
+            this.bunifuThinButton233.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton233.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton233.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton233.Location = new System.Drawing.Point(58, 256);
+            this.bunifuThinButton233.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton233.Name = "bunifuThinButton233";
+            this.bunifuThinButton233.Size = new System.Drawing.Size(135, 54);
+            this.bunifuThinButton233.TabIndex = 4;
+            this.bunifuThinButton233.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton233.Click += new System.EventHandler(this.bunifuThinButton233_Click);
+            // 
+            // Wquantity
+            // 
+            this.Wquantity.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.Wquantity, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.Wquantity, BunifuAnimatorNS.DecorationType.None);
+            this.Wquantity.Location = new System.Drawing.Point(159, 168);
+            this.Wquantity.Multiline = true;
+            this.Wquantity.Name = "Wquantity";
+            this.Wquantity.Size = new System.Drawing.Size(173, 27);
+            this.Wquantity.TabIndex = 27;
+            this.Wquantity.TextChanged += new System.EventHandler(this.Wquantity_TextChanged);
+            // 
+            // bunifuCustomLabel10
+            // 
+            this.bunifuCustomLabel10.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel10, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel10, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel10.Location = new System.Drawing.Point(12, 169);
+            this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
+            this.bunifuCustomLabel10.Size = new System.Drawing.Size(77, 21);
+            this.bunifuCustomLabel10.TabIndex = 26;
+            this.bunifuCustomLabel10.Text = "Quantity";
+            // 
+            // bunifuCustomLabel9
+            // 
+            this.bunifuCustomLabel9.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel9, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel9, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel9.Location = new System.Drawing.Point(12, 115);
+            this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
+            this.bunifuCustomLabel9.Size = new System.Drawing.Size(120, 21);
+            this.bunifuCustomLabel9.TabIndex = 24;
+            this.bunifuCustomLabel9.Text = "Product Name";
+            // 
+            // WID
+            // 
+            this.WID.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.WID, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.WID, BunifuAnimatorNS.DecorationType.None);
+            this.WID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WID.Location = new System.Drawing.Point(156, 31);
+            this.WID.Name = "WID";
+            this.WID.Size = new System.Drawing.Size(16, 16);
+            this.WID.TabIndex = 23;
+            this.WID.Text = "0";
+            // 
+            // bunifuCustomLabel8
+            // 
+            this.bunifuCustomLabel8.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel8, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(12, 26);
+            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(111, 21);
+            this.bunifuCustomLabel8.TabIndex = 21;
+            this.bunifuCustomLabel8.Text = "Wholesale ID";
+            // 
+            // agentlistpanel
+            // 
+            this.agentlistpanel.BackColor = System.Drawing.Color.Transparent;
+            this.agentlistpanel.Controls.Add(this.debtorpanel);
+            this.agentlistpanel.Controls.Add(this.SearchAgent);
+            this.agentlistpanel.Controls.Add(this.bunifuCustomLabel15);
+            this.agentlistpanel.Controls.Add(this.AgentListDataGridView);
+            this.agentlistpanel.Controls.Add(this.agentRefreshButton);
+            this.agentlistpanel.Controls.Add(this.AgentDeleteButton);
+            this.agentlistpanel.Controls.Add(this.agentUpdateButton);
+            this.agentlistpanel.Controls.Add(this.agentAddButton);
+            this.sidebarTransition2.SetDecoration(this.agentlistpanel, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.agentlistpanel, BunifuAnimatorNS.DecorationType.None);
+            this.agentlistpanel.Location = new System.Drawing.Point(1, 1);
+            this.agentlistpanel.Name = "agentlistpanel";
+            this.agentlistpanel.Size = new System.Drawing.Size(839, 694);
+            this.agentlistpanel.TabIndex = 4;
+            // 
+            // SearchAgent
+            // 
+            this.SearchAgent.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.SearchAgent, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.SearchAgent, BunifuAnimatorNS.DecorationType.None);
+            this.SearchAgent.Location = new System.Drawing.Point(656, 28);
+            this.SearchAgent.Multiline = true;
+            this.SearchAgent.Name = "SearchAgent";
+            this.SearchAgent.Size = new System.Drawing.Size(171, 30);
+            this.SearchAgent.TabIndex = 22;
+            this.SearchAgent.TextChanged += new System.EventHandler(this.SearchAgent_TextChanged);
+            // 
+            // bunifuCustomLabel15
+            // 
+            this.bunifuCustomLabel15.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel15, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel15, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel15.Location = new System.Drawing.Point(595, 34);
+            this.bunifuCustomLabel15.Name = "bunifuCustomLabel15";
+            this.bunifuCustomLabel15.Size = new System.Drawing.Size(48, 17);
+            this.bunifuCustomLabel15.TabIndex = 21;
+            this.bunifuCustomLabel15.Text = "Search";
+            // 
+            // AgentListDataGridView
+            // 
+            this.AgentListDataGridView.AllowUserToAddRows = false;
+            this.AgentListDataGridView.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.AgentListDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle51;
+            this.AgentListDataGridView.BackgroundColor = System.Drawing.Color.Gray;
+            this.AgentListDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.AgentListDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle52.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle52.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle52.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.AgentListDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle52;
+            this.AgentListDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.iconTransition1.SetDecoration(this.AgentListDataGridView, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.AgentListDataGridView, BunifuAnimatorNS.DecorationType.None);
+            this.AgentListDataGridView.DoubleBuffered = true;
+            this.AgentListDataGridView.EnableHeadersVisualStyles = false;
+            this.AgentListDataGridView.GridColor = System.Drawing.Color.Black;
+            this.AgentListDataGridView.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.AgentListDataGridView.HeaderForeColor = System.Drawing.Color.White;
+            this.AgentListDataGridView.Location = new System.Drawing.Point(7, 65);
+            this.AgentListDataGridView.Name = "AgentListDataGridView";
+            this.AgentListDataGridView.ReadOnly = true;
+            this.AgentListDataGridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.AgentListDataGridView.RowHeadersVisible = false;
+            this.AgentListDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.AgentListDataGridView.Size = new System.Drawing.Size(820, 442);
+            this.AgentListDataGridView.TabIndex = 6;
+            this.AgentListDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.AgentListDataGridView_CellClick);
+            // 
+            // agentRefreshButton
+            // 
+            this.agentRefreshButton.ActiveBorderThickness = 3;
+            this.agentRefreshButton.ActiveCornerRadius = 20;
+            this.agentRefreshButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentRefreshButton.ActiveForecolor = System.Drawing.Color.White;
+            this.agentRefreshButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentRefreshButton.BackColor = System.Drawing.Color.Transparent;
+            this.agentRefreshButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("agentRefreshButton.BackgroundImage")));
+            this.agentRefreshButton.ButtonText = "Refresh";
+            this.agentRefreshButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.agentRefreshButton, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.agentRefreshButton, BunifuAnimatorNS.DecorationType.None);
+            this.agentRefreshButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agentRefreshButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.agentRefreshButton.IdleBorderThickness = 2;
+            this.agentRefreshButton.IdleCornerRadius = 20;
+            this.agentRefreshButton.IdleFillColor = System.Drawing.Color.White;
+            this.agentRefreshButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.agentRefreshButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentRefreshButton.Location = new System.Drawing.Point(450, 587);
+            this.agentRefreshButton.Margin = new System.Windows.Forms.Padding(5);
+            this.agentRefreshButton.Name = "agentRefreshButton";
+            this.agentRefreshButton.Size = new System.Drawing.Size(135, 54);
+            this.agentRefreshButton.TabIndex = 5;
+            this.agentRefreshButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.agentRefreshButton.Click += new System.EventHandler(this.agentRefreshButtonClick);
+            // 
+            // AgentDeleteButton
+            // 
+            this.AgentDeleteButton.ActiveBorderThickness = 3;
+            this.AgentDeleteButton.ActiveCornerRadius = 20;
+            this.AgentDeleteButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.AgentDeleteButton.ActiveForecolor = System.Drawing.Color.White;
+            this.AgentDeleteButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.AgentDeleteButton.BackColor = System.Drawing.Color.Transparent;
+            this.AgentDeleteButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AgentDeleteButton.BackgroundImage")));
+            this.AgentDeleteButton.ButtonText = "Delete";
+            this.AgentDeleteButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.AgentDeleteButton, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.AgentDeleteButton, BunifuAnimatorNS.DecorationType.None);
+            this.AgentDeleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AgentDeleteButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.AgentDeleteButton.IdleBorderThickness = 2;
+            this.AgentDeleteButton.IdleCornerRadius = 20;
+            this.AgentDeleteButton.IdleFillColor = System.Drawing.Color.White;
+            this.AgentDeleteButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.AgentDeleteButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.AgentDeleteButton.Location = new System.Drawing.Point(557, 512);
+            this.AgentDeleteButton.Margin = new System.Windows.Forms.Padding(5);
+            this.AgentDeleteButton.Name = "AgentDeleteButton";
+            this.AgentDeleteButton.Size = new System.Drawing.Size(135, 54);
+            this.AgentDeleteButton.TabIndex = 3;
+            this.AgentDeleteButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AgentDeleteButton.Click += new System.EventHandler(this.agentDeleteButtonClick);
+            // 
+            // agentUpdateButton
+            // 
+            this.agentUpdateButton.ActiveBorderThickness = 3;
+            this.agentUpdateButton.ActiveCornerRadius = 20;
+            this.agentUpdateButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentUpdateButton.ActiveForecolor = System.Drawing.Color.White;
+            this.agentUpdateButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentUpdateButton.BackColor = System.Drawing.Color.Transparent;
+            this.agentUpdateButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("agentUpdateButton.BackgroundImage")));
+            this.agentUpdateButton.ButtonText = "Update";
+            this.agentUpdateButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.agentUpdateButton, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.agentUpdateButton, BunifuAnimatorNS.DecorationType.None);
+            this.agentUpdateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agentUpdateButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.agentUpdateButton.IdleBorderThickness = 2;
+            this.agentUpdateButton.IdleCornerRadius = 20;
+            this.agentUpdateButton.IdleFillColor = System.Drawing.Color.White;
+            this.agentUpdateButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.agentUpdateButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentUpdateButton.Location = new System.Drawing.Point(348, 510);
+            this.agentUpdateButton.Margin = new System.Windows.Forms.Padding(5);
+            this.agentUpdateButton.Name = "agentUpdateButton";
+            this.agentUpdateButton.Size = new System.Drawing.Size(135, 54);
+            this.agentUpdateButton.TabIndex = 2;
+            this.agentUpdateButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.agentUpdateButton.Click += new System.EventHandler(this.agentUpdateButtonClick);
+            // 
+            // agentAddButton
+            // 
+            this.agentAddButton.ActiveBorderThickness = 3;
+            this.agentAddButton.ActiveCornerRadius = 20;
+            this.agentAddButton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentAddButton.ActiveForecolor = System.Drawing.Color.White;
+            this.agentAddButton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentAddButton.BackColor = System.Drawing.Color.Transparent;
+            this.agentAddButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("agentAddButton.BackgroundImage")));
+            this.agentAddButton.ButtonText = "Add";
+            this.agentAddButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.agentAddButton, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.agentAddButton, BunifuAnimatorNS.DecorationType.None);
+            this.agentAddButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agentAddButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.agentAddButton.IdleBorderThickness = 2;
+            this.agentAddButton.IdleCornerRadius = 20;
+            this.agentAddButton.IdleFillColor = System.Drawing.Color.White;
+            this.agentAddButton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.agentAddButton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.agentAddButton.Location = new System.Drawing.Point(152, 512);
+            this.agentAddButton.Margin = new System.Windows.Forms.Padding(5);
+            this.agentAddButton.Name = "agentAddButton";
+            this.agentAddButton.Size = new System.Drawing.Size(135, 54);
+            this.agentAddButton.TabIndex = 1;
+            this.agentAddButton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.agentAddButton.Click += new System.EventHandler(this.agentAddButtonClick);
+            // 
+            // debtorpanel
+            // 
+            this.debtorpanel.Controls.Add(this.creditorpanel);
+            this.debtorpanel.Controls.Add(this.DebtorSearch);
+            this.debtorpanel.Controls.Add(this.bunifuCustomLabel4);
+            this.debtorpanel.Controls.Add(this.bunifuCards3);
+            this.debtorpanel.Controls.Add(this.DebtorGrid);
+            this.sidebarTransition2.SetDecoration(this.debtorpanel, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.debtorpanel, BunifuAnimatorNS.DecorationType.None);
+            this.debtorpanel.Location = new System.Drawing.Point(-1, -1);
+            this.debtorpanel.Name = "debtorpanel";
+            this.debtorpanel.Size = new System.Drawing.Size(838, 695);
+            this.debtorpanel.TabIndex = 6;
+            // 
+            // DebtorSearch
+            // 
+            this.DebtorSearch.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.DebtorSearch, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.DebtorSearch, BunifuAnimatorNS.DecorationType.None);
+            this.DebtorSearch.Location = new System.Drawing.Point(657, 28);
+            this.DebtorSearch.Multiline = true;
+            this.DebtorSearch.Name = "DebtorSearch";
+            this.DebtorSearch.Size = new System.Drawing.Size(171, 30);
+            this.DebtorSearch.TabIndex = 22;
+            this.DebtorSearch.TextChanged += new System.EventHandler(this.DebtorSearch_TextChanged);
+            // 
+            // bunifuCustomLabel4
+            // 
+            this.bunifuCustomLabel4.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel4, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(590, 34);
+            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(48, 17);
+            this.bunifuCustomLabel4.TabIndex = 21;
+            this.bunifuCustomLabel4.Text = "Search";
+            // 
+            // bunifuCards3
+            // 
+            this.bunifuCards3.BackColor = System.Drawing.Color.White;
+            this.bunifuCards3.BorderRadius = 5;
+            this.bunifuCards3.BottomSahddow = true;
+            this.bunifuCards3.color = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuCards3.Controls.Add(this.DebtorUpdate);
+            this.bunifuCards3.Controls.Add(this.DebtorID);
+            this.bunifuCards3.Controls.Add(this.DebtorDue);
+            this.bunifuCards3.Controls.Add(this.bunifuCustomLabel17);
+            this.bunifuCards3.Controls.Add(this.DebtorPaid);
+            this.bunifuCards3.Controls.Add(this.bunifuCustomLabel74);
+            this.bunifuCards3.Controls.Add(this.bunifuCustomLabel73);
+            this.sidebarTransition2.SetDecoration(this.bunifuCards3, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.bunifuCards3, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCards3.LeftSahddow = false;
+            this.bunifuCards3.Location = new System.Drawing.Point(0, 425);
+            this.bunifuCards3.Name = "bunifuCards3";
+            this.bunifuCards3.RightSahddow = true;
+            this.bunifuCards3.ShadowDepth = 20;
+            this.bunifuCards3.Size = new System.Drawing.Size(414, 269);
+            this.bunifuCards3.TabIndex = 1;
+            // 
+            // DebtorUpdate
+            // 
+            this.DebtorUpdate.ActiveBorderThickness = 3;
+            this.DebtorUpdate.ActiveCornerRadius = 20;
+            this.DebtorUpdate.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.DebtorUpdate.ActiveForecolor = System.Drawing.Color.White;
+            this.DebtorUpdate.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.DebtorUpdate.BackColor = System.Drawing.Color.White;
+            this.DebtorUpdate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DebtorUpdate.BackgroundImage")));
+            this.DebtorUpdate.ButtonText = "Update";
+            this.DebtorUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.DebtorUpdate, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.DebtorUpdate, BunifuAnimatorNS.DecorationType.None);
+            this.DebtorUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DebtorUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.DebtorUpdate.IdleBorderThickness = 2;
+            this.DebtorUpdate.IdleCornerRadius = 20;
+            this.DebtorUpdate.IdleFillColor = System.Drawing.Color.White;
+            this.DebtorUpdate.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.DebtorUpdate.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.DebtorUpdate.Location = new System.Drawing.Point(257, 197);
+            this.DebtorUpdate.Margin = new System.Windows.Forms.Padding(5);
+            this.DebtorUpdate.Name = "DebtorUpdate";
+            this.DebtorUpdate.Size = new System.Drawing.Size(135, 54);
+            this.DebtorUpdate.TabIndex = 18;
+            this.DebtorUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DebtorUpdate.Click += new System.EventHandler(this.DebtorUpdate_Click);
+            // 
+            // DebtorID
+            // 
+            this.DebtorID.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.DebtorID, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.DebtorID, BunifuAnimatorNS.DecorationType.None);
+            this.DebtorID.Location = new System.Drawing.Point(221, 61);
+            this.DebtorID.Multiline = true;
+            this.DebtorID.Name = "DebtorID";
+            this.DebtorID.Size = new System.Drawing.Size(171, 30);
+            this.DebtorID.TabIndex = 17;
+            // 
+            // DebtorDue
+            // 
+            this.DebtorDue.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.DebtorDue, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.DebtorDue, BunifuAnimatorNS.DecorationType.None);
+            this.DebtorDue.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DebtorDue.Location = new System.Drawing.Point(229, 109);
+            this.DebtorDue.Name = "DebtorDue";
+            this.DebtorDue.Size = new System.Drawing.Size(26, 17);
+            this.DebtorDue.TabIndex = 16;
+            this.DebtorDue.Text = "0.0";
+            // 
+            // bunifuCustomLabel17
+            // 
+            this.bunifuCustomLabel17.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel17, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel17, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel17.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel17.Location = new System.Drawing.Point(139, 160);
+            this.bunifuCustomLabel17.Name = "bunifuCustomLabel17";
+            this.bunifuCustomLabel17.Size = new System.Drawing.Size(30, 17);
+            this.bunifuCustomLabel17.TabIndex = 15;
+            this.bunifuCustomLabel17.Text = "Pay";
+            // 
+            // DebtorPaid
+            // 
+            this.DebtorPaid.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.DebtorPaid, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.DebtorPaid, BunifuAnimatorNS.DecorationType.None);
+            this.DebtorPaid.Location = new System.Drawing.Point(221, 150);
+            this.DebtorPaid.Multiline = true;
+            this.DebtorPaid.Name = "DebtorPaid";
+            this.DebtorPaid.Size = new System.Drawing.Size(171, 30);
+            this.DebtorPaid.TabIndex = 14;
+            this.DebtorPaid.TextChanged += new System.EventHandler(this.DebtorPaid_TextChanged);
+            // 
+            // bunifuCustomLabel74
+            // 
+            this.bunifuCustomLabel74.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel74, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel74, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel74.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel74.Location = new System.Drawing.Point(139, 113);
+            this.bunifuCustomLabel74.Name = "bunifuCustomLabel74";
+            this.bunifuCustomLabel74.Size = new System.Drawing.Size(33, 17);
+            this.bunifuCustomLabel74.TabIndex = 13;
+            this.bunifuCustomLabel74.Text = "Due";
+            // 
+            // bunifuCustomLabel73
+            // 
+            this.bunifuCustomLabel73.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel73, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel73, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel73.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel73.Location = new System.Drawing.Point(106, 68);
+            this.bunifuCustomLabel73.Name = "bunifuCustomLabel73";
+            this.bunifuCustomLabel73.Size = new System.Drawing.Size(69, 17);
+            this.bunifuCustomLabel73.TabIndex = 11;
+            this.bunifuCustomLabel73.Text = "Debtor ID";
+            // 
+            // DebtorGrid
+            // 
+            this.DebtorGrid.AllowUserToAddRows = false;
+            this.DebtorGrid.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.DebtorGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            this.DebtorGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DebtorGrid.BackgroundColor = System.Drawing.Color.Gray;
+            this.DebtorGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.DebtorGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DebtorGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            this.DebtorGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.iconTransition1.SetDecoration(this.DebtorGrid, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.DebtorGrid, BunifuAnimatorNS.DecorationType.None);
+            this.DebtorGrid.DoubleBuffered = true;
+            this.DebtorGrid.EnableHeadersVisualStyles = false;
+            this.DebtorGrid.GridColor = System.Drawing.Color.Black;
+            this.DebtorGrid.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.DebtorGrid.HeaderForeColor = System.Drawing.Color.White;
+            this.DebtorGrid.Location = new System.Drawing.Point(4, 64);
+            this.DebtorGrid.Name = "DebtorGrid";
+            this.DebtorGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.DebtorGrid.RowHeadersVisible = false;
+            this.DebtorGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.DebtorGrid.Size = new System.Drawing.Size(824, 351);
+            this.DebtorGrid.TabIndex = 0;
+            this.DebtorGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DebtorGrid_CellClick);
+            // 
+            // creditorpanel
+            // 
+            this.creditorpanel.Controls.Add(this.customerspanel);
+            this.creditorpanel.Controls.Add(this.CreditorSearch);
+            this.creditorpanel.Controls.Add(this.bunifuCustomLabel3);
+            this.creditorpanel.Controls.Add(this.bunifuCustomLabel49);
+            this.creditorpanel.Controls.Add(this.bunifuCustomLabel44);
+            this.creditorpanel.Controls.Add(this.bunifuThinButton214);
+            this.creditorpanel.Controls.Add(this.CreditorCashPaid);
+            this.creditorpanel.Controls.Add(this.bunifuCustomLabel78);
+            this.creditorpanel.Controls.Add(this.bunifuCustomDataGrid3);
+            this.creditorpanel.Controls.Add(this.bunifuCustomLabel76);
+            this.creditorpanel.Controls.Add(this.bunifuCustomLabel75);
+            this.sidebarTransition2.SetDecoration(this.creditorpanel, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.creditorpanel, BunifuAnimatorNS.DecorationType.None);
+            this.creditorpanel.Location = new System.Drawing.Point(0, 0);
+            this.creditorpanel.Name = "creditorpanel";
+            this.creditorpanel.Size = new System.Drawing.Size(837, 694);
+            this.creditorpanel.TabIndex = 9;
+            // 
+            // CreditorSearch
+            // 
+            this.CreditorSearch.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.CreditorSearch, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.CreditorSearch, BunifuAnimatorNS.DecorationType.None);
+            this.CreditorSearch.Location = new System.Drawing.Point(652, 48);
+            this.CreditorSearch.Multiline = true;
+            this.CreditorSearch.Name = "CreditorSearch";
+            this.CreditorSearch.Size = new System.Drawing.Size(171, 30);
+            this.CreditorSearch.TabIndex = 26;
+            this.CreditorSearch.TextChanged += new System.EventHandler(this.CreditorSearch_TextChanged);
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel3, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(587, 56);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(48, 17);
+            this.bunifuCustomLabel3.TabIndex = 25;
+            this.bunifuCustomLabel3.Text = "Search";
+            // 
+            // bunifuCustomLabel49
+            // 
+            this.bunifuCustomLabel49.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel49, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel49, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel49.Location = new System.Drawing.Point(390, 518);
+            this.bunifuCustomLabel49.Name = "bunifuCustomLabel49";
+            this.bunifuCustomLabel49.Size = new System.Drawing.Size(19, 20);
+            this.bunifuCustomLabel49.TabIndex = 24;
+            this.bunifuCustomLabel49.Text = "0";
+            // 
+            // bunifuCustomLabel44
+            // 
+            this.bunifuCustomLabel44.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel44, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel44, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel44.Location = new System.Drawing.Point(391, 476);
+            this.bunifuCustomLabel44.Name = "bunifuCustomLabel44";
+            this.bunifuCustomLabel44.Size = new System.Drawing.Size(19, 20);
+            this.bunifuCustomLabel44.TabIndex = 23;
+            this.bunifuCustomLabel44.Text = "0";
+            // 
+            // bunifuThinButton214
+            // 
+            this.bunifuThinButton214.ActiveBorderThickness = 3;
+            this.bunifuThinButton214.ActiveCornerRadius = 20;
+            this.bunifuThinButton214.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton214.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton214.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton214.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuThinButton214.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton214.BackgroundImage")));
+            this.bunifuThinButton214.ButtonText = "Paid";
+            this.bunifuThinButton214.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.bunifuThinButton214, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.bunifuThinButton214, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuThinButton214.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton214.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton214.IdleBorderThickness = 2;
+            this.bunifuThinButton214.IdleCornerRadius = 20;
+            this.bunifuThinButton214.IdleFillColor = System.Drawing.Color.White;
+            this.bunifuThinButton214.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuThinButton214.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuThinButton214.Location = new System.Drawing.Point(407, 630);
+            this.bunifuThinButton214.Margin = new System.Windows.Forms.Padding(5);
+            this.bunifuThinButton214.Name = "bunifuThinButton214";
+            this.bunifuThinButton214.Size = new System.Drawing.Size(130, 59);
+            this.bunifuThinButton214.TabIndex = 22;
+            this.bunifuThinButton214.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.bunifuThinButton214.Click += new System.EventHandler(this.CreditorPaidButton);
+            // 
+            // CreditorCashPaid
+            // 
+            this.CreditorCashPaid.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.CreditorCashPaid, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.CreditorCashPaid, BunifuAnimatorNS.DecorationType.None);
+            this.CreditorCashPaid.Location = new System.Drawing.Point(378, 570);
+            this.CreditorCashPaid.Multiline = true;
+            this.CreditorCashPaid.Name = "CreditorCashPaid";
+            this.CreditorCashPaid.Size = new System.Drawing.Size(171, 30);
+            this.CreditorCashPaid.TabIndex = 20;
+            // 
+            // bunifuCustomLabel78
+            // 
+            this.bunifuCustomLabel78.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel78, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel78, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel78.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel78.Location = new System.Drawing.Point(249, 575);
+            this.bunifuCustomLabel78.Name = "bunifuCustomLabel78";
+            this.bunifuCustomLabel78.Size = new System.Drawing.Size(37, 17);
+            this.bunifuCustomLabel78.TabIndex = 19;
+            this.bunifuCustomLabel78.Text = "Cash";
+            // 
+            // bunifuCustomDataGrid3
+            // 
+            this.bunifuCustomDataGrid3.AllowUserToAddRows = false;
+            this.bunifuCustomDataGrid3.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle47;
+            this.bunifuCustomDataGrid3.BackgroundColor = System.Drawing.Color.Gray;
+            this.bunifuCustomDataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle48;
+            this.bunifuCustomDataGrid3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.iconTransition1.SetDecoration(this.bunifuCustomDataGrid3, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomDataGrid3, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomDataGrid3.DoubleBuffered = true;
+            this.bunifuCustomDataGrid3.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid3.GridColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid3.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.bunifuCustomDataGrid3.HeaderForeColor = System.Drawing.Color.White;
+            this.bunifuCustomDataGrid3.Location = new System.Drawing.Point(7, 83);
+            this.bunifuCustomDataGrid3.Name = "bunifuCustomDataGrid3";
+            this.bunifuCustomDataGrid3.ReadOnly = true;
+            this.bunifuCustomDataGrid3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuCustomDataGrid3.RowHeadersVisible = false;
+            this.bunifuCustomDataGrid3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.bunifuCustomDataGrid3.Size = new System.Drawing.Size(817, 374);
+            this.bunifuCustomDataGrid3.TabIndex = 0;
+            this.bunifuCustomDataGrid3.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CreditorDataGridViewClick);
+            // 
+            // bunifuCustomLabel76
+            // 
+            this.bunifuCustomLabel76.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel76, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel76, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel76.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel76.Location = new System.Drawing.Point(209, 518);
+            this.bunifuCustomLabel76.Name = "bunifuCustomLabel76";
+            this.bunifuCustomLabel76.Size = new System.Drawing.Size(139, 17);
+            this.bunifuCustomLabel76.TabIndex = 15;
+            this.bunifuCustomLabel76.Text = "Total Amount of Due";
+            // 
+            // bunifuCustomLabel75
+            // 
+            this.bunifuCustomLabel75.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel75, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel75, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel75.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel75.Location = new System.Drawing.Point(209, 470);
+            this.bunifuCustomLabel75.Name = "bunifuCustomLabel75";
+            this.bunifuCustomLabel75.Size = new System.Drawing.Size(116, 17);
+            this.bunifuCustomLabel75.TabIndex = 13;
+            this.bunifuCustomLabel75.Text = "Select Creditor ID";
+            // 
             // customerspanel
             // 
-            this.customerspanel.Controls.Add(this.bunifuThinButton220);
+            this.customerspanel.Controls.Add(this.extracostpanel);
+            this.customerspanel.Controls.Add(this.bunifuCustomLabel40);
+            this.customerspanel.Controls.Add(this.CustomerSearch);
             this.customerspanel.Controls.Add(this.bunifuCards4);
             this.customerspanel.Controls.Add(this.bunifuThinButton217);
             this.customerspanel.Controls.Add(this.bunifuThinButton218);
@@ -4679,37 +4458,10 @@
             this.customerspanel.Controls.Add(this.customersgrid);
             this.sidebarTransition2.SetDecoration(this.customerspanel, BunifuAnimatorNS.DecorationType.None);
             this.iconTransition1.SetDecoration(this.customerspanel, BunifuAnimatorNS.DecorationType.None);
-            this.customerspanel.Location = new System.Drawing.Point(1061, 450);
+            this.customerspanel.Location = new System.Drawing.Point(-1, 1);
             this.customerspanel.Name = "customerspanel";
-            this.customerspanel.Size = new System.Drawing.Size(80, 52);
+            this.customerspanel.Size = new System.Drawing.Size(841, 693);
             this.customerspanel.TabIndex = 26;
-            // 
-            // bunifuThinButton220
-            // 
-            this.bunifuThinButton220.ActiveBorderThickness = 3;
-            this.bunifuThinButton220.ActiveCornerRadius = 20;
-            this.bunifuThinButton220.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton220.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton220.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton220.BackColor = System.Drawing.Color.White;
-            this.bunifuThinButton220.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton220.BackgroundImage")));
-            this.bunifuThinButton220.ButtonText = "Print Product Info";
-            this.bunifuThinButton220.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sidebarTransition2.SetDecoration(this.bunifuThinButton220, BunifuAnimatorNS.DecorationType.None);
-            this.iconTransition1.SetDecoration(this.bunifuThinButton220, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuThinButton220.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton220.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton220.IdleBorderThickness = 2;
-            this.bunifuThinButton220.IdleCornerRadius = 20;
-            this.bunifuThinButton220.IdleFillColor = System.Drawing.Color.White;
-            this.bunifuThinButton220.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.bunifuThinButton220.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton220.Location = new System.Drawing.Point(232, 122);
-            this.bunifuThinButton220.Margin = new System.Windows.Forms.Padding(5);
-            this.bunifuThinButton220.Name = "bunifuThinButton220";
-            this.bunifuThinButton220.Size = new System.Drawing.Size(130, 59);
-            this.bunifuThinButton220.TabIndex = 32;
-            this.bunifuThinButton220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuCards4
             // 
@@ -4734,7 +4486,7 @@
             this.bunifuCards4.Name = "bunifuCards4";
             this.bunifuCards4.RightSahddow = true;
             this.bunifuCards4.ShadowDepth = 20;
-            this.bunifuCards4.Size = new System.Drawing.Size(360, 277);
+            this.bunifuCards4.Size = new System.Drawing.Size(360, 237);
             this.bunifuCards4.TabIndex = 31;
             // 
             // CustomerTypeDD
@@ -4743,7 +4495,7 @@
             this.iconTransition1.SetDecoration(this.CustomerTypeDD, BunifuAnimatorNS.DecorationType.None);
             this.CustomerTypeDD.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomerTypeDD.FormattingEnabled = true;
-            this.CustomerTypeDD.Location = new System.Drawing.Point(171, 213);
+            this.CustomerTypeDD.Location = new System.Drawing.Point(171, 197);
             this.CustomerTypeDD.Name = "CustomerTypeDD";
             this.CustomerTypeDD.Size = new System.Drawing.Size(172, 28);
             this.CustomerTypeDD.TabIndex = 40;
@@ -4754,7 +4506,7 @@
             this.iconTransition1.SetDecoration(this.bunifuCustomLabel2, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel2, BunifuAnimatorNS.DecorationType.None);
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(13, 221);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(13, 205);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(37, 17);
             this.bunifuCustomLabel2.TabIndex = 39;
@@ -4766,7 +4518,7 @@
             this.iconTransition1.SetDecoration(this.bunifuCustomLabel85, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel85, BunifuAnimatorNS.DecorationType.None);
             this.bunifuCustomLabel85.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel85.Location = new System.Drawing.Point(12, 176);
+            this.bunifuCustomLabel85.Location = new System.Drawing.Point(12, 160);
             this.bunifuCustomLabel85.Name = "bunifuCustomLabel85";
             this.bunifuCustomLabel85.Size = new System.Drawing.Size(101, 17);
             this.bunifuCustomLabel85.TabIndex = 38;
@@ -4777,7 +4529,7 @@
             this.CustomerPhn.BorderColor = System.Drawing.Color.SeaGreen;
             this.iconTransition1.SetDecoration(this.CustomerPhn, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.CustomerPhn, BunifuAnimatorNS.DecorationType.None);
-            this.CustomerPhn.Location = new System.Drawing.Point(171, 166);
+            this.CustomerPhn.Location = new System.Drawing.Point(171, 150);
             this.CustomerPhn.Multiline = true;
             this.CustomerPhn.Name = "CustomerPhn";
             this.CustomerPhn.Size = new System.Drawing.Size(171, 30);
@@ -4789,7 +4541,7 @@
             this.iconTransition1.SetDecoration(this.bunifuCustomLabel84, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel84, BunifuAnimatorNS.DecorationType.None);
             this.bunifuCustomLabel84.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel84.Location = new System.Drawing.Point(12, 127);
+            this.bunifuCustomLabel84.Location = new System.Drawing.Point(12, 111);
             this.bunifuCustomLabel84.Name = "bunifuCustomLabel84";
             this.bunifuCustomLabel84.Size = new System.Drawing.Size(129, 17);
             this.bunifuCustomLabel84.TabIndex = 36;
@@ -4800,7 +4552,7 @@
             this.CustomerCompany.BorderColor = System.Drawing.Color.SeaGreen;
             this.iconTransition1.SetDecoration(this.CustomerCompany, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.CustomerCompany, BunifuAnimatorNS.DecorationType.None);
-            this.CustomerCompany.Location = new System.Drawing.Point(171, 119);
+            this.CustomerCompany.Location = new System.Drawing.Point(171, 103);
             this.CustomerCompany.Multiline = true;
             this.CustomerCompany.Name = "CustomerCompany";
             this.CustomerCompany.Size = new System.Drawing.Size(171, 30);
@@ -4812,7 +4564,7 @@
             this.iconTransition1.SetDecoration(this.bunifuCustomLabel83, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel83, BunifuAnimatorNS.DecorationType.None);
             this.bunifuCustomLabel83.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel83.Location = new System.Drawing.Point(12, 81);
+            this.bunifuCustomLabel83.Location = new System.Drawing.Point(12, 65);
             this.bunifuCustomLabel83.Name = "bunifuCustomLabel83";
             this.bunifuCustomLabel83.Size = new System.Drawing.Size(107, 17);
             this.bunifuCustomLabel83.TabIndex = 34;
@@ -4823,7 +4575,7 @@
             this.CustomerName.BorderColor = System.Drawing.Color.SeaGreen;
             this.iconTransition1.SetDecoration(this.CustomerName, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.CustomerName, BunifuAnimatorNS.DecorationType.None);
-            this.CustomerName.Location = new System.Drawing.Point(171, 72);
+            this.CustomerName.Location = new System.Drawing.Point(171, 56);
             this.CustomerName.Multiline = true;
             this.CustomerName.Name = "CustomerName";
             this.CustomerName.Size = new System.Drawing.Size(171, 30);
@@ -4835,7 +4587,7 @@
             this.iconTransition1.SetDecoration(this.bunifuCustomLabel82, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel82, BunifuAnimatorNS.DecorationType.None);
             this.bunifuCustomLabel82.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel82.Location = new System.Drawing.Point(12, 34);
+            this.bunifuCustomLabel82.Location = new System.Drawing.Point(12, 18);
             this.bunifuCustomLabel82.Name = "bunifuCustomLabel82";
             this.bunifuCustomLabel82.Size = new System.Drawing.Size(85, 17);
             this.bunifuCustomLabel82.TabIndex = 32;
@@ -4846,7 +4598,7 @@
             this.CustomerId.BorderColor = System.Drawing.Color.SeaGreen;
             this.iconTransition1.SetDecoration(this.CustomerId, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.CustomerId, BunifuAnimatorNS.DecorationType.None);
-            this.CustomerId.Location = new System.Drawing.Point(171, 25);
+            this.CustomerId.Location = new System.Drawing.Point(171, 9);
             this.CustomerId.Multiline = true;
             this.CustomerId.Name = "CustomerId";
             this.CustomerId.Size = new System.Drawing.Size(171, 30);
@@ -4859,7 +4611,7 @@
             this.bunifuThinButton217.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.bunifuThinButton217.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton217.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton217.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton217.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton217.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton217.BackgroundImage")));
             this.bunifuThinButton217.ButtonText = "Delete";
             this.bunifuThinButton217.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -4887,7 +4639,7 @@
             this.bunifuThinButton218.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.bunifuThinButton218.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton218.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton218.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton218.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton218.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton218.BackgroundImage")));
             this.bunifuThinButton218.ButtonText = "Update";
             this.bunifuThinButton218.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -4915,7 +4667,7 @@
             this.bunifuThinButton219.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.bunifuThinButton219.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton219.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton219.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton219.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton219.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton219.BackgroundImage")));
             this.bunifuThinButton219.ButtonText = "Add";
             this.bunifuThinButton219.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -4940,20 +4692,20 @@
             // 
             this.customersgrid.AllowUserToAddRows = false;
             this.customersgrid.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.customersgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle63;
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.customersgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle45;
             this.customersgrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.customersgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.customersgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.customersgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle64.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle64.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle64.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle64.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle64.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle64.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.customersgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle64;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle46.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.customersgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle46;
             this.customersgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.customersgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.customersgrid, BunifuAnimatorNS.DecorationType.None);
@@ -4974,6 +4726,9 @@
             // 
             // extracostpanel
             // 
+            this.extracostpanel.Controls.Add(this.refundpanel);
+            this.extracostpanel.Controls.Add(this.bunifuCustomLabel46);
+            this.extracostpanel.Controls.Add(this.ExtracostSearch);
             this.extracostpanel.Controls.Add(this.extracostgrid);
             this.extracostpanel.Controls.Add(this.bunifuThinButton226);
             this.extracostpanel.Controls.Add(this.bunifuThinButton227);
@@ -4981,27 +4736,27 @@
             this.extracostpanel.Controls.Add(this.extracostcards);
             this.sidebarTransition2.SetDecoration(this.extracostpanel, BunifuAnimatorNS.DecorationType.None);
             this.iconTransition1.SetDecoration(this.extracostpanel, BunifuAnimatorNS.DecorationType.None);
-            this.extracostpanel.Location = new System.Drawing.Point(1058, 370);
+            this.extracostpanel.Location = new System.Drawing.Point(1, 0);
             this.extracostpanel.Name = "extracostpanel";
-            this.extracostpanel.Size = new System.Drawing.Size(86, 59);
+            this.extracostpanel.Size = new System.Drawing.Size(838, 694);
             this.extracostpanel.TabIndex = 40;
             // 
             // extracostgrid
             // 
-            dataGridViewCellStyle65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.extracostgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle65;
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.extracostgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle43;
             this.extracostgrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.extracostgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.extracostgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.extracostgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle66.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle66.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle66.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle66.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle66.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle66.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.extracostgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle66;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.extracostgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle44;
             this.extracostgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.extracostgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.extracostgrid, BunifuAnimatorNS.DecorationType.None);
@@ -5010,12 +4765,12 @@
             this.extracostgrid.GridColor = System.Drawing.Color.Black;
             this.extracostgrid.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.extracostgrid.HeaderForeColor = System.Drawing.Color.White;
-            this.extracostgrid.Location = new System.Drawing.Point(8, 237);
+            this.extracostgrid.Location = new System.Drawing.Point(8, 324);
             this.extracostgrid.Name = "extracostgrid";
             this.extracostgrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.extracostgrid.RowHeadersVisible = false;
             this.extracostgrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.extracostgrid.Size = new System.Drawing.Size(815, 446);
+            this.extracostgrid.Size = new System.Drawing.Size(815, 359);
             this.extracostgrid.TabIndex = 45;
             this.extracostgrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.extracostgrid_CellContentClick);
             // 
@@ -5026,7 +4781,7 @@
             this.bunifuThinButton226.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.bunifuThinButton226.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton226.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton226.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton226.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton226.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton226.BackgroundImage")));
             this.bunifuThinButton226.ButtonText = "Delete";
             this.bunifuThinButton226.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -5054,7 +4809,7 @@
             this.bunifuThinButton227.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.bunifuThinButton227.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton227.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton227.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton227.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton227.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton227.BackgroundImage")));
             this.bunifuThinButton227.ButtonText = "Update";
             this.bunifuThinButton227.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -5082,7 +4837,7 @@
             this.bunifuThinButton228.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
             this.bunifuThinButton228.ActiveForecolor = System.Drawing.Color.White;
             this.bunifuThinButton228.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            this.bunifuThinButton228.BackColor = System.Drawing.Color.White;
+            this.bunifuThinButton228.BackColor = System.Drawing.Color.Transparent;
             this.bunifuThinButton228.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton228.BackgroundImage")));
             this.bunifuThinButton228.ButtonText = "Add";
             this.bunifuThinButton228.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -5197,6 +4952,7 @@
             // refundpanel
             // 
             this.refundpanel.BackColor = System.Drawing.Color.White;
+            this.refundpanel.Controls.Add(this.userspanel);
             this.refundpanel.Controls.Add(this.refundproductname);
             this.refundpanel.Controls.Add(this.bunifuCustomLabel33);
             this.refundpanel.Controls.Add(this.refundquantity);
@@ -5207,9 +4963,9 @@
             this.refundpanel.Controls.Add(this.bunifuThinButton21);
             this.sidebarTransition2.SetDecoration(this.refundpanel, BunifuAnimatorNS.DecorationType.None);
             this.iconTransition1.SetDecoration(this.refundpanel, BunifuAnimatorNS.DecorationType.None);
-            this.refundpanel.Location = new System.Drawing.Point(1053, 292);
+            this.refundpanel.Location = new System.Drawing.Point(-2, -1);
             this.refundpanel.Name = "refundpanel";
-            this.refundpanel.Size = new System.Drawing.Size(84, 63);
+            this.refundpanel.Size = new System.Drawing.Size(839, 695);
             this.refundpanel.TabIndex = 9;
             // 
             // refundproductname
@@ -5248,19 +5004,19 @@
             // 
             // refundgrid
             // 
-            dataGridViewCellStyle67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.refundgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle67;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.refundgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
             this.refundgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.refundgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.refundgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle68.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle68.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle68.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle68.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle68.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle68.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.refundgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle68;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.refundgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
             this.refundgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.refundgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.refundgrid, BunifuAnimatorNS.DecorationType.None);
@@ -5341,6 +5097,8 @@
             // 
             // userspanel
             // 
+            this.userspanel.Controls.Add(this.bunifuCustomLabel47);
+            this.userspanel.Controls.Add(this.UserSearch);
             this.userspanel.Controls.Add(this.usersgrid);
             this.userspanel.Controls.Add(this.bunifuThinButton230);
             this.userspanel.Controls.Add(this.bunifuThinButton231);
@@ -5348,27 +5106,27 @@
             this.userspanel.Controls.Add(this.userscards);
             this.sidebarTransition2.SetDecoration(this.userspanel, BunifuAnimatorNS.DecorationType.None);
             this.iconTransition1.SetDecoration(this.userspanel, BunifuAnimatorNS.DecorationType.None);
-            this.userspanel.Location = new System.Drawing.Point(1052, 213);
+            this.userspanel.Location = new System.Drawing.Point(2, 0);
             this.userspanel.Name = "userspanel";
-            this.userspanel.Size = new System.Drawing.Size(92, 64);
+            this.userspanel.Size = new System.Drawing.Size(837, 695);
             this.userspanel.TabIndex = 46;
             // 
             // usersgrid
             // 
-            dataGridViewCellStyle69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.usersgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle69;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.usersgrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle39;
             this.usersgrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.usersgrid.BackgroundColor = System.Drawing.Color.Gray;
             this.usersgrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.usersgrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle70.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle70.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle70.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle70.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle70.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.usersgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle40.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.usersgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle40;
             this.usersgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.usersgrid, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.usersgrid, BunifuAnimatorNS.DecorationType.None);
@@ -5528,7 +5286,6 @@
             this.UserType.ForeColor = System.Drawing.Color.White;
             this.UserType.Items = new string[] {
         "",
-        "Super Admin",
         "Admin",
         "Employee"};
             this.UserType.Location = new System.Drawing.Point(130, 126);
@@ -5611,20 +5368,20 @@
             // 
             // bunifuCustomDataGrid4
             // 
-            dataGridViewCellStyle71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle73;
             this.bunifuCustomDataGrid4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuCustomDataGrid4.BackgroundColor = System.Drawing.Color.Gray;
             this.bunifuCustomDataGrid4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle72.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle74.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle74.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle74.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle74.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle74.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle74.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle74;
             this.bunifuCustomDataGrid4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.iconTransition1.SetDecoration(this.bunifuCustomDataGrid4, BunifuAnimatorNS.DecorationType.None);
             this.sidebarTransition2.SetDecoration(this.bunifuCustomDataGrid4, BunifuAnimatorNS.DecorationType.None);
@@ -5652,6 +5409,273 @@
             this.label12.Size = new System.Drawing.Size(116, 37);
             this.label12.TabIndex = 0;
             this.label12.Text = "Ledger";
+            // 
+            // settingspanel
+            // 
+            this.settingspanel.BackColor = System.Drawing.Color.White;
+            this.settingspanel.Controls.Add(this.companydetailedit);
+            this.settingspanel.Controls.Add(this.companyDatagridView);
+            this.settingspanel.Controls.Add(this.findLogo);
+            this.settingspanel.Controls.Add(this.settingssavebutton);
+            this.settingspanel.Controls.Add(this.email);
+            this.settingspanel.Controls.Add(this.website);
+            this.settingspanel.Controls.Add(this.phone);
+            this.settingspanel.Controls.Add(this.address);
+            this.settingspanel.Controls.Add(this.name);
+            this.settingspanel.Controls.Add(this.logo);
+            this.settingspanel.Controls.Add(this.label19);
+            this.settingspanel.Controls.Add(this.label18);
+            this.settingspanel.Controls.Add(this.label17);
+            this.settingspanel.Controls.Add(this.label16);
+            this.settingspanel.Controls.Add(this.label15);
+            this.settingspanel.Controls.Add(this.label13);
+            this.sidebarTransition2.SetDecoration(this.settingspanel, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.settingspanel, BunifuAnimatorNS.DecorationType.None);
+            this.settingspanel.Location = new System.Drawing.Point(1050, 71);
+            this.settingspanel.Name = "settingspanel";
+            this.settingspanel.Size = new System.Drawing.Size(86, 57);
+            this.settingspanel.TabIndex = 52;
+            this.settingspanel.Paint += new System.Windows.Forms.PaintEventHandler(this.settingspanel_Paint);
+            // 
+            // companydetailedit
+            // 
+            this.companydetailedit.ActiveBorderThickness = 3;
+            this.companydetailedit.ActiveCornerRadius = 20;
+            this.companydetailedit.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.companydetailedit.ActiveForecolor = System.Drawing.Color.White;
+            this.companydetailedit.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.companydetailedit.BackColor = System.Drawing.Color.White;
+            this.companydetailedit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("companydetailedit.BackgroundImage")));
+            this.companydetailedit.ButtonText = "Edit";
+            this.companydetailedit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.companydetailedit, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.companydetailedit, BunifuAnimatorNS.DecorationType.None);
+            this.companydetailedit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.companydetailedit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.companydetailedit.IdleBorderThickness = 2;
+            this.companydetailedit.IdleCornerRadius = 20;
+            this.companydetailedit.IdleFillColor = System.Drawing.Color.White;
+            this.companydetailedit.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.companydetailedit.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.companydetailedit.Location = new System.Drawing.Point(419, 536);
+            this.companydetailedit.Margin = new System.Windows.Forms.Padding(5);
+            this.companydetailedit.Name = "companydetailedit";
+            this.companydetailedit.Size = new System.Drawing.Size(166, 47);
+            this.companydetailedit.TabIndex = 17;
+            this.companydetailedit.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.companydetailedit.Click += new System.EventHandler(this.companydetailedit_Click);
+            // 
+            // companyDatagridView
+            // 
+            this.companyDatagridView.AllowUserToAddRows = false;
+            this.companyDatagridView.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.companyDatagridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle75;
+            this.companyDatagridView.BackgroundColor = System.Drawing.Color.Gray;
+            this.companyDatagridView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.companyDatagridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            dataGridViewCellStyle76.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle76.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.companyDatagridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle76;
+            this.companyDatagridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.iconTransition1.SetDecoration(this.companyDatagridView, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.companyDatagridView, BunifuAnimatorNS.DecorationType.None);
+            this.companyDatagridView.DoubleBuffered = true;
+            this.companyDatagridView.EnableHeadersVisualStyles = false;
+            this.companyDatagridView.GridColor = System.Drawing.Color.Black;
+            this.companyDatagridView.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.companyDatagridView.HeaderForeColor = System.Drawing.Color.White;
+            this.companyDatagridView.Location = new System.Drawing.Point(63, 27);
+            this.companyDatagridView.Name = "companyDatagridView";
+            this.companyDatagridView.ReadOnly = true;
+            this.companyDatagridView.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.companyDatagridView.Size = new System.Drawing.Size(722, 84);
+            this.companyDatagridView.TabIndex = 16;
+            this.companyDatagridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.companyDatagridView_CellClick);
+            // 
+            // findLogo
+            // 
+            this.findLogo.BackColor = System.Drawing.Color.White;
+            this.sidebarTransition2.SetDecoration(this.findLogo, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.findLogo, BunifuAnimatorNS.DecorationType.None);
+            this.findLogo.Image = global::Pharmacy.Properties.Resources._2000px_Maya_4_svg;
+            this.findLogo.ImageActive = null;
+            this.findLogo.Location = new System.Drawing.Point(641, 322);
+            this.findLogo.Name = "findLogo";
+            this.findLogo.Size = new System.Drawing.Size(116, 21);
+            this.findLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.findLogo.TabIndex = 15;
+            this.findLogo.TabStop = false;
+            this.findLogo.Zoom = 15;
+            this.findLogo.Click += new System.EventHandler(this.findLogo_Click);
+            // 
+            // settingssavebutton
+            // 
+            this.settingssavebutton.ActiveBorderThickness = 3;
+            this.settingssavebutton.ActiveCornerRadius = 20;
+            this.settingssavebutton.ActiveFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.settingssavebutton.ActiveForecolor = System.Drawing.Color.White;
+            this.settingssavebutton.ActiveLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.settingssavebutton.BackColor = System.Drawing.Color.White;
+            this.settingssavebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("settingssavebutton.BackgroundImage")));
+            this.settingssavebutton.ButtonText = "Save";
+            this.settingssavebutton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sidebarTransition2.SetDecoration(this.settingssavebutton, BunifuAnimatorNS.DecorationType.None);
+            this.iconTransition1.SetDecoration(this.settingssavebutton, BunifuAnimatorNS.DecorationType.None);
+            this.settingssavebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.settingssavebutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.settingssavebutton.IdleBorderThickness = 2;
+            this.settingssavebutton.IdleCornerRadius = 20;
+            this.settingssavebutton.IdleFillColor = System.Drawing.Color.White;
+            this.settingssavebutton.IdleForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.settingssavebutton.IdleLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(67)))), ((int)(((byte)(54)))));
+            this.settingssavebutton.Location = new System.Drawing.Point(598, 537);
+            this.settingssavebutton.Margin = new System.Windows.Forms.Padding(5);
+            this.settingssavebutton.Name = "settingssavebutton";
+            this.settingssavebutton.Size = new System.Drawing.Size(166, 47);
+            this.settingssavebutton.TabIndex = 14;
+            this.settingssavebutton.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.settingssavebutton.Click += new System.EventHandler(this.settingssavebutton_Click);
+            // 
+            // email
+            // 
+            this.email.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.email, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.email, BunifuAnimatorNS.DecorationType.None);
+            this.email.Location = new System.Drawing.Point(330, 366);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(222, 20);
+            this.email.TabIndex = 13;
+            // 
+            // website
+            // 
+            this.website.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.website, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.website, BunifuAnimatorNS.DecorationType.None);
+            this.website.Location = new System.Drawing.Point(330, 318);
+            this.website.Name = "website";
+            this.website.Size = new System.Drawing.Size(222, 20);
+            this.website.TabIndex = 12;
+            // 
+            // phone
+            // 
+            this.phone.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.phone, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.phone, BunifuAnimatorNS.DecorationType.None);
+            this.phone.Location = new System.Drawing.Point(330, 268);
+            this.phone.Name = "phone";
+            this.phone.Size = new System.Drawing.Size(222, 20);
+            this.phone.TabIndex = 11;
+            // 
+            // address
+            // 
+            this.address.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.address, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.address, BunifuAnimatorNS.DecorationType.None);
+            this.address.Location = new System.Drawing.Point(330, 197);
+            this.address.Multiline = true;
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(222, 50);
+            this.address.TabIndex = 10;
+            // 
+            // name
+            // 
+            this.name.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.name, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.name, BunifuAnimatorNS.DecorationType.None);
+            this.name.Location = new System.Drawing.Point(330, 150);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(222, 20);
+            this.name.TabIndex = 9;
+            // 
+            // logo
+            // 
+            this.logo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.iconTransition1.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.logo, BunifuAnimatorNS.DecorationType.None);
+            this.logo.Location = new System.Drawing.Point(627, 191);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(143, 128);
+            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.logo.TabIndex = 7;
+            this.logo.TabStop = false;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.label19, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.label19, BunifuAnimatorNS.DecorationType.None);
+            this.label19.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
+            this.label19.Location = new System.Drawing.Point(602, 147);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(199, 25);
+            this.label19.TabIndex = 6;
+            this.label19.Text = "Company Logo :";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.label18, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.label18, BunifuAnimatorNS.DecorationType.None);
+            this.label18.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
+            this.label18.Location = new System.Drawing.Point(58, 361);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(207, 25);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "Company Email :";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.label17, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.label17, BunifuAnimatorNS.DecorationType.None);
+            this.label17.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
+            this.label17.Location = new System.Drawing.Point(58, 313);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(239, 25);
+            this.label17.TabIndex = 4;
+            this.label17.Text = "Company Website :";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.label16, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.label16, BunifuAnimatorNS.DecorationType.None);
+            this.label16.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
+            this.label16.Location = new System.Drawing.Point(58, 263);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(255, 25);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Company Phone No :";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.label15, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.label15, BunifuAnimatorNS.DecorationType.None);
+            this.label15.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
+            this.label15.Location = new System.Drawing.Point(58, 193);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(237, 25);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Company Address :";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
+            this.label13.Font = new System.Drawing.Font("Verdana", 15.25F, System.Drawing.FontStyle.Bold);
+            this.label13.Location = new System.Drawing.Point(58, 145);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(211, 25);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "Company Name :";
             // 
             // aboutuspanel
             // 
@@ -5791,22 +5815,94 @@
             // 
             this.sidebarTransition2.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.sidebarTransition2.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 1F;
-            this.sidebarTransition2.DefaultAnimation = animation3;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 1F;
+            this.sidebarTransition2.DefaultAnimation = animation4;
+            // 
+            // bunifuCustomLabel40
+            // 
+            this.bunifuCustomLabel40.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel40, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel40, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel40.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel40.Location = new System.Drawing.Point(588, 265);
+            this.bunifuCustomLabel40.Name = "bunifuCustomLabel40";
+            this.bunifuCustomLabel40.Size = new System.Drawing.Size(48, 17);
+            this.bunifuCustomLabel40.TabIndex = 40;
+            this.bunifuCustomLabel40.Text = "Search";
+            // 
+            // CustomerSearch
+            // 
+            this.CustomerSearch.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.CustomerSearch, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.CustomerSearch, BunifuAnimatorNS.DecorationType.None);
+            this.CustomerSearch.Location = new System.Drawing.Point(654, 258);
+            this.CustomerSearch.Multiline = true;
+            this.CustomerSearch.Name = "CustomerSearch";
+            this.CustomerSearch.Size = new System.Drawing.Size(171, 30);
+            this.CustomerSearch.TabIndex = 39;
+            this.CustomerSearch.TextChanged += new System.EventHandler(this.CustomerSearch_TextChanged);
+            // 
+            // bunifuCustomLabel46
+            // 
+            this.bunifuCustomLabel46.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel46, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel46, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel46.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel46.Location = new System.Drawing.Point(584, 297);
+            this.bunifuCustomLabel46.Name = "bunifuCustomLabel46";
+            this.bunifuCustomLabel46.Size = new System.Drawing.Size(48, 17);
+            this.bunifuCustomLabel46.TabIndex = 47;
+            this.bunifuCustomLabel46.Text = "Search";
+            // 
+            // ExtracostSearch
+            // 
+            this.ExtracostSearch.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.ExtracostSearch, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.ExtracostSearch, BunifuAnimatorNS.DecorationType.None);
+            this.ExtracostSearch.Location = new System.Drawing.Point(650, 290);
+            this.ExtracostSearch.Multiline = true;
+            this.ExtracostSearch.Name = "ExtracostSearch";
+            this.ExtracostSearch.Size = new System.Drawing.Size(171, 30);
+            this.ExtracostSearch.TabIndex = 46;
+            this.ExtracostSearch.TextChanged += new System.EventHandler(this.ExtracostSearch_TextChanged);
+            // 
+            // bunifuCustomLabel47
+            // 
+            this.bunifuCustomLabel47.AutoSize = true;
+            this.iconTransition1.SetDecoration(this.bunifuCustomLabel47, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.bunifuCustomLabel47, BunifuAnimatorNS.DecorationType.None);
+            this.bunifuCustomLabel47.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel47.Location = new System.Drawing.Point(536, 283);
+            this.bunifuCustomLabel47.Name = "bunifuCustomLabel47";
+            this.bunifuCustomLabel47.Size = new System.Drawing.Size(48, 17);
+            this.bunifuCustomLabel47.TabIndex = 52;
+            this.bunifuCustomLabel47.Text = "Search";
+            // 
+            // UserSearch
+            // 
+            this.UserSearch.BorderColor = System.Drawing.Color.SeaGreen;
+            this.iconTransition1.SetDecoration(this.UserSearch, BunifuAnimatorNS.DecorationType.None);
+            this.sidebarTransition2.SetDecoration(this.UserSearch, BunifuAnimatorNS.DecorationType.None);
+            this.UserSearch.Location = new System.Drawing.Point(616, 278);
+            this.UserSearch.Multiline = true;
+            this.UserSearch.Name = "UserSearch";
+            this.UserSearch.Size = new System.Drawing.Size(210, 30);
+            this.UserSearch.TabIndex = 51;
+            this.UserSearch.TextChanged += new System.EventHandler(this.UserSearch_TextChanged);
             // 
             // dashboard
             // 
@@ -5814,12 +5910,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1267, 762);
-            this.Controls.Add(this.settingspanel);
-            this.Controls.Add(this.customerspanel);
-            this.Controls.Add(this.extracostpanel);
-            this.Controls.Add(this.refundpanel);
-            this.Controls.Add(this.userspanel);
             this.Controls.Add(this.userzonepanel);
+            this.Controls.Add(this.settingspanel);
             this.Controls.Add(this.aboutuspanel);
             this.Controls.Add(this.sidebar);
             this.Controls.Add(this.panel1);
@@ -5851,30 +5943,6 @@
             this.plpanel.ResumeLayout(false);
             this.billretailpanel.ResumeLayout(false);
             this.billretailpanel.PerformLayout();
-            this.billwholesalepanel.ResumeLayout(false);
-            this.billwholesalepanel.PerformLayout();
-            this.agentlistpanel.ResumeLayout(false);
-            this.agentlistpanel.PerformLayout();
-            this.debtorpanel.ResumeLayout(false);
-            this.debtorpanel.PerformLayout();
-            this.creditorpanel.ResumeLayout(false);
-            this.creditorpanel.PerformLayout();
-            this.settingspanel.ResumeLayout(false);
-            this.settingspanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.findLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).EndInit();
-            this.bunifuCards3.ResumeLayout(false);
-            this.bunifuCards3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DebtorGrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.AgentListDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.WholesaleAdd)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wholesaleinstockgrid)).EndInit();
-            this.wholesalecustomerinfocards.ResumeLayout(false);
-            this.wholesalecustomerinfocards.PerformLayout();
-            this.wholesalebillinfocards.ResumeLayout(false);
-            this.wholesalebillinfocards.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Wholesaleskurefresh)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RproductAdd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RproductList)).EndInit();
             this.bunifuCards5.ResumeLayout(false);
@@ -5921,11 +5989,33 @@
             ((System.ComponentModel.ISupportInitialize)(this.WholesalePopulerProdutChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EveryDaySellChart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RetailPopulerProductsChart)).EndInit();
+            this.billwholesalepanel.ResumeLayout(false);
+            this.billwholesalepanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.WholesaleAdd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wholesaleinstockgrid)).EndInit();
+            this.wholesalecustomerinfocards.ResumeLayout(false);
+            this.wholesalecustomerinfocards.PerformLayout();
+            this.wholesalebillinfocards.ResumeLayout(false);
+            this.wholesalebillinfocards.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Wholesaleskurefresh)).EndInit();
+            this.agentlistpanel.ResumeLayout(false);
+            this.agentlistpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AgentListDataGridView)).EndInit();
+            this.debtorpanel.ResumeLayout(false);
+            this.debtorpanel.PerformLayout();
+            this.bunifuCards3.ResumeLayout(false);
+            this.bunifuCards3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DebtorGrid)).EndInit();
+            this.creditorpanel.ResumeLayout(false);
+            this.creditorpanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).EndInit();
             this.customerspanel.ResumeLayout(false);
+            this.customerspanel.PerformLayout();
             this.bunifuCards4.ResumeLayout(false);
             this.bunifuCards4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.customersgrid)).EndInit();
             this.extracostpanel.ResumeLayout(false);
+            this.extracostpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.extracostgrid)).EndInit();
             this.extracostcards.ResumeLayout(false);
             this.extracostcards.PerformLayout();
@@ -5933,12 +6023,18 @@
             this.refundpanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.refundgrid)).EndInit();
             this.userspanel.ResumeLayout(false);
+            this.userspanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.usersgrid)).EndInit();
             this.userscards.ResumeLayout(false);
             this.userscards.PerformLayout();
             this.userzonepanel.ResumeLayout(false);
             this.userzonepanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).EndInit();
+            this.settingspanel.ResumeLayout(false);
+            this.settingspanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.companyDatagridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.findLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             this.aboutuspanel.ResumeLayout(false);
             this.aboutuspanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -6043,7 +6139,6 @@
         private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid3;
         private System.Windows.Forms.Panel customerspanel;
         private Bunifu.Framework.UI.BunifuCustomDataGrid customersgrid;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton220;
         private Bunifu.Framework.UI.BunifuCards bunifuCards4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel85;
         private WindowsFormsControlLibrary1.BunifuCustomTextbox CustomerPhn;
@@ -6177,6 +6272,7 @@
         private WindowsFormsControlLibrary1.BunifuCustomTextbox phone;
         private WindowsFormsControlLibrary1.BunifuCustomTextbox address;
         private Bunifu.Framework.UI.BunifuImageButton findLogo;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid companyDatagridView;
         private Bunifu.Framework.UI.BunifuThinButton2 companydetailedit;
         private Bunifu.Framework.UI.BunifuFlatButton refund;
         private System.Windows.Forms.Panel refundpanel;
@@ -6244,5 +6340,11 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel40;
+        private WindowsFormsControlLibrary1.BunifuCustomTextbox CustomerSearch;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel46;
+        private WindowsFormsControlLibrary1.BunifuCustomTextbox ExtracostSearch;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel47;
+        private WindowsFormsControlLibrary1.BunifuCustomTextbox UserSearch;
     }
 }

@@ -1593,7 +1593,7 @@ namespace Pharmacy
 
                 RproductName.Text = row.Cells["Product Name"].Value.ToString();
                 WholesaleProductID = row.Cells["Product ID"].Value.ToString();
-                MessageBox.Show(WholesaleProductID);
+                //MessageBox.Show(WholesaleProductID);
                 Wavailable = Convert.ToDecimal(row.Cells["Quantity"].Value);
 
             }
@@ -1634,41 +1634,50 @@ namespace Pharmacy
         private void RetailAdd_Click(object sender, EventArgs e)
         {
             SQLCommands sql = new SQLCommands();
-            //if()
-            if (sql.InsertRetail(RID.Text, WholesaleProductID, Rquantity.Text, Rtotal.Text))
+            if (RproductName.Text != "" && RproductName.Text != null)
             {
-                //MessageBox.Show("");
+                if (Rquantity.Text != "" && Rquantity.Text != null)
+                {
+                    if (sql.InsertRetail(RID.Text, WholesaleProductID, Rquantity.Text, Rtotal.Text))
+                    {
+                        //MessageBox.Show("");
+                    }
+                    else
+                    {
+                        MessageBox.Show("failed");
+                    }
+                    RproductAdd.DataSource = sql.FillRetail(sql.RtopID());
+                    RproductAdd.Columns[5].Visible = false;
+                    // MessageBox.Show(sql.RtopID());
+                    RproductAdd.Update();
+                    RproductAdd.ClearSelection();
+
+                    RproductName.Clear();
+                    Rquantity.Clear();
+                    Rtotal.Text = "0.0";
+
+                    sum = 0;
+                    for (int i = 0; i < RproductAdd.Rows.Count; ++i)
+                    {
+                        sum += Convert.ToDecimal(RproductAdd.Rows[i].Cells[4].Value);
+                    }
+
+                    RtotalBill.Text = sum.ToString();
+
+
+                    //MessageBox.Show(sql.WupdateProduct((decimal)Wquan, WholesaleProductID));
+                    sql.WupdateProduct((decimal)Wquan, WholesaleProductID);
+                    RproductList.DataSource = sql.FillProductAvl();
+                    RproductList.Update();
+                    Rdt = sql.FillRetail(sql.RtopID());
+                    RproductList.ClearSelection();
+                    RetailSkuText.Clear();
+                }
+                else
+                    MessageBox.Show("Enter Quantity!");
             }
             else
-            {
-                MessageBox.Show("failed");
-            }
-            RproductAdd.DataSource = sql.FillRetail(sql.RtopID());
-            RproductAdd.Columns[5].Visible = false;
-           // MessageBox.Show(sql.RtopID());
-            RproductAdd.Update();
-            RproductAdd.ClearSelection();
-
-            RproductName.Clear();
-            Rquantity.Clear();
-            Rtotal.Text = "0.0";
-
-            sum = 0;
-            for (int i = 0; i < RproductAdd.Rows.Count; ++i)
-            {
-                sum += Convert.ToDecimal(RproductAdd.Rows[i].Cells[4].Value);
-            }
-
-            RtotalBill.Text = sum.ToString();
-
-
-            MessageBox.Show(sql.WupdateProduct((decimal)Wquan, WholesaleProductID));
-
-            RproductList.DataSource = sql.FillProductAvl();
-            RproductList.Update();
-            Rdt = sql.FillRetail(sql.RtopID());
-            RproductList.ClearSelection();
-            RetailSkuText.Clear();
+                MessageBox.Show("Select Name!!");
         }
 
         public void fillStoreDatagridView()
@@ -1880,46 +1889,50 @@ namespace Pharmacy
         private void RetailPurchase_Click(object sender, EventArgs e)
         {
             SQLCommands sql = new SQLCommands();
-            string s;
-            if (Rdiscount.Text == "")
+            if (Rpaid.Text != "" && Rpaid.Text != null)
             {
-                s = "0.0";
+                string s;
+                if (Rdiscount.Text == "")
+                {
+                    s = "0.0";
+                }
+                else
+                    s = Rdiscount.Text;
+                //if (sql.InsertWholesaleMain(WcustomerDD.SelectedValue.ToString(), s, Wtotal.Text, Wpaid.Text, Wdue.Text))
+                //{
+                //    MessageBox.Show("Done");
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Failed");
+                //}
+                if (Convert.ToDecimal(Rdue.Text) >= 0)
+                {
+                    //MessageBox.Show(sql.InsertRetailMain(Convert.ToDecimal(s), Convert.ToDecimal(RtotalBill.Text), Convert.ToDecimal(Rpaid.Text), Convert.ToDecimal(Rdue.Text)));
+                    sql.InsertRetailMain(Convert.ToDecimal(s), Convert.ToDecimal(RtotalBill.Text), Convert.ToDecimal(Rpaid.Text), Convert.ToDecimal(Rdue.Text));
+                    RproductName.Clear();
+                    Rquantity.Clear();
+                    print();
+                    Rtotal.Text = "0.0";
+
+                    Rdiscount.Clear();
+                    RtotalBill.Clear();
+                    Rdue.Text = "0.0";
+                    Rpaid.Clear();
+                    //WcustomerDD.Text = "";
+
+                    //MessageBox.Show(sql.RtopID());
+                    RID.Text = sql.RtopID();
+                    RproductAdd.DataSource = null;
+                    RproductAdd.Update();
+                }
+                else
+                {
+                    MessageBox.Show("Pay Full Amount");
+                }
             }
             else
-                s = Rdiscount.Text;
-            //if (sql.InsertWholesaleMain(WcustomerDD.SelectedValue.ToString(), s, Wtotal.Text, Wpaid.Text, Wdue.Text))
-            //{
-            //    MessageBox.Show("Done");
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Failed");
-            //}
-            if (Convert.ToDecimal(Rdue.Text) >= 0)
-            {
-                MessageBox.Show(sql.InsertRetailMain(Convert.ToDecimal(s), Convert.ToDecimal(RtotalBill.Text), Convert.ToDecimal(Rpaid.Text), Convert.ToDecimal(Rdue.Text)));
-
-                RproductName.Clear();
-                Rquantity.Clear();
-                print();
-                Rtotal.Text = "0.0";
-
-                Rdiscount.Clear();
-                RtotalBill.Clear();
-                Rdue.Text = "0.0";
-                Rpaid.Clear();
-                //WcustomerDD.Text = "";
-
-                //MessageBox.Show(sql.RtopID());
-                RID.Text = sql.RtopID();
-                RproductAdd.DataSource = null;
-                RproductAdd.Update();
-            }
-            else
-            {
-                MessageBox.Show("Pay Full Amount");
-            }
-
+                MessageBox.Show("Enter Payment!");
         }
 
 

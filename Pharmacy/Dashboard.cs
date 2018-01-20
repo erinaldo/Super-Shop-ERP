@@ -271,6 +271,7 @@ namespace Pharmacy
         {
 
             ID = Convert.ToInt32(bunifuCustomDataGrid2.CurrentRow.Cells[0].Value.ToString());
+           
 
         }
 
@@ -746,7 +747,7 @@ namespace Pharmacy
 
                 SqlConnection sqlConn = new SqlConnection(conString);
 
-                String query = "SELECT ProductId AS 'Product ID', ProductName AS 'Product Name', ProductType AS 'Product Type', BuyingRate AS 'Buying Rate', SellingRate AS 'Selling Rate' , SKU as 'SKU', Unit as 'Unit' , MinimumQuantity as  'Minimum Quantity' FROM dbo.Product; ";
+                String query = "SELECT ProductId AS 'Product ID', ProductName AS 'Product Name', ProductType AS 'Product Type', BuyingRate AS 'Buying Rate', SellingRate AS 'Selling Rate' , SKU as 'Barcode', Unit as 'Unit' , MinimumQuantity as  'Minimum Quantity' FROM dbo.Product; ";
                 SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConn);
                 SqlCommandBuilder sqlCommandBuilder = new SqlCommandBuilder(sqlDataAdapter);
 
@@ -803,6 +804,8 @@ namespace Pharmacy
             updateProduct.productType.Text = productsgridview.CurrentRow.Cells[2].Value.ToString();
             updateProduct.buyingRate.Text = productsgridview.CurrentRow.Cells[3].Value.ToString();
             updateProduct.saleRate.Text = productsgridview.CurrentRow.Cells[4].Value.ToString();
+            updateProduct.Unit.Text = productsgridview.CurrentRow.Cells[6].Value.ToString();
+            updateProduct.MinimumQuantity.Text = productsgridview.CurrentRow.Cells[7].Value.ToString();
 
         }
 

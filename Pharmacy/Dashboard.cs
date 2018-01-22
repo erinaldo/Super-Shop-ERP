@@ -77,6 +77,7 @@ namespace Pharmacy
             this.dateTimePicker1.Enabled = false;
             this.dateTimePicker2.Enabled = false;
             this.dateTimePicker3.Enabled = false;
+            dashboarddropdown.SelectedIndex = 0;
 
         }
 
@@ -191,7 +192,7 @@ namespace Pharmacy
             //this.inventoryaddpanel.SendToBack();
             this.productseditpanel.Visible = false;
             //this.productspanel.SendToBack();
-         
+            dashboarddropdown.SelectedIndex = 0;
             RetailChart();
             WholeChart();
             dashboardCharts();
@@ -3598,6 +3599,115 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
         private void monthCombobox_SelectedIndexChanged(object sender, EventArgs e)
         {
             DailyChart();
+            
+        }
+
+        private void dashboarddropdown_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           if (dashboarddropdown.SelectedIndex == 0)
+            {
+                WeeklyDaySellChartPanel.BringToFront();
+                WeeklyDaySellChartPanel.Visible = true;
+                EveryDaySellChartPanel.Visible = false;
+                EveryMonthSellChartPanel.Visible = false;
+                EveryYearSellChartPanel.Visible = false;
+                customChartPanel.Visible = false;
+            }
+            else if (dashboarddropdown.SelectedIndex == 1)
+            {
+                WeeklyDaySellChartPanel.Visible = true;
+                EveryDaySellChartPanel.BringToFront();
+                EveryDaySellChartPanel.Visible = true;
+
+                EveryMonthSellChartPanel.Visible = false;
+                EveryYearSellChartPanel.Visible = false;
+                customChartPanel.Visible = false;
+            }
+            else if (dashboarddropdown.SelectedIndex == 2)
+            {
+                EveryDaySellChartPanel.Visible = true;
+                WeeklyDaySellChartPanel.Visible = true;
+                EveryMonthSellChartPanel.BringToFront();
+                EveryMonthSellChartPanel.Visible = true;
+
+                EveryYearSellChartPanel.Visible = false;
+                customChartPanel.Visible = false;
+            }
+            else if (dashboarddropdown.SelectedIndex == 3)
+            {
+                EveryDaySellChartPanel.Visible = true;
+                WeeklyDaySellChartPanel.Visible = true;
+                EveryMonthSellChartPanel.Visible = true;
+                EveryYearSellChartPanel.BringToFront();
+                EveryYearSellChartPanel.Visible = true;
+                customChartPanel.Visible = false;
+
+
+            }
+            else if (dashboarddropdown.SelectedIndex == 4)
+            {
+                EveryDaySellChartPanel.Visible = true;
+                WeeklyDaySellChartPanel.Visible = true;
+                EveryMonthSellChartPanel.Visible = true;
+                EveryYearSellChartPanel.Visible = true;
+                customChartPanel.BringToFront();
+                customChartPanel.Visible = true;
+
+            }
+
+            }
+
+        private void SetDate_Click(object sender, EventArgs e)
+        {
+            int date1 = datePicker1.Value.Day;
+            int month1 = datePicker1.Value.Month;
+            int year1 = datePicker1.Value.Year;
+            int date2 = datePicker2.Value.Day;
+            int month2 = datePicker2.Value.Month;
+            int year2 = datePicker2.Value.Year;
+            DataTable table = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            //Create a connection to SQL DataBase
+            SqlConnection con = new SqlConnection(conString);
+            con.Open();
+
+            //Select all the records in database
+            string command = @" SELECT Date,
+isnull(SUM(TotalSales),0) AS Total FROM
+( SELECT Date,
+isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Retail 
+	Group by Date
+	union
+ SELECT Date,
+isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Wholesale 
+	Group by Date
+	) a WHERE Date BETWEEN '2018/04/01' AND '2018/06/10'
+	Group by Date 
+	Order by Date asc";
+            SqlCommand cmd = new SqlCommand(command, con);
+            adapter.SelectCommand = cmd;
+
+            //Retrieve the records from database
+            adapter.Fill(table);
+            this.customChart.DataSource = table;
+
+            //Mapping a field with x-value of chart
+            this.customChart.Series["Series1"].XValueMember = "Date";
+            // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
+            //Mapping a field with y-value of Chart
+            this.customChart.Series["Series1"].YValueMembers = "Total";
+
+            //Bind the DataTable with Chart
+            this.customChart.DataBind();
+
+
+
+
+
+
         }
 
         private void SearchProduct_TextChanged(object sender, EventArgs e)

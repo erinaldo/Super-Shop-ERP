@@ -92,11 +92,13 @@ namespace Pharmacy
             inventoryviewpanel.Visible = false;
             inventoryaddpanel.Visible = false;
             billretailwholesalepanel.Visible = false;
-            GraphChart();
             RetailChart();
             WholeChart();
             dashboardCharts();
-
+            MonthlyChart();
+            YearlyChart();
+            WeeklyChart();
+            DailyChart();
 
 
         }
@@ -189,12 +191,14 @@ namespace Pharmacy
             //this.inventoryaddpanel.SendToBack();
             this.productseditpanel.Visible = false;
             //this.productspanel.SendToBack();
-            GraphChart();
+         
             RetailChart();
             WholeChart();
             dashboardCharts();
-
-
+            MonthlyChart();
+            YearlyChart();
+            WeeklyChart();
+            DailyChart();
         }
 
         private void bunifuFlatButton6_Click(object sender, EventArgs e)
@@ -988,6 +992,44 @@ namespace Pharmacy
                 AgentListDataGridView.DataSource = data;
                 AgentListDataGridView.Update();
                 AgentListDataGridView.ClearSelection();
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Please Connect To The database");
+            }
+
+        }
+        public void fill_Ledger()
+        {
+
+
+            try
+            {
+
+
+
+                // string con = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database\DB.mdf;Integrated Security=True";
+
+                SqlConnection sqlConn = new SqlConnection(conString);
+
+                String query = "SELECT [LedgerId] AS 'Ledger ID',[CustomerName] AS 'Customer Name', [Description] AS 'Description', [Debit] AS 'Debit', [Credit] AS 'Credit', [Balance] AS 'Balance' FROM dbo.Ledger JOIN  dbo.Customer On dbo.Ledger.CustomerId =dbo.Customer.CustomerId  ;";
+                SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(query, sqlConn);
+                SqlCommandBuilder sqlCommandBuilder = new SqlCommandBuilder(sqlDataAdapter);
+
+
+                DataTable data = new DataTable();
+                data.Locale = System.Globalization.CultureInfo.InvariantCulture;
+                sqlDataAdapter.Update(data);
+                sqlDataAdapter.Fill(data);
+
+                bunifuCustomDataGrid4.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                bunifuCustomDataGrid4.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                bunifuCustomDataGrid4.DataSource = data;
+                bunifuCustomDataGrid4.Update();
+                bunifuCustomDataGrid4.ClearSelection();
 
 
             }
@@ -2435,6 +2477,7 @@ namespace Pharmacy
 
             this.settingspanel.Visible = false;
             this.aboutuspanel.Visible = false;
+            fill_Ledger();
         }
 
         private void companydetailedit_Click(object sender, EventArgs e)
@@ -2851,129 +2894,6 @@ namespace Pharmacy
 
 
 
-
-
-        private void Go(object sender, EventArgs e)
-        {
-        }
-
-
-        private void Retail_chart(object sender, EventArgs e)
-        {
-
-        }
-        private void wholesaleChart(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void GraphChart()
-        {
-
-
-            DataTable table = new DataTable();
-            SqlDataAdapter adapter = new SqlDataAdapter();
-
-            //Create a connection to SQL DataBase
-            SqlConnection con = new SqlConnection(conString);
-            con.Open();
-            var today = DateTime.Now.ToString("MM/dd/yyyy");   // will give you today's date
-            var yesterday = DateTime.Now.AddDays(-7).ToString("MM/dd/yyyy");
-            //Select all the records in database
-            string command = @" Select Bill.Wholesale_cost,BIll2.Retail_Cost, Date, Date1 From 
-        (SELECT isnull(SUM(TotalBill),0) AS Wholesale_Cost, Date as Date1
-        FROM dbo.Wholesale 
-        WHERE Date BETWEEN '" + yesterday + "' AND  '" + today + "' " +
-        @"GROUP BY  Date
-        ) Bill
-        Full outer join
-        ( SELECT  isnull(SUM(TotalBill),0) AS Retail_Cost, Date 
-        FROM dbo.Retail 
-        WHERE  Date BETWEEN '" + yesterday + "' AND  '" + today + "' GROUP BY  Date) BIll2 on Bill.Date1 = BIll2.Date; ";
-            SqlCommand cmd = new SqlCommand(command, con);
-            adapter.SelectCommand = cmd;
-
-            //Retrieve the records from database
-            adapter.Fill(table);
-            DataTable graph = new DataTable();
-            graph.Columns.Add("Total");
-            graph.Columns.Add("Date");
-
-            foreach (DataRow dt in table.Rows)
-            {
-                if (dt["Date"] == dt["Date1"])
-                {
-                    // MessageBox.Show("Equal");
-                    if (dt["Wholesale_cost"] == System.DBNull.Value && dt["Retail_Cost"] != System.DBNull.Value)
-                    {
-                        graph.Rows.Add(dt["Retail_Cost"], dt["Date"]);
-                    }
-                    else if (dt["Retail_Cost"] == System.DBNull.Value && dt["Wholesale_cost"] != System.DBNull.Value)
-                    {
-                        graph.Rows.Add(dt["Wholesale_Cost"], dt["Date"]);
-                    }
-                    else
-                    {
-                        graph.Rows.Add(Convert.ToDecimal(dt["Wholesale_Cost"]) + Convert.ToDecimal(dt["Retail_Cost"]), dt["Date"]);
-                    }
-                }
-                else if (dt["Date"] != dt["Date1"])
-                {
-                    //MessageBox.Show(dt["Date"].ToString() + dt["Date1"].ToString());
-                    if (dt["Date"] == System.DBNull.Value)
-                    {
-                        if (dt["Wholesale_cost"] == System.DBNull.Value && dt["Retail_Cost"] != System.DBNull.Value)
-                        {
-                            graph.Rows.Add(dt["Retail_Cost"], dt["Date1"]);
-                        }
-                        else if (dt["Retail_Cost"] == System.DBNull.Value && dt["Wholesale_cost"] != System.DBNull.Value)
-                        {
-                            graph.Rows.Add(dt["Wholesale_Cost"], dt["Date1"]);
-                        }
-                        else
-                        {
-                            graph.Rows.Add(Convert.ToDecimal(dt["Wholesale_Cost"]) + Convert.ToDecimal(dt["Retail_Cost"]), dt["Date1"]);
-                        }
-                    }
-                    else
-                    {
-                        // MessageBox.Show(dt["Date"].ToString() + dt["Date1"].ToString()+ "else");
-                        if (dt["Wholesale_cost"] == System.DBNull.Value && dt["Retail_Cost"] != System.DBNull.Value)
-                        {
-                            graph.Rows.Add(dt["Retail_Cost"], dt["Date"]);
-                        }
-                        else if (dt["Retail_Cost"] == System.DBNull.Value && dt["Wholesale_cost"] != System.DBNull.Value)
-                        {
-                            graph.Rows.Add(dt["Wholesale_Cost"], dt["Date"]);
-                        }
-                        else
-                        {
-                            // MessageBox.Show(dt["Date"].ToString() + "  DB NUll");
-                            graph.Rows.Add(Convert.ToDecimal(dt["Wholesale_Cost"]) + Convert.ToDecimal(dt["Retail_Cost"]), dt["Date"]);
-                        }
-                    }
-                }
-            }
-            foreach (DataRow dr in graph.Rows)
-            {
-                dr["DATE"] = DateTime.Parse((dr["DATE"].ToString())).ToString("dd/MM/yyyy");
-
-            }
-
-            this.EveryDaySellChart.DataSource = graph;
-
-            //Mapping a field with x-value of chart
-            this.EveryDaySellChart.Series["Series1"].XValueMember = "Date";
-            // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
-            //Mapping a field with y-value of Chart
-            this.EveryDaySellChart.Series["Series1"].YValueMembers = "Total";
-
-            //Bind the DataTable with Chart
-            this.EveryDaySellChart.DataBind();
-
-        }
-
-
         private void SkuTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             string strgroupids;
@@ -3067,6 +2987,10 @@ ORDER BY SUM(dbo.WholesaleDetails.Quantity) DESC";
             SqlCommand cmd = new SqlCommand(command, con);
             adapter.SelectCommand = cmd;
 
+
+
+
+
             //Retrieve the records from database
             adapter.Fill(table);
             this.WholesalePopulerProdutChart.DataSource = table;
@@ -3081,6 +3005,242 @@ ORDER BY SUM(dbo.WholesaleDetails.Quantity) DESC";
             this.WholesalePopulerProdutChart.DataBind();
 
         }
+        /// <summary>
+        /// MOnthly 
+        /// </summary>
+        private void MonthlyChart()
+        {
+            int Year;
+            if (YearPickerForMonthChart.SelectedIndex == -1)
+            {
+                Year = DateTime.Now.Year;
+            }
+            else
+            {
+                Year = Convert.ToInt32(YearPickerForMonthChart.Text);
+            }
+            DataTable table = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            //Create a connection to SQL DataBase
+            SqlConnection con = new SqlConnection(conString);
+            con.Open();
+
+            //Select all the records in database
+            string command = @" SELECT SalesYear,Month,
+ MonthName , isnull(SUM(TotalSales),0) AS Total from  (
+  SELECT YEAR(Date) as SalesYear,
+  MONTH(Date) as Month,
+ DATENAME(MONTH,Date) as MonthName,
+isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Retail 
+GROUP BY YEAR(Date),DATENAME(MONTH,Date), MONTH(Date)
+Union
+  SELECT YEAR(Date) as SalesYear,
+	 MONTH(Date) as Month,
+         DATENAME(MONTH,Date) as MonthName,
+         isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Wholesale 
+GROUP BY YEAR(Date),DATENAME(MONTH,Date),MONTH(Date)
+)  a Where SalesYear =  "+ Year +  @"
+GROUP BY SalesYear, MonthName,Month
+Order BY Month asc";
+            SqlCommand cmd = new SqlCommand(command, con);
+            adapter.SelectCommand = cmd;
+
+            //Retrieve the records from database
+            adapter.Fill(table);
+            if (table != null && table.Rows.Count > 0)
+            {
+                this.EveryMonthSellChart.DataSource = table;
+
+                //Mapping a field with x-value of chart
+                this.EveryMonthSellChart.Series["Series1"].XValueMember = "MonthName";
+                // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
+                //Mapping a field with y-value of Chart
+                this.EveryMonthSellChart.Series["Series1"].YValueMembers = "Total";
+
+                //Bind the DataTable with Chart
+                this.EveryMonthSellChart.DataBind();
+            }
+            else
+            {
+                MessageBox.Show("There Is no Data");
+                YearPickerForMonthChart.SelectedIndex = -1;
+            }
+        }
+        private void DailyChart()
+        {
+
+            int Year;
+            int Month;
+            if (yearCombox.SelectedIndex == -1)
+            {
+                Year = DateTime.Now.Year;
+            }
+            else
+            {
+                Year = Convert.ToInt32(yearCombox.Text);
+            }
+            if (monthCombobox.SelectedIndex == -1)
+            {
+                Month = DateTime.Now.Month;
+            }
+            else
+            {
+                Month = monthCombobox.SelectedIndex +1;
+            }
+            DataTable table = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            //Create a connection to SQL DataBase
+            SqlConnection con = new SqlConnection(conString);
+            con.Open();
+
+            //Select all the records in database
+            string command = @"SELECT SalesYear,Month, Day,isnull(SUM(TotalSales),0) AS Total from  (
+  SELECT YEAR(Date) as SalesYear,
+  MONTH(Date) as Month,
+  Day(Date) as Day,
+isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Retail 
+GROUP BY YEAR(Date), MONTH(Date), Day(Date)
+Union
+  SELECT YEAR(Date) as SalesYear,
+	 MONTH(Date) as Month,
+		 Day(Date) as Day,
+         isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Wholesale 
+GROUP BY YEAR(Date),MONTH(Date), Day(Date)
+)  a WHERE SalesYear = "+Year+@" AND Month = "+ Month + @"
+GROUP BY SalesYear,Month,Day
+Order BY Day asc";
+            SqlCommand cmd = new SqlCommand(command, con);
+            adapter.SelectCommand = cmd;
+
+            //Retrieve the records from database
+            adapter.Fill(table);
+            adapter.Fill(table);
+            if (table != null && table.Rows.Count > 0)
+            {
+                this.EveryDaySellChart.DataSource = table;
+
+                //Mapping a field with x-value of chart
+                this.EveryDaySellChart.Series["Series1"].XValueMember = "Day";
+                // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
+                //Mapping a field with y-value of Chart
+                this.EveryDaySellChart.Series["Series1"].YValueMembers = "Total";
+
+                //Bind the DataTable with Chart
+                this.EveryDaySellChart.DataBind();
+            }
+            else
+            {
+                MessageBox.Show("There Is no Data");
+                yearCombox.SelectedIndex = -1;
+                monthCombobox.SelectedIndex = -1;
+            }
+        }
+
+        /// <summary>
+        /// MOnthly 
+        /// </summary>
+        private void YearlyChart()
+        {
+            DataTable table = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            //Create a connection to SQL DataBase
+            SqlConnection con = new SqlConnection(conString);
+            con.Open();
+
+            //Select all the records in database
+            string command = @" SELECT SalesYear, isnull(SUM(TotalSales),0) AS Total from  (
+  SELECT YEAR(Date) as SalesYear,
+  MONTH(Date) as Month,
+ DATENAME(MONTH,Date) as MonthName,
+isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Retail 
+GROUP BY YEAR(Date),DATENAME(MONTH,Date), MONTH(Date)
+Union
+  SELECT YEAR(Date) as SalesYear,
+	 MONTH(Date) as Month,
+         DATENAME(MONTH,Date) as MonthName,
+         isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Wholesale 
+GROUP BY YEAR(Date),DATENAME(MONTH,Date),MONTH(Date)
+)  a 
+GROUP BY SalesYear
+Order BY SalesYear asc";
+            SqlCommand cmd = new SqlCommand(command, con);
+            adapter.SelectCommand = cmd;
+
+            //Retrieve the records from database
+            adapter.Fill(table);
+            this.EveryYearSellChart.DataSource = table;
+
+            //Mapping a field with x-value of chart
+            this.EveryYearSellChart.Series["Series1"].XValueMember = "SalesYear";
+            // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
+            //Mapping a field with y-value of Chart
+            this.EveryYearSellChart.Series["Series1"].YValueMembers = "Total";
+
+            //Bind the DataTable with Chart
+            this.EveryYearSellChart.DataBind();
+
+        }
+        /// <summary>
+        /// ///////////////////
+        /// 
+        /// </summary>
+        /// 
+
+
+        private void WeeklyChart()
+        {
+            DataTable table = new DataTable();
+            SqlDataAdapter adapter = new SqlDataAdapter();
+
+            //Create a connection to SQL DataBase
+            SqlConnection con = new SqlConnection(conString);
+            con.Open();
+
+            //Select all the records in database
+            string command = @"SELECT SalesYear,Month, Day,isnull(SUM(TotalSales),0) AS Total from  (
+  SELECT YEAR(Date) as SalesYear,
+  MONTH(Date) as Month,
+  Day(Date) as Day,
+isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Retail 
+GROUP BY YEAR(Date), MONTH(Date), Day(Date)
+Union
+  SELECT YEAR(Date) as SalesYear,
+	 MONTH(Date) as Month,
+		 Day(Date) as Day,
+         isnull(SUM(TotalBill),0) AS TotalSales
+    FROM dbo.Wholesale 
+GROUP BY YEAR(Date),MONTH(Date), Day(Date)
+)  a WHERE SalesYear = YEAR(GETDATE()) AND Month = MONTH(GETDATE()) AND  Day BETWEEN DAY(DATEADD(day,-6,GETDATE())) AND DAY(GETDATE()) 
+GROUP BY SalesYear,Month,Day
+Order BY Day asc";
+            SqlCommand cmd = new SqlCommand(command, con);
+            adapter.SelectCommand = cmd;
+
+            //Retrieve the records from database
+            adapter.Fill(table);
+            this.WeeklyDaySellChart.DataSource = table;
+
+            //Mapping a field with x-value of chart
+            this.WeeklyDaySellChart.Series["Series1"].XValueMember = "Day";
+            // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
+            //Mapping a field with y-value of Chart
+            this.WeeklyDaySellChart.Series["Series1"].YValueMembers = "Total";
+
+            //Bind the DataTable with Chart
+            this.WeeklyDaySellChart.DataBind();
+
+        }
+
 
         private void RetailChart()
         {
@@ -3102,6 +3262,7 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
             //Retrieve the records from database
             adapter.Fill(table);
+
             this.RetailPopulerProductsChart.DataSource = table;
 
             //Mapping a field with x-value of chart
@@ -3424,6 +3585,20 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
         }
 
+        private void YearPickerForMonthChart_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MonthlyChart();
+        }
+
+        private void yearCombox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DailyChart();
+        }
+
+        private void monthCombobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            DailyChart();
+        }
 
         private void SearchProduct_TextChanged(object sender, EventArgs e)
         {           

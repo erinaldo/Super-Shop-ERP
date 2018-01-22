@@ -103,7 +103,7 @@ namespace Pharmacy
                 ds.Fill(table);
             }
 
-            Con.Close();
+           // Con.Close();
             return table;
         }
 
@@ -407,7 +407,7 @@ namespace Pharmacy
             DataTable table = new DataTable();
 
             //Con.Open();
-            string sqlQuery = @"SELECT ProductId as 'Product ID', ProductName as 'Product Name', ProductType as 'Product Type', SellingRate as 'Price', Quantity FROM dbo.[Product]";
+            string sqlQuery = @"SELECT ProductId as 'Product ID', ProductName as 'Product Name', ProductType as 'Product Type', SaleWithVat as 'Price', Quantity FROM dbo.[Product]";
             using (SqlCommand cmd = new SqlCommand(sqlQuery, Con))
             {
                 SqlDataAdapter ds = new SqlDataAdapter(cmd);

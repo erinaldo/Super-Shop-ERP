@@ -3056,10 +3056,10 @@ Order BY Month asc";
                 this.EveryMonthSellChart.DataSource = table;
 
                 //Mapping a field with x-value of chart
-                this.EveryMonthSellChart.Series["Series1"].XValueMember = "MonthName";
+                this.EveryMonthSellChart.Series["Sale"].XValueMember = "MonthName";
                 // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
                 //Mapping a field with y-value of Chart
-                this.EveryMonthSellChart.Series["Series1"].YValueMembers = "Total";
+                this.EveryMonthSellChart.Series["Sale"].YValueMembers = "Total";
 
                 //Bind the DataTable with Chart
                 this.EveryMonthSellChart.DataBind();
@@ -3127,10 +3127,10 @@ Order BY Day asc";
                 this.EveryDaySellChart.DataSource = table;
 
                 //Mapping a field with x-value of chart
-                this.EveryDaySellChart.Series["Series1"].XValueMember = "Day";
-                // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
+                this.EveryDaySellChart.Series["Sale"].XValueMember = "Day";
+                // this.EveryDaySellChart.Series["Sale"].Points.AddXY("Date", "Total");
                 //Mapping a field with y-value of Chart
-                this.EveryDaySellChart.Series["Series1"].YValueMembers = "Total";
+                this.EveryDaySellChart.Series["Sale"].YValueMembers = "Total";
 
                 //Bind the DataTable with Chart
                 this.EveryDaySellChart.DataBind();
@@ -3181,10 +3181,10 @@ Order BY SalesYear asc";
             this.EveryYearSellChart.DataSource = table;
 
             //Mapping a field with x-value of chart
-            this.EveryYearSellChart.Series["Series1"].XValueMember = "SalesYear";
+            this.EveryYearSellChart.Series["Sale"].XValueMember = "SalesYear";
             // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
             //Mapping a field with y-value of Chart
-            this.EveryYearSellChart.Series["Series1"].YValueMembers = "Total";
+            this.EveryYearSellChart.Series["Sale"].YValueMembers = "Total";
 
             //Bind the DataTable with Chart
             this.EveryYearSellChart.DataBind();
@@ -3232,10 +3232,10 @@ Order BY Day asc";
             this.WeeklyDaySellChart.DataSource = table;
 
             //Mapping a field with x-value of chart
-            this.WeeklyDaySellChart.Series["Series1"].XValueMember = "Day";
+            this.WeeklyDaySellChart.Series["Sale"].XValueMember = "Day";
             // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
             //Mapping a field with y-value of Chart
-            this.WeeklyDaySellChart.Series["Series1"].YValueMembers = "Total";
+            this.WeeklyDaySellChart.Series["Sale"].YValueMembers = "Total";
 
             //Bind the DataTable with Chart
             this.WeeklyDaySellChart.DataBind();
@@ -3659,12 +3659,9 @@ ORDER BY SUM(dbo.RetailDetails.Quantity) DESC";
 
         private void SetDate_Click(object sender, EventArgs e)
         {
-            int date1 = datePicker1.Value.Day;
-            int month1 = datePicker1.Value.Month;
-            int year1 = datePicker1.Value.Year;
-            int date2 = datePicker2.Value.Day;
-            int month2 = datePicker2.Value.Month;
-            int year2 = datePicker2.Value.Year;
+            // int date1 = datePicker1.Value.ToShortDateString.;
+            string date1 = datePicker1.Value.ToShortDateString();
+            string date2 = datePicker2.Value.ToShortDateString();
             DataTable table = new DataTable();
             SqlDataAdapter adapter = new SqlDataAdapter();
 
@@ -3684,7 +3681,7 @@ isnull(SUM(TotalBill),0) AS TotalSales
 isnull(SUM(TotalBill),0) AS TotalSales
     FROM dbo.Wholesale 
 	Group by Date
-	) a WHERE Date BETWEEN '2018/04/01' AND '2018/06/10'
+	) a WHERE Date BETWEEN '"+ date1 + @"' AND '" + date2 + @"'
 	Group by Date 
 	Order by Date asc";
             SqlCommand cmd = new SqlCommand(command, con);
@@ -3695,10 +3692,10 @@ isnull(SUM(TotalBill),0) AS TotalSales
             this.customChart.DataSource = table;
 
             //Mapping a field with x-value of chart
-            this.customChart.Series["Series1"].XValueMember = "Date";
+            this.customChart.Series["Sale"].XValueMember = "Date";
             // this.EveryDaySellChart.Series["Series1"].Points.AddXY("Date", "Total");
             //Mapping a field with y-value of Chart
-            this.customChart.Series["Series1"].YValueMembers = "Total";
+            this.customChart.Series["Sale"].YValueMembers = "Total";
 
             //Bind the DataTable with Chart
             this.customChart.DataBind();

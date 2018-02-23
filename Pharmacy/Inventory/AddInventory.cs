@@ -743,7 +743,8 @@ namespace Pharmacy.Inventory
                 if (a == "0")
                 {
                     sqlCon.Close();
-                    storeId.Text = "1";              }
+                    storeId.Text = "1";
+                }
                 else
                 {
                     reader = Cmd.ExecuteReader();

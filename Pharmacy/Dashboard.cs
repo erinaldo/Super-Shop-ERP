@@ -3707,6 +3707,11 @@ isnull(SUM(TotalBill),0) AS TotalSales
 
         }
 
+        private void productseditpanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void SearchProduct_TextChanged(object sender, EventArgs e)
         {           
             DataView dv = new DataView(Productdata);

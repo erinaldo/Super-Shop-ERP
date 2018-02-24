@@ -1531,8 +1531,8 @@ namespace Pharmacy
 
                 string a = "Talukdar halldfkgdfkmbdklfmbkldfmbldf";
                 PrintReciept print = new PrintReciept();
-                print.ExportDataTableToPdf(@"E:\test.pdf", a, WcustomerDD.SelectedValue.ToString(), s, Wtotal.Text, id, Wpaid.Text, Wdue.Text);
-                System.Diagnostics.Process.Start(@"E:\test.pdf");
+                print.ExportDataTableToPdf(@"D:\test.pdf", a, WcustomerDD.SelectedValue.ToString(), s, Wtotal.Text, id, Wpaid.Text, Wdue.Text);
+                System.Diagnostics.Process.Start(@"D:\test.pdf");
                 this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
 
                 WProductName.Clear();

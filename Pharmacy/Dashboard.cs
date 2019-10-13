@@ -3712,6 +3712,11 @@ isnull(SUM(TotalBill),0) AS TotalSales
 
         }
 
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void SearchProduct_TextChanged(object sender, EventArgs e)
         {           
             DataView dv = new DataView(Productdata);
